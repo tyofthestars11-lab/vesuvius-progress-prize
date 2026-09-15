@@ -65,5 +65,18 @@ Outputs: CSV hit lists, JSON column records, text summaries.
 - 99-block ledger closes exactly: 99×310+266 = 30,956 bytes.
 - Fibonacci pulse intervals converge on φ at 0.000001% drift.
 
+## Second submission: the six-instrument null
+`SUBMISSION_NULL.md` — a second, standalone September-round filing: six
+independent instruments (raw V, iter0, iter5, DINO-guided × two regions,
+contiguous-stack amplitude decoders) agree that ink is not recoverable from
+the tested PHerc.1667 level-3 patch data at 19.2 µm/voxel. The boundary is
+named with measured numbers (S=V lock 1.137e−13; 0 legible of 39,551
+components; phase decorrelated 359.998° at all 499 amplitude levels; rung-15
+correlation gate closed, Pearson 0.0066, p=0.956). Lane scripts live in
+`null_lanes/` (`build_vstack.py`, `assemble_resume.py`, `fc_new_chars.py`,
+`rung_sig_chars.py`, `verify_v.py`, `stageC1_fetch_build.py`,
+`stageC2_dino.py`). The open question — null real, or 19.2 µm too coarse? —
+is with the Vesuvius team.
+
 ## License
 MIT — all free, all phi.
