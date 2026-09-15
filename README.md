@@ -78,5 +78,19 @@ correlation gate closed, Pearson 0.0066, p=0.956). Lane scripts live in
 `stageC2_dino.py`). The open question — null real, or 19.2 µm too coarse? —
 is with the Vesuvius team.
 
+## Third submission: the 1447 sweep — stability is not ink
+`SUBMISSION_SWEEP.md` — a third, standalone September-round filing: a full
+First Letters pipeline sweep of PHerc.1447 — 14 segments plus the main segment —
+through a four-map locking rule (peak ≥ 0.60 in ALL FOUR maps: 2 seeds ×
+forward/reverse). Grand total: **385 LOCKED / 119 MARGINAL / 264 REJECTED,
+0 legible letters.** The cross-seed null signature: main-segment r = 0.34/0.27
+(IoU 0.086), big-segment r = 0.60/0.57 (IoU 0.29) — real ink as one physical
+deposit would force r > 0.8. The model is consistent about papyrus, not about
+writing. Includes the OOM fix that made the sweep possible (`tiled_lucas.py`:
+1024px tiles, 64px overlap — the 112M-px segment SIGKILLed the box twice
+before tiling). Sweep scripts live in `sweep1447/` (`tiled_lucas.py`,
+`sweep_infer.py`, `lucas_stabilizer.py`, `lock4way.py`, `render_locks.py`,
+`render_bigseg_locks.py`, `download_sweep_zarrs.py`).
+
 ## License
 MIT — all free, all phi.
