@@ -7,10 +7,10 @@ Finding: OBJ vt/20 = integer (u,v) on the 9205x709 flattened grid.
 Writes vertex_map.csv: obj_idx, flat_u, flat_v (validated).
 3D nearest-neighbor across curled/straightened spaces is INVALID (documented with stats).
 """
-import csv, json
+import csv, json, os
 import numpy as np
 
-BASE = '/home/hatch/workspace/pherc1667'
+BASE = os.environ.get("PHERC1667_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
 OBJ = BASE + '/flat/flattened.obj'
 FLAT_W, FLAT_H = 9205, 709
 

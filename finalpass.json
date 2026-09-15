@@ -1,0 +1,743 @@
+{
+ "task1": {
+  "n_columns": 9,
+  "columns": [
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "formula": "r = sum((x-xbar)(y-ybar)) / sqrt(sum((x-xbar)^2) * sum((y-ybar)^2))",
+  "hits_per_column": [
+   3029,
+   3211,
+   5994,
+   3019,
+   5530,
+   2152,
+   2725,
+   969,
+   303
+  ],
+  "greek_slots_per_column": [
+   167,
+   223,
+   199,
+   235,
+   168,
+   182,
+   206,
+   184,
+   120
+  ],
+  "greek_letters_per_column": [
+   122,
+   164,
+   169,
+   200,
+   160,
+   175,
+   191,
+   174,
+   89
+  ],
+  "slots_equals_letters_plus_dots": true,
+  "per_column_text": {
+   "13": {
+    "n_lines": 9,
+    "greek_letters_recomputed": 122,
+    "high_stroke_letters": 7,
+    "low_stroke_letters": 17,
+    "other_greek_letters": 98,
+    "stroke_proxy": 234,
+    "block_chars": 250,
+    "whitespace_chars": 67,
+    "whitespace_fraction": 0.268
+   },
+   "14": {
+    "n_lines": 8,
+    "greek_letters_recomputed": 164,
+    "high_stroke_letters": 8,
+    "low_stroke_letters": 26,
+    "other_greek_letters": 130,
+    "stroke_proxy": 310,
+    "block_chars": 310,
+    "whitespace_chars": 72,
+    "whitespace_fraction": 0.23225806451612904
+   },
+   "15": {
+    "n_lines": 8,
+    "greek_letters_recomputed": 169,
+    "high_stroke_letters": 12,
+    "low_stroke_letters": 21,
+    "other_greek_letters": 136,
+    "stroke_proxy": 329,
+    "block_chars": 267,
+    "whitespace_chars": 54,
+    "whitespace_fraction": 0.20224719101123595
+   },
+   "16": {
+    "n_lines": 8,
+    "greek_letters_recomputed": 200,
+    "high_stroke_letters": 13,
+    "low_stroke_letters": 25,
+    "other_greek_letters": 162,
+    "stroke_proxy": 388,
+    "block_chars": 310,
+    "whitespace_chars": 53,
+    "whitespace_fraction": 0.17096774193548386
+   },
+   "17": {
+    "n_lines": 7,
+    "greek_letters_recomputed": 160,
+    "high_stroke_letters": 10,
+    "low_stroke_letters": 30,
+    "other_greek_letters": 120,
+    "stroke_proxy": 300,
+    "block_chars": 215,
+    "whitespace_chars": 40,
+    "whitespace_fraction": 0.18604651162790697
+   },
+   "18": {
+    "n_lines": 5,
+    "greek_letters_recomputed": 175,
+    "high_stroke_letters": 7,
+    "low_stroke_letters": 26,
+    "other_greek_letters": 142,
+    "stroke_proxy": 331,
+    "block_chars": 224,
+    "whitespace_chars": 36,
+    "whitespace_fraction": 0.16071428571428573
+   },
+   "19": {
+    "n_lines": 6,
+    "greek_letters_recomputed": 191,
+    "high_stroke_letters": 28,
+    "low_stroke_letters": 29,
+    "other_greek_letters": 134,
+    "stroke_proxy": 381,
+    "block_chars": 255,
+    "whitespace_chars": 38,
+    "whitespace_fraction": 0.14901960784313725
+   },
+   "20": {
+    "n_lines": 10,
+    "greek_letters_recomputed": 174,
+    "high_stroke_letters": 10,
+    "low_stroke_letters": 28,
+    "other_greek_letters": 136,
+    "stroke_proxy": 330,
+    "block_chars": 243,
+    "whitespace_chars": 47,
+    "whitespace_fraction": 0.1934156378600823
+   },
+   "21": {
+    "n_lines": 6,
+    "greek_letters_recomputed": 89,
+    "high_stroke_letters": 6,
+    "low_stroke_letters": 14,
+    "other_greek_letters": 69,
+    "stroke_proxy": 170,
+    "block_chars": 164,
+    "whitespace_chars": 40,
+    "whitespace_fraction": 0.24390243902439024
+   }
+  },
+  "pearson_hits_vs_slots": 0.3567195096978021,
+  "pearson_hits_vs_char_count": 0.32950270684294913,
+  "pearson_hits_vs_stroke_proxy": 0.323540761710049,
+  "pearson_hits_vs_whitespace_fraction": -0.13113537279742582,
+  "honest_note": "text-derived measures are not ink density"
+ },
+ "task2": {
+  "hits_inside_14_ranges": 26932,
+  "hits_outside_ranges": 0,
+  "spiral_center": [
+   9535.067263104482,
+   4350.768575530696,
+   2487.962121767004
+  ],
+  "spiral_center_definition": "mean of the 14 patch centroids",
+  "patches": [
+   {
+    "patch": 1,
+    "u_min": 17227,
+    "u_max": 17298,
+    "vertex_count": 3029,
+    "distinct_voxels": 1228,
+    "centroid": [
+     9761.031265475405,
+     4008.412101476096,
+     2651.411217201815
+    ],
+    "median_u": 17264.0,
+    "fallback_column_of_median_u": 13,
+    "columns_overlapped_by_u_range": [
+     13
+    ],
+    "state0": 1550,
+    "state1": 1479,
+    "state0_fraction": 0.5117200396170353,
+    "mean_dist_from_spiral_center": 441.569125384738,
+    "inter_patch_spacing_to_next": 108.66216335361972
+   },
+   {
+    "patch": 2,
+    "u_min": 18261,
+    "u_max": 18336,
+    "vertex_count": 3211,
+    "distinct_voxels": 1264,
+    "centroid": [
+     9731.268466793834,
+     4110.985838551196,
+     2631.4044677962474
+    ],
+    "median_u": 18300.0,
+    "fallback_column_of_median_u": 14,
+    "columns_overlapped_by_u_range": [
+     14
+    ],
+    "state0": 1544,
+    "state1": 1667,
+    "state0_fraction": 0.4808470881345375,
+    "mean_dist_from_spiral_center": 341.4181892004344,
+    "inter_patch_spacing_to_next": 78.68870940062314
+   },
+   {
+    "patch": 3,
+    "u_min": 19271,
+    "u_max": 19341,
+    "vertex_count": 3056,
+    "distinct_voxels": 1246,
+    "centroid": [
+     9729.560091507996,
+     4189.470574184238,
+     2626.0062538666252
+    ],
+    "median_u": 19307.0,
+    "fallback_column_of_median_u": 15,
+    "columns_overlapped_by_u_range": [
+     15
+    ],
+    "state0": 1411,
+    "state1": 1645,
+    "state0_fraction": 0.4617146596858639,
+    "mean_dist_from_spiral_center": 287.9247956427133,
+    "inter_patch_spacing_to_next": 62.1833753884735
+   },
+   {
+    "patch": 4,
+    "u_min": 20256,
+    "u_max": 20323,
+    "vertex_count": 2938,
+    "distinct_voxels": 1191,
+    "centroid": [
+     9716.617363002042,
+     4249.825889592596,
+     2618.4900144157646
+    ],
+    "median_u": 20288.0,
+    "fallback_column_of_median_u": 15,
+    "columns_overlapped_by_u_range": [
+     15
+    ],
+    "state0": 1393,
+    "state1": 1545,
+    "state0_fraction": 0.47413206262763785,
+    "mean_dist_from_spiral_center": 245.33119527801264,
+    "inter_patch_spacing_to_next": 86.43314867681813
+   },
+   {
+    "patch": 5,
+    "u_min": 21215,
+    "u_max": 21279,
+    "vertex_count": 3019,
+    "distinct_voxels": 1299,
+    "centroid": [
+     9682.587251120507,
+     4274.480278548361,
+     2542.9598761877896
+    ],
+    "median_u": 21247.0,
+    "fallback_column_of_median_u": 16,
+    "columns_overlapped_by_u_range": [
+     16
+    ],
+    "state0": 1475,
+    "state1": 1544,
+    "state0_fraction": 0.48857237495859557,
+    "mean_dist_from_spiral_center": 174.94800402417346,
+    "inter_patch_spacing_to_next": 53.22766452320134
+   },
+   {
+    "patch": 6,
+    "u_min": 22113,
+    "u_max": 22179,
+    "vertex_count": 2945,
+    "distinct_voxels": 1205,
+    "centroid": [
+     9639.59695193124,
+     4301.133636029022,
+     2526.388304710712
+    ],
+    "median_u": 22147.0,
+    "fallback_column_of_median_u": 17,
+    "columns_overlapped_by_u_range": [
+     17
+    ],
+    "state0": 1424,
+    "state1": 1521,
+    "state0_fraction": 0.4835314091680815,
+    "mean_dist_from_spiral_center": 121.92889157692326,
+    "inter_patch_spacing_to_next": 64.66528549984521
+   },
+   {
+    "patch": 7,
+    "u_min": 23002,
+    "u_max": 23061,
+    "vertex_count": 2585,
+    "distinct_voxels": 1122,
+    "centroid": [
+     9585.27948387633,
+     4333.274215916646,
+     2540.466477083837
+    ],
+    "median_u": 23030.0,
+    "fallback_column_of_median_u": 17,
+    "columns_overlapped_by_u_range": [
+     17
+    ],
+    "state0": 1306,
+    "state1": 1279,
+    "state0_fraction": 0.5052224371373307,
+    "mean_dist_from_spiral_center": 74.72634783249269,
+    "inter_patch_spacing_to_next": 81.80821908108187
+   },
+   {
+    "patch": 8,
+    "u_min": 23853,
+    "u_max": 23906,
+    "vertex_count": 2152,
+    "distinct_voxels": 945,
+    "centroid": [
+     9525.676429720173,
+     4378.058225610443,
+     2574.1481207524976
+    ],
+    "median_u": 23879.0,
+    "fallback_column_of_median_u": 18,
+    "columns_overlapped_by_u_range": [
+     18
+    ],
+    "state0": 1054,
+    "state1": 1098,
+    "state0_fraction": 0.48977695167286245,
+    "mean_dist_from_spiral_center": 90.88970884679044,
+    "inter_patch_spacing_to_next": 87.08354550591544
+   },
+   {
+    "patch": 9,
+    "u_min": 24663,
+    "u_max": 24710,
+    "vertex_count": 1662,
+    "distinct_voxels": 715,
+    "centroid": [
+     9457.440379742968,
+     4426.771803432423,
+     2550.6029998742574
+    ],
+    "median_u": 24688.0,
+    "fallback_column_of_median_u": 19,
+    "columns_overlapped_by_u_range": [
+     19
+    ],
+    "state0": 777,
+    "state1": 885,
+    "state0_fraction": 0.4675090252707581,
+    "mean_dist_from_spiral_center": 125.40455845762479,
+    "inter_patch_spacing_to_next": 116.51485466450933
+   },
+   {
+    "patch": 10,
+    "u_min": 25496,
+    "u_max": 25527,
+    "vertex_count": 1063,
+    "distinct_voxels": 443,
+    "centroid": [
+     9399.14846138582,
+     4480.433582725776,
+     2465.173631066998
+    ],
+    "median_u": 25514.0,
+    "fallback_column_of_median_u": 19,
+    "columns_overlapped_by_u_range": [
+     19
+    ],
+    "state0": 518,
+    "state1": 545,
+    "state0_fraction": 0.4873000940733772,
+    "mean_dist_from_spiral_center": 189.2253948599968,
+    "inter_patch_spacing_to_next": 96.32974008243289
+   },
+   {
+    "patch": 11,
+    "u_min": 26218,
+    "u_max": 26243,
+    "vertex_count": 645,
+    "distinct_voxels": 249,
+    "centroid": [
+     9343.638570433624,
+     4519.750064347141,
+     2396.965969446463
+    ],
+    "median_u": 26233.0,
+    "fallback_column_of_median_u": 20,
+    "columns_overlapped_by_u_range": [
+     20
+    ],
+    "state0": 345,
+    "state1": 300,
+    "state0_fraction": 0.5348837209302325,
+    "mean_dist_from_spiral_center": 271.07192343995933,
+    "inter_patch_spacing_to_next": 77.30060523219127
+   },
+   {
+    "patch": 12,
+    "u_min": 26922,
+    "u_max": 26942,
+    "vertex_count": 324,
+    "distinct_voxels": 105,
+    "centroid": [
+     9320.18071530189,
+     4540.8752848307295,
+     2326.4050903320312
+    ],
+    "median_u": 26934.0,
+    "fallback_column_of_median_u": 20,
+    "columns_overlapped_by_u_range": [
+     20
+    ],
+    "state0": 169,
+    "state1": 155,
+    "state0_fraction": 0.5216049382716049,
+    "mean_dist_from_spiral_center": 329.26807278186504,
+    "inter_patch_spacing_to_next": 86.26211156957183
+   },
+   {
+    "patch": 13,
+    "u_min": 27593,
+    "u_max": 27608,
+    "vertex_count": 189,
+    "distinct_voxels": 68,
+    "centroid": [
+     9302.597868096891,
+     4538.4327721974205,
+     2241.9892771887403
+    ],
+    "median_u": 27602.0,
+    "fallback_column_of_median_u": 21,
+    "columns_overlapped_by_u_range": [
+     21
+    ],
+    "state0": 101,
+    "state1": 88,
+    "state0_fraction": 0.5343915343915344,
+    "mean_dist_from_spiral_center": 386.99161566587617,
+    "inter_patch_spacing_to_next": 105.12553636162885
+   },
+   {
+    "patch": 14,
+    "u_min": 28214,
+    "u_max": 28224,
+    "vertex_count": 114,
+    "distinct_voxels": 45,
+    "centroid": [
+     9296.318385074013,
+     4558.855789987664,
+     2139.058004814282
+    ],
+    "median_u": 28220.0,
+    "fallback_column_of_median_u": 21,
+    "columns_overlapped_by_u_range": [
+     21
+    ],
+    "state0": 69,
+    "state1": 45,
+    "state0_fraction": 0.6052631578947368,
+    "mean_dist_from_spiral_center": 471.2063225465324,
+    "inter_patch_spacing_to_next": null
+   }
+  ],
+  "patch_to_column_sequence": [
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   17,
+   18,
+   19,
+   19,
+   20,
+   20,
+   21,
+   21
+  ],
+  "pearson_patch_index_vs_column_index": 0.9916404224741978,
+  "spearman_patch_index_vs_column_index": 0.9944903161976937,
+  "structural_note": "patch order and column order both derive from u, so monotonicity is structural"
+ },
+ "task3": {
+  "state0_fraction_by_patch": [
+   0.5117200396170353,
+   0.4808470881345375,
+   0.4617146596858639,
+   0.47413206262763785,
+   0.48857237495859557,
+   0.4835314091680815,
+   0.5052224371373307,
+   0.48977695167286245,
+   0.4675090252707581,
+   0.4873000940733772,
+   0.5348837209302325,
+   0.5216049382716049,
+   0.5343915343915344,
+   0.6052631578947368
+  ],
+  "linear_fit_slope_fraction_vs_patch": 0.005932856088449204,
+  "linear_fit_intercept": 0.45882282889621584
+ },
+ "task4": {
+  "task4b": {
+   "v_lines": 4406818,
+   "vt_lines": 4406818,
+   "vn_lines": 4406818,
+   "f_lines": 8779784,
+   "expected_vertices_9205x709": 6526445,
+   "vertex_count_matches_grid": false,
+   "note": "OBJ mesh (4,406,818 verts) is a subset/decimation of the 9205x709 flattened grid, not the full grid.",
+   "v_min": [
+    26.209,
+    -25.819,
+    14.532
+   ],
+   "v_max": [
+    3335.845,
+    3226.142,
+    10871.079
+   ],
+   "v_space": "straightened-segment 3D (matches flattened TIFXYZ ranges, not curled-mesh space)"
+  },
+  "task4c": {
+   "method_3d_nn": "INVALID across spaces",
+   "nn_evidence": {
+    "note": "cKDTree 3D NN between 26,932 curled-mesh hit positions and 4,406,818 straightened OBJ v-positions",
+    "distance_mean": 6797.621,
+    "distance_median": 6765.071,
+    "distance_min": 6196.753,
+    "distance_max": 7483.912,
+    "pct_within_32": 0.0,
+    "pct_within_100": 0.0,
+    "pct_within_320": 0.0,
+    "conclusion": "OBJ v-positions live in straightened space (x 26-3336); hits live in curled-mesh space (x 9216-10239). No overlap; 3D NN is not a valid topology map."
+   },
+   "validated_map": {
+    "method": "OBJ vt/20 -> integer (u,v) on the 9205x709 flattened grid",
+    "vt_u_range": [
+     0.0,
+     184060.0
+    ],
+    "vt_v_range": [
+     1600.0,
+     14140.0
+    ],
+    "flat_u_range": [
+     0,
+     9203
+    ],
+    "flat_v_range": [
+     80,
+     707
+    ],
+    "non_integer_vt20": 0,
+    "distinct_cells": 4406818,
+    "max_verts_per_cell": 1,
+    "cells_with_gt1_vertex": 0,
+    "vertex_map": "/home/hatch/workspace/pherc1667/vertex_map.csv",
+    "columns": "obj_idx,flat_u,flat_v",
+    "rows": 4406818
+   },
+   "remaining_blocker": "original-mesh (curled) hit -> flattened-grid (u,v) still requires the flatboi straightening deformation field (original-TIFXYZ-to-flattened-OBJ source-index correspondence), which is not in the public release."
+  },
+  "task4d": {
+   "flat_u_min": 0,
+   "flat_u_max": 9203,
+   "flat_u_mean": 4115.123410134024,
+   "flat_v_min": 80,
+   "flat_v_max": 707,
+   "flat_v_mean": 376.4751101588493,
+   "note": "Distribution of the 4,406,818 OBJ vertices over the flattened grid (validated vt/20 map). Per-hit flattened positions remain blocked (see task4c)."
+  }
+ },
+ "final_five": {
+  "req1": {
+   "orig_grid_cells": 62029917,
+   "flat_grid_cells": 6526345,
+   "obj_vertices": 4406818,
+   "obj_faces": 8779784,
+   "attrs_present": [
+    "v: straightened 3D positions",
+    "vt: flattened-grid coords x20",
+    "vn: normals"
+   ],
+   "attrs_missing": [
+    "original curled-mesh source index per vertex"
+   ],
+   "tolerances": {
+    "32": {
+     "within": 0,
+     "total": 26932,
+     "pct": 0.0
+    },
+    "100": {
+     "within": 0,
+     "total": 26932,
+     "pct": 0.0
+    },
+    "320": {
+     "within": 0,
+     "total": 26932,
+     "pct": 0.0
+    },
+    "1000": {
+     "within": 0,
+     "total": 26932,
+     "pct": 0.0
+    },
+    "6000": {
+     "within": 0,
+     "total": 26932,
+     "pct": 0.0
+    }
+   },
+   "dist_mean": 6797.620914920455,
+   "dist_median": 6765.0705808767325,
+   "dist_std": 305.3170112199226,
+   "dist_min": 6196.753080318437,
+   "dist_max": 7483.911948767732,
+   "hist_shape": "tight",
+   "hist_edges": [
+    6196.753080318437,
+    6261.111023740902,
+    6325.468967163367,
+    6389.826910585832,
+    6454.1848540082965,
+    6518.54279743076,
+    6582.900740853225,
+    6647.25868427569,
+    6711.616627698155,
+    6775.97457112062,
+    6840.3325145430845,
+    6904.690457965549,
+    6969.048401388014,
+    7033.406344810479,
+    7097.764288232944,
+    7162.1222316554085,
+    7226.480175077873,
+    7290.838118500338,
+    7355.196061922802,
+    7419.554005345267,
+    7483.911948767732
+   ],
+   "hist_counts": [
+    216,
+    693,
+    1270,
+    1605,
+    1939,
+    2180,
+    2071,
+    1946,
+    1854,
+    1781,
+    1647,
+    1536,
+    1423,
+    1329,
+    1248,
+    1193,
+    1060,
+    896,
+    758,
+    287
+   ],
+   "conclusion": "3D NN invalid across curled/straightened spaces; 0 hits within any tested tolerance."
+  },
+  "req2": {
+   "hits_mapped_to_flattened_uv": 0,
+   "hits_without_valid_correspondence": 26932,
+   "reason": "vertex_map.csv maps OBJ vertex -> flattened grid (validated vt/20); no public map links original curled-mesh vertices to OBJ/flattened space. Blocked on the flatboi straightening deformation."
+  },
+  "req3": {
+   "columns_detected_on_flattened": null,
+   "reason": "blocked: no hits mapped to flattened (u,v), so no per-hit flattened columns detectable."
+  },
+  "req4": {
+   "scope": "original-mesh fallback columns 13-21 (NOT flattened-surface columns)",
+   "columns": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "state1_fraction_per_column": [
+    0.4882799603829647,
+    0.5191529118654624,
+    0.5321988655321989,
+    0.5114276250414045,
+    0.5063291139240507,
+    0.5102230483271375,
+    0.5247706422018349,
+    0.4695562435500516,
+    0.4389438943894389
+   ],
+   "correlations": {
+    "slots": {
+     "pearson_r": 0.777391557065515,
+     "pearson_p": 0.013677354237437215,
+     "spearman_r": 0.7333333333333334,
+     "spearman_p": 0.02455415007146968,
+     "mi_nat": 0.3081,
+     "mi_method": "3x3 quantile-binned histogram MI (max ln3=1.099 nats); n=9"
+    },
+    "letters": {
+     "pearson_r": 0.7409591316449753,
+     "pearson_p": 0.02236527239514215,
+     "spearman_r": 0.5333333333333333,
+     "spearman_p": 0.13922686754397814,
+     "mi_nat": 0.4621,
+     "mi_method": "3x3 quantile-binned histogram MI (max ln3=1.099 nats); n=9"
+    },
+    "stroke_proxy": {
+     "pearson_r": 0.7485456421657589,
+     "pearson_p": 0.02031956795558112,
+     "spearman_r": 0.5333333333333333,
+     "spearman_p": 0.13922686754397814,
+     "mi_nat": 0.4621,
+     "mi_method": "3x3 quantile-binned histogram MI (max ln3=1.099 nats); n=9"
+    }
+   }
+  }
+ }
+}

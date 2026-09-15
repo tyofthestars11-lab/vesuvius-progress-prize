@@ -1,0 +1,110 @@
+{
+ "5": {
+  "greek_letters": 48,
+  "lacuna_dots": 22,
+  "slots": 70,
+  "n_lines": 4
+ },
+ "6": {
+  "greek_letters": 45,
+  "lacuna_dots": 29,
+  "slots": 74,
+  "n_lines": 4
+ },
+ "7": {
+  "greek_letters": 36,
+  "lacuna_dots": 50,
+  "slots": 86,
+  "n_lines": 5
+ },
+ "8": {
+  "greek_letters": 21,
+  "lacuna_dots": 46,
+  "slots": 67,
+  "n_lines": 4
+ },
+ "9": {
+  "greek_letters": 73,
+  "lacuna_dots": 98,
+  "slots": 171,
+  "n_lines": 9
+ },
+ "10": {
+  "greek_letters": 114,
+  "lacuna_dots": 81,
+  "slots": 195,
+  "n_lines": 9
+ },
+ "11": {
+  "greek_letters": 143,
+  "lacuna_dots": 104,
+  "slots": 247,
+  "n_lines": 10
+ },
+ "12": {
+  "greek_letters": 127,
+  "lacuna_dots": 77,
+  "slots": 204,
+  "n_lines": 10
+ },
+ "13": {
+  "greek_letters": 122,
+  "lacuna_dots": 45,
+  "slots": 167,
+  "n_lines": 9
+ },
+ "14": {
+  "greek_letters": 164,
+  "lacuna_dots": 59,
+  "slots": 223,
+  "n_lines": 8
+ },
+ "15": {
+  "greek_letters": 169,
+  "lacuna_dots": 30,
+  "slots": 199,
+  "n_lines": 8
+ },
+ "16": {
+  "greek_letters": 200,
+  "lacuna_dots": 35,
+  "slots": 235,
+  "n_lines": 8
+ },
+ "17": {
+  "greek_letters": 160,
+  "lacuna_dots": 8,
+  "slots": 168,
+  "n_lines": 7
+ },
+ "18": {
+  "greek_letters": 175,
+  "lacuna_dots": 7,
+  "slots": 182,
+  "n_lines": 5
+ },
+ "19": {
+  "greek_letters": 191,
+  "lacuna_dots": 15,
+  "slots": 206,
+  "n_lines": 6
+ },
+ "20": {
+  "greek_letters": 174,
+  "lacuna_dots": 10,
+  "slots": 184,
+  "n_lines": 10
+ },
+ "21": {
+  "greek_letters": 89,
+  "lacuna_dots": 31,
+  "slots": 120,
+  "n_lines": 6
+ },
+ "22": {
+  "greek_letters": 148,
+  "lacuna_dots": 73,
+  "slots": 221,
+  "n_lines": 30
+ }
+}

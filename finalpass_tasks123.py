@@ -4,10 +4,10 @@
 Reuses the EXACT column binning from column_analysis.py and the Greek extract
 pipeline from greek_density.py. Writes finalpass.json (tasks 1-3).
 """
-import csv, json, re
+import csv, json, os, re
 import numpy as np
 
-BASE = '/home/hatch/workspace/pherc1667'
+BASE = os.environ.get("PHERC1667_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
 
 # ---------- load hits ----------
 rows = list(csv.DictReader(open(BASE + '/hits_vertices.csv')))

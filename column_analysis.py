@@ -8,10 +8,10 @@ Per-vertex original->flattened correspondence is NOT published (Manus confirmed)
 proportional column assignment is justified by the preprint's "near isometric"
 parameterization (Angelotti et al., Technical strategy).
 """
-import csv, json, re
+import csv, json, os, re
 import numpy as np
 
-BASE = '/home/hatch/workspace/pherc1667'
+BASE = os.environ.get("PHERC1667_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
 rows = list(csv.DictReader(open(BASE + '/hits_vertices.csv')))
 u = np.array([int(r['u']) for r in rows])
 v = np.array([int(r['v']) for r in rows])

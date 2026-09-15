@@ -8,12 +8,17 @@ Handles the alternate case: if v-positions are flattened-space coords, report
 that plainly (3D NN invalid); if vt carries flattened coords while v carries
 curled 3D positions, use vt and say so.
 """
-import csv, json
+import csv, json, os
 import numpy as np
 
-BASE = '/home/hatch/workspace/pherc1667'
+BASE = os.environ.get("PHERC1667_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
 OBJ = BASE + '/flat/flattened.obj'
 FLAT_W, FLAT_H = 9205, 709
+
+# NOTE: the 3D nearest-neighbor method in this file was invalidated — 3D
+# nearest-neighbor across curled/straightened spaces is INVALID (documented in
+# finalpass_task4b.py). This file is kept for provenance. The canonical run
+# order is finalpass_tasks123.py -> finalpass_task4b.py.
 
 # ---------- 4b: streaming inspection ----------
 nv = nvt = nvn = nf = 0
@@ -89,7 +94,7 @@ fv = (fidx // FLAT_W).astype(int)
 # ---------- write vertex_map.csv ----------
 with open(BASE + '/vertex_map.csv', 'w', newline='') as f:
     w = csv.writer(f)
-    w.writerow(['orig_i', 'orig_j', 'flat_u', 'flat_v', 'distance'])
+    w.writerow(['orig_u', 'orig_v', 'flat_u', 'flat_v', 'distance'])
     for a, b, cu, cv, d in zip(hu, hv, fu, fv, dist):
         w.writerow([int(a), int(b), int(cu), int(cv), '%.6f' % float(d)])
 print('wrote vertex_map.csv (%d rows)' % len(rows))

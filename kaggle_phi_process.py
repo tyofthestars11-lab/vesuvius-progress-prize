@@ -11,7 +11,7 @@ import math
 import os
 import sys
 
-sys.path.insert(0, os.path.expanduser("~/workspace"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import phi_scrolls_os as S  # the scrolls OS: engine, angles, spiral, decoder, ladder
 
 PHI, PHI2 = S.PHI, S.PHI2

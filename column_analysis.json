@@ -1,0 +1,106 @@
+{
+ "direction": "A (Col 1 at low u)",
+ "columns": {
+  "13": {
+   "hits": 3029,
+   "state0": 1550,
+   "state1": 1479,
+   "u_min": 17227,
+   "u_max": 17298,
+   "v_min": 48,
+   "v_max": 118,
+   "greek_slots": 167,
+   "greek_letters": 122
+  },
+  "14": {
+   "hits": 3211,
+   "state0": 1544,
+   "state1": 1667,
+   "u_min": 18261,
+   "u_max": 18336,
+   "v_min": 44,
+   "v_max": 110,
+   "greek_slots": 223,
+   "greek_letters": 164
+  },
+  "15": {
+   "hits": 5994,
+   "state0": 2804,
+   "state1": 3190,
+   "u_min": 19271,
+   "u_max": 20323,
+   "v_min": 41,
+   "v_max": 106,
+   "greek_slots": 199,
+   "greek_letters": 169
+  },
+  "16": {
+   "hits": 3019,
+   "state0": 1475,
+   "state1": 1544,
+   "u_min": 21215,
+   "u_max": 21279,
+   "v_min": 34,
+   "v_max": 103,
+   "greek_slots": 235,
+   "greek_letters": 200
+  },
+  "17": {
+   "hits": 5530,
+   "state0": 2730,
+   "state1": 2800,
+   "u_min": 22113,
+   "u_max": 23061,
+   "v_min": 31,
+   "v_max": 103,
+   "greek_slots": 168,
+   "greek_letters": 160
+  },
+  "18": {
+   "hits": 2152,
+   "state0": 1054,
+   "state1": 1098,
+   "u_min": 23853,
+   "u_max": 23906,
+   "v_min": 38,
+   "v_max": 105,
+   "greek_slots": 182,
+   "greek_letters": 175
+  },
+  "19": {
+   "hits": 2725,
+   "state0": 1295,
+   "state1": 1430,
+   "u_min": 24663,
+   "u_max": 25527,
+   "v_min": 34,
+   "v_max": 104,
+   "greek_slots": 206,
+   "greek_letters": 191
+  },
+  "20": {
+   "hits": 969,
+   "state0": 514,
+   "state1": 455,
+   "u_min": 26218,
+   "u_max": 26942,
+   "v_min": 41,
+   "v_max": 92,
+   "greek_slots": 184,
+   "greek_letters": 174
+  },
+  "21": {
+   "hits": 303,
+   "state0": 170,
+   "state1": 133,
+   "u_min": 27593,
+   "u_max": 28224,
+   "v_min": 48,
+   "v_max": 78,
+   "greek_slots": 120,
+   "greek_letters": 89
+  }
+ },
+ "pearson_hit_vs_greek": 0.3567195096978021,
+ "n_hit_columns": 9
+}
