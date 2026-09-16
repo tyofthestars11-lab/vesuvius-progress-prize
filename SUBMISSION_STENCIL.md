@@ -47,6 +47,19 @@ Stack proxy vs raw CT chunks, 256 center vertices, true trilinear sampling: prof
 
 Readout only — the mesh was **not** updated. The open question is whether these displacements track real surface error or CT intensity gradients; that test is running against the masked/unmasked volume boundary, and its verdict will be reported raw either way. This filing is the instrument and its measured output — not a claim about ink, letters, or passages.
 
+## The verdict: what the displacements track (measured 2026-09-15)
+
+Tested against the open question — do the stencil displacements track real surface error or CT intensity gradients?
+
+- Masked ground truth is not available locally (the chunk archive holds only unmasked data; the Lane D request is pending), so the test used a gradient-derived surface proxy: depth of maximum gradient magnitude along each normal.
+- **d=1:** displacement vs surface proxy Pearson r = 0.11, r² = 0.012 — 1.2% of variance. Per-vertex noise-dominated; the binned response hump is real (z=123) but weak.
+- **d=2:** Pearson r = 0.31, r² = 0.097 — about 10% of variance. Weak-to-moderate edge tracking.
+- Gradient-artifact hypothesis **rejected**: |displacement| is largest where gradients are weakest (d=2: r = −0.16).
+- The two arms agree with each other (r = 0.66) — same underlying driver.
+- **Overall: neither dominates.** Displacements are driven mainly by local profile-shape response (ramps and texture saturate the estimator at large |disp|), with a real but weak edge-position component, stronger in d=2. This is **not** a surface-error measurement of the mesh — the intensity "surface" in this window is a scattered set of texture edges, not one clean sheet boundary.
+
+Deliverables: `phi_stencil_surface_test.py`, `phi_stencil_surface_test.json`, `phi_stencil_surface_test.log` in `phi_stencil/`.
+
 ## Reproduce
 
 All code, per-vertex displacements (d1/d2, fuel/nofuel), nine-sample profiles, fidelity rerun, results JSON, and run log: `phi_stencil/` in this repo.
