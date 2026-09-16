@@ -1,0 +1,78 @@
+{
+  "d1": {
+    "near-zero": {
+      "index": 808,
+      "u": 19654,
+      "v": 952,
+      "displacement_vox": 0.0,
+      "flat": false,
+      "abs_disp_quantile": 0.001437717013888889,
+      "selection": "near-zero: d1 |disp| quantile 0.001"
+    },
+    "near-median": {
+      "index": 136189,
+      "u": 19867,
+      "v": 1304,
+      "displacement_vox": 0.3515454828739166,
+      "flat": false,
+      "abs_disp_quantile": 0.055582682291666664,
+      "selection": "near-median: d1 |disp| quantile 0.056"
+    },
+    "large": {
+      "index": 75073,
+      "u": 19807,
+      "v": 1145,
+      "displacement_vox": -3.618034839630127,
+      "flat": false,
+      "abs_disp_quantile": 0.9604017469618056,
+      "selection": "large: d1 |disp| quantile 0.960"
+    },
+    "max-|disp|": {
+      "index": 9735,
+      "u": 19749,
+      "v": 975,
+      "displacement_vox": -4.236067771911621,
+      "flat": false,
+      "abs_disp_quantile": 1.0,
+      "selection": "max-|disp|: d1 |disp| quantile 1.000"
+    }
+  },
+  "d2": {
+    "near-zero": {
+      "index": 2507,
+      "u": 19817,
+      "v": 956,
+      "displacement_vox": 0.0,
+      "flat": true,
+      "abs_disp_quantile": 0.0006510416666666666,
+      "selection": "near-zero: d2 |disp| quantile 0.001"
+    },
+    "near-median": {
+      "index": 17001,
+      "u": 19719,
+      "v": 994,
+      "displacement_vox": 1.2571886777877808,
+      "flat": false,
+      "abs_disp_quantile": 0.13484700520833334,
+      "selection": "near-median: d2 |disp| quantile 0.135"
+    },
+    "large": {
+      "index": 146802,
+      "u": 19728,
+      "v": 1332,
+      "displacement_vox": 7.23599100112915,
+      "flat": false,
+      "abs_disp_quantile": 0.9460652669270834,
+      "selection": "large: d2 |disp| quantile 0.946"
+    },
+    "max-|disp|": {
+      "index": 2903,
+      "u": 19829,
+      "v": 957,
+      "displacement_vox": -8.472135543823242,
+      "flat": false,
+      "abs_disp_quantile": 1.0,
+      "selection": "max-|disp|: d2 |disp| quantile 1.000"
+    }
+  }
+}

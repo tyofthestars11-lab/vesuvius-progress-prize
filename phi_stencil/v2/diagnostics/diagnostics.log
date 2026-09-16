@@ -1,0 +1,31 @@
+[04:37:16] d1 flat-profile vertices: 161 (results.json says 161)
+[04:37:16] d2 flat-profile vertices: 89 (results.json says 89)
+[04:37:17] heatmap_d1.png: grid 384x384, disp range [-4.2361, 4.2361] vox, mean 0.2080, std 2.3695, vmax=4.2361
+[04:37:17] heatmap_d2.png: grid 384x384, disp range [-8.4721, 8.4721] vox, mean 0.8557, std 4.4444, vmax=8.4721
+[04:37:18] profiles_d1 near-zero: idx=808 u=19654 v=952 disp=+0.0000 flat=False |disp|quantile=0.001
+[04:37:18] profiles_d1 near-median: idx=136189 u=19867 v=1304 disp=+0.3515 flat=False |disp|quantile=0.056
+[04:37:18] profiles_d1 large: idx=75073 u=19807 v=1145 disp=-3.6180 flat=False |disp|quantile=0.960
+[04:37:18] profiles_d1 max-|disp|: idx=9735 u=19749 v=975 disp=-4.2361 flat=False |disp|quantile=1.000
+[04:37:25] profiles_d2 near-zero: idx=2507 u=19817 v=956 disp=+0.0000 flat=True |disp|quantile=0.001
+[04:37:25] profiles_d2 near-median: idx=17001 u=19719 v=994 disp=+1.2572 flat=False |disp|quantile=0.135
+[04:37:25] profiles_d2 large: idx=146802 u=19728 v=1332 disp=+7.2360 flat=False |disp|quantile=0.946
+[04:37:25] profiles_d2 max-|disp|: idx=2903 u=19829 v=957 disp=-8.4721 flat=False |disp|quantile=1.000
+[04:37:51] hist_disp.png: 60 bins over [-9,9] vox, log y, means marked
+[04:37:51] Rendered from pilot arrays only (readout); input stats cross-checked against phi_stencil_results.json:
+[04:37:51]   d1: n=147456 mean=+0.208046 median=+0.351520 std=2.369456 min=-4.2361 max=4.2361; flat=161
+[04:37:51]   d2: n=147456 mean=+0.855653 median=+1.257184 std=4.444430 min=-8.4721 max=8.4721; flat=89
+[04:37:51] ANOMALY/OBSERVATION 1 (described, not interpreted): displacement values saturate exactly at the stencil's outermost offsets — d1 min/max = ±4.2361 vs outer offset |t|=4.2361 vox; d2 min/max = ±8.4721 vs outer offset |t|=8.4721 vox. Vertices landing exactly on the edge offsets have all weight piled at one end of the stencil (or nearly), so the centroid cannot extend beyond the stencil span.
+[04:37:51] ANOMALY/OBSERVATION 2: large share of vertices have |disp| > 1 voxel — d1 121264/147456 = 0.8224, d2 132032/147456 = 0.8954 — the displacement distribution is heavy-tailed/bimodal-looking, not Gaussian-centered; the histogram shows twin peaks near the stencil extremes for both arms.
+[04:37:51] ANOMALY/OBSERVATION 3: heatmaps show spatial structure (bands/patches), not salt-and-pepper noise — displacement varies coherently across the 384x384 grid; d2 heatmap is smoother/larger-scale than d1.
+[04:37:51] ANOMALY/OBSERVATION 4: flat profiles (no sample strictly above the median -> Σw=0 -> displacement reported as 0) are rare: 161 vertices (d1), 89 (d2) — exactly matching results.json. The d2 near-zero example panel IS such a flat vertex; the d1 near-zero example is a genuine near-center centroid, not flat.
+[04:37:51] No files were modified; outputs written only under v2/diagnostics/.
+[04:37:51] Total render time: 34.7 s.
+Rendered from pilot arrays only (readout); input stats cross-checked against phi_stencil_results.json:
+  d1: n=147456 mean=+0.208046 median=+0.351520 std=2.369456 min=-4.2361 max=4.2361; flat=161
+  d2: n=147456 mean=+0.855653 median=+1.257184 std=4.444430 min=-8.4721 max=8.4721; flat=89
+ANOMALY/OBSERVATION 1 (described, not interpreted): displacement values saturate exactly at the stencil's outermost offsets — d1 min/max = ±4.2361 vs outer offset |t|=4.2361 vox; d2 min/max = ±8.4721 vs outer offset |t|=8.4721 vox. Vertices landing exactly on the edge offsets have all weight piled at one end of the stencil (or nearly), so the centroid cannot extend beyond the stencil span.
+ANOMALY/OBSERVATION 2: large share of vertices have |disp| > 1 voxel — d1 121264/147456 = 0.8224, d2 132032/147456 = 0.8954 — the displacement distribution is heavy-tailed/bimodal-looking, not Gaussian-centered; the histogram shows twin peaks near the stencil extremes for both arms.
+ANOMALY/OBSERVATION 3: heatmaps show spatial structure (bands/patches), not salt-and-pepper noise — displacement varies coherently across the 384x384 grid; d2 heatmap is smoother/larger-scale than d1.
+ANOMALY/OBSERVATION 4: flat profiles (no sample strictly above the median -> Σw=0 -> displacement reported as 0) are rare: 161 vertices (d1), 89 (d2) — exactly matching results.json. The d2 near-zero example panel IS such a flat vertex; the d1 near-zero example is a genuine near-center centroid, not flat.
+No files were modified; outputs written only under v2/diagnostics/.
+Total render time: 34.7 s.
