@@ -1,0 +1,18 @@
+[07:32:51] window u[24000,24384] v[1200,1584]
+[07:32:51] measured hits: 26932 total, 0 in window
+[07:32:53] chunks needed 6588, already local 4489, to fetch 2099
+[07:54:48] S3 fetch done: 0 missing/404 of 2099
+[07:59:16]   band [0,96] 1688 chunk-keys
+[08:03:31]   band [96,192] 1740 chunk-keys
+[08:07:55]   band [192,288] 1734 chunk-keys
+[08:12:15]   band [288,384] 1668 chunk-keys
+[08:12:15] stack built in 1046.2s; samples on missing chunks: 0 (of 3538944)
+[08:12:15] stack stats: nonzero 1.0000 min 0 max 255 mean 75.66
+[08:12:15] arm_d1_nofuel: mean=+0.0359 median=-0.0151 std=2.3131 min=-4.2361 max=+4.2361 |d|>1 118598 (80.429%) flat 182
+[08:12:15] arm_d1_fuel: mean=+0.0359 median=-0.0151 std=2.3131 min=-4.2361 max=+4.2361 |d|>1 118598 (80.429%) flat 182
+[08:12:15] arm_d2_nofuel: mean=+0.4422 median=+0.5372 std=4.3243 min=-8.4721 max=+8.4721 |d|>1 130158 (88.269%) flat 108
+[08:12:15] arm_d2_fuel: mean=+0.4422 median=+0.5372 std=4.3243 min=-8.4721 max=+8.4721 |d|>1 130158 (88.269%) flat 108
+[08:12:15] fuel-vs-nofuel d=1: IDENTICAL (n_diff=0, max|diff|=0.0000 vox)
+[08:12:15] fuel-vs-nofuel d=2: IDENTICAL (n_diff=0, max|diff|=0.0000 vox)
+[08:12:15] cross-arm Pearson r(d1,d2) nofuel = 0.6317
+[08:12:15] TOTAL 2364.4s — wrote results.json + disp/profiles/stack .npy
