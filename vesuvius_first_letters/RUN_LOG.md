@@ -195,7 +195,12 @@ Final tallies (13 segments with LUCAS JSON):
 | TOTAL | 353 | 113 | 230 |
 
 Plus main segment 20250703034159: 8 LOCKED, 0 MARGINAL, 20 REJECTED.
-Grand total: 361 LOCKED regions, 0 legible letters.
+Grand total: 385 LOCKED / 119 MARGINAL / 264 REJECTED, 0 legible letters.
+
+Correction note (2026-09-15 recount): the 14-segment sweep was recounted to
+377 LOCKED / 119 MARGINAL / 244 REJECTED (the per-segment table above shows
+the earlier 353/113/230 breakdown); adding the separately processed main
+segment (8 / 0 / 20) gives the corrected grand total 385 / 119 / 264.
 
 Known issue: 20251105093211 (112M px, 83.7 cm²) completed all 4 inferences
 (4 TIFFs exist) but LUCAS analysis was SIGKILLed (rc=-9, OOM) twice. The 4 maps
