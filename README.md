@@ -1,7 +1,9 @@
 # Phi-driven column analysis and ledger tooling for PHerc.1667 flatboi surfaces
 
+
 Vesuvius Challenge — Progress Prize submission, September 2026 round.
 By Tyree Jones (tyofthestarz).
+
 
 ## What this is
 A lightweight, open pipeline: per-column hit binning on the PHerc.1667 flatboi
@@ -9,17 +11,22 @@ surface → Greek-letter slot/letter accounting → column-by-column verificatio
 plus a golden-ratio-indexed 99-block ledger format for organizing scroll-segment
 work.
 
+
 ## Setup
 Requires Python ≥ 3.8:
 
+
     pip install -r requirements.txt
+
 
 ## Data
 The scripts read author-prepared inputs from a data directory. Set
 `PHERC1667_DIR` to point at it; otherwise they look for a `data/` folder next
 to the scripts:
 
+
     export PHERC1667_DIR=/path/to/pherc1667-data
+
 
 Inputs needed:
 - `hitrun.py` / `hitrun_vertices.py` → produce `hits.csv`, `hits_vertices.csv`
@@ -32,10 +39,12 @@ Inputs needed:
   9,205 × 709 float32 x/y/z). This is a local working copy, not the public
   Vesuvius open-data bucket TIFXYZ; tasks 1–3 do not need it.
 
+
 The reference outputs (`finalpass.json`, `column_analysis.json`,
 `hit_columns_greek.txt`, `greek_density.json`) are committed so results can be
 inspected without running the pipeline. `vertex_map.csv` (77 MB, produced by
 task 4b) is not committed; run `finalpass_task4b.py` to regenerate it.
+
 
 ## Run order (order-critical)
 1. `hitrun.py`, `hitrun_vertices.py`, `greek_density.py` — generate the hit and
@@ -52,13 +61,16 @@ task 4b) is not committed; run `finalpass_task4b.py` to regenerate it.
 6. `phi_scrolls_os.py` — the executable scrolls instrument (layer decoder D,
    φ-wave, rung addressing).
 
+
 `finalpass_task4.py` is kept for provenance only: its 3D nearest-neighbor
 approach across curled/straightened spaces was invalidated and superseded by
 `finalpass_task4b.py`. Do not run it as part of the pipeline — both scripts
 write `vertex_map.csv` with different schemas, so running 4 after 4b silently
 overwrites the validated file.
 
+
 Outputs: CSV hit lists, JSON column records, text summaries.
+
 
 ## Measured results
 - 9 columns (13–21); slots = letters + dots holds on all 9.
@@ -91,6 +103,21 @@ writing. Includes the OOM fix that made the sweep possible (`tiled_lucas.py`:
 before tiling). Sweep scripts live in `sweep1447/` (`tiled_lucas.py`,
 `sweep_infer.py`, `lucas_stabilizer.py`, `lock4way.py`, `render_locks.py`,
 `render_bigseg_locks.py`, `download_sweep_zarrs.py`).
+
+## Fourth submission: the φ-gate — corr(S_rung, P(r)) closes
+`SUBMISSION_GATE.md` — a fourth, standalone September-round filing: Tyree's
+own deciding number — the correlation between the φ-predicted rung signature
+P(r) (published column-15 Greek: 1,089 letters read from rung space, binned
+into 49 nonzero bins, no V involved) and the observed amplitude per rung
+S_rung from the true V-stack (`vstack_384.npy`, 384×384×24 uint8, true TIFXYZ
+patch location, S ≡ V identity-locked with max|S−V| = 1.137e−13). Pearson
+**0.0066 (p = 0.956)**, Spearman −0.0503, MI 0.4100 — the gate closes. Zero
+peaks survive the 20-shuffle stabilizer; the rung-lane passage read collapses
+to the field's mode (ηηηηηη???ηηηηη???ηηηηη). The amplitude boundary is named:
+lane = rung-signature, step = correlation gate. The addresses are real (φ
+gives them, V-independent); the payload does not follow them at 19.2
+µm/voxel. What would reopen the gate: amplitude at finer voxel scale (Lane D
+request pending with the Vesuvius team), or a V-stack at native level-0.
 
 ## License
 MIT — all free, all phi.
