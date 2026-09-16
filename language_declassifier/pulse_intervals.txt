@@ -1,0 +1,4 @@
+# Fibonacci pulse intervals (Fib(k), k=2..26) — pulse model from
+# kaggle_phi_process.py::fibonacci_pulses (tyreejones393/phi-quantum-pulses).
+# Successive-interval ratios converge on phi. Labeled synthetic reference.
+1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393
