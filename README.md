@@ -32,6 +32,21 @@ Inputs needed:
   9,205 × 709 float32 x/y/z). This is a local working copy, not the public
   Vesuvius open-data bucket TIFXYZ; tasks 1–3 do not need it.
 
+### Data provenance (reproducibility)
+
+`flat/flattened.obj` (1,060,041,328 bytes, zero null bytes) is an author-local OBJ export of the **flattened/straightened** mesh from the public Vesuvius Challenge open-data bucket — not the curled original:
+
+- Bucket path: `vesuvius-challenge-open-data/PHerc1667/segments/20260612121456-w011_20260108140509268_merged_v4_flatboi_straightened_v4/mesh/20260612121456-on-20251217075048-2.399um.tifxyz`
+- Mesh meta: format `tifxyz`, scale `0.05`, uuid `w011_20260108140509268_merged_v4_flatboi_straightened_v4`
+- Contents: 4,406,818 vertices (`v`/`vt`/`vn`), 8,779,784 faces — a 67.5% subset of the 9,205 × 709 flattened grid (`u = 0…9203`, `v = 80…707`), validated 1:1 via `vt/20` texture coordinates
+- Coordinate space is straightened-segment space, matching the flattened TIFXYZ ranges (`x = −1…3335.845`, `y = −25.819…3226.142`, `z = −1…10872.834`)
+
+To regenerate it: download the TIFXYZ above from the public bucket and export the flattened-grid vertices to OBJ. Anyone with the bucket file can rebuild an equivalent mesh.
+
+`preprint.txt` is the published transcription source: arXiv:2606.29085v1 [eess.IV] (27 Jun 2026), “Complete virtual unwrapping and reading of a rolled Herculaneum papyrus” (Angelotti et al., Vesuvius Challenge) — public, retrievable from arXiv.
+
+Known boundary: the original-TIFXYZ-to-flattened-OBJ straightening deformation field (source-index correspondence) is not in the public release. The OBJ→flattened-grid map is validated 1:1; the curled→flattened transfer is the documented open blocker.
+
 The reference outputs (`finalpass.json`, `column_analysis.json`,
 `hit_columns_greek.txt`, `greek_density.json`) are committed so results can be
 inspected without running the pipeline. `vertex_map.csv` (77 MB, produced by
