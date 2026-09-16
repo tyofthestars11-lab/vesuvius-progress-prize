@@ -1,0 +1,1619 @@
+{
+  "source": "/tmp/vesuvius-progress-prize/voynich_rf1b-e.txt",
+  "phi": 1.618033988749895,
+  "phi_squared": 2.618033988749895,
+  "identity_residual": 0.0,
+  "TON618_mass_solar": 40700000000.0,
+  "TON618_rung": 50.76661182706617,
+  "lines": 5377,
+  "pages": 227,
+  "total_transcription_symbols": 188672,
+  "natural_full_manuscript_rung_S0_1": 25.244112268363857,
+  "relative_full_rung_to_TON618": -25.522499558702314,
+  "line_rung_first": {
+    "locus": "f1r.1,@P0",
+    "symbol_count": 39,
+    "cumulative_symbols": 39,
+    "rung": 7.613199541960285,
+    "relative_to_TON618": -43.15341228510589
+  },
+  "line_rung_last": {
+    "locus": "f116v.1,@Lx",
+    "symbol_count": 9,
+    "cumulative_symbols": 188672,
+    "rung": 25.244112268363857,
+    "relative_to_TON618": -25.522499558702314
+  },
+  "page_rungs": [
+    {
+      "page": "f1r",
+      "symbols": 961,
+      "cumulative": 961,
+      "rung": 14.272247794658032,
+      "relative_to_TON618": -36.49436403240814
+    },
+    {
+      "page": "f1v",
+      "symbols": 388,
+      "cumulative": 1349,
+      "rung": 14.977019434871687,
+      "relative_to_TON618": -35.789592392194486
+    },
+    {
+      "page": "f2r",
+      "symbols": 463,
+      "cumulative": 1812,
+      "rung": 15.590195618475699,
+      "relative_to_TON618": -35.176416208590474
+    },
+    {
+      "page": "f2v",
+      "symbols": 281,
+      "cumulative": 2093,
+      "rung": 15.889787665751799,
+      "relative_to_TON618": -34.876824161314374
+    },
+    {
+      "page": "f3r",
+      "symbols": 556,
+      "cumulative": 2649,
+      "rung": 16.379351210448338,
+      "relative_to_TON618": -34.38726061661784
+    },
+    {
+      "page": "f3v",
+      "symbols": 384,
+      "cumulative": 3033,
+      "rung": 16.660661875247037,
+      "relative_to_TON618": -34.105949951819134
+    },
+    {
+      "page": "f4r",
+      "symbols": 319,
+      "cumulative": 3352,
+      "rung": 16.86848086203317,
+      "relative_to_TON618": -33.898130965033005
+    },
+    {
+      "page": "f4v",
+      "symbols": 410,
+      "cumulative": 3762,
+      "rung": 17.108278685465105,
+      "relative_to_TON618": -33.65833314160106
+    },
+    {
+      "page": "f5r",
+      "symbols": 265,
+      "cumulative": 4027,
+      "rung": 17.249736038434445,
+      "relative_to_TON618": -33.51687578863172
+    },
+    {
+      "page": "f5v",
+      "symbols": 226,
+      "cumulative": 4253,
+      "rung": 17.36320568227667,
+      "relative_to_TON618": -33.4034061447895
+    },
+    {
+      "page": "f6r",
+      "symbols": 385,
+      "cumulative": 4638,
+      "rung": 17.54328983243468,
+      "relative_to_TON618": -33.22332199463149
+    },
+    {
+      "page": "f6v",
+      "symbols": 510,
+      "cumulative": 5148,
+      "rung": 17.76008635626827,
+      "relative_to_TON618": -33.0065254707979
+    },
+    {
+      "page": "f7r",
+      "symbols": 342,
+      "cumulative": 5490,
+      "rung": 17.89374883594568,
+      "relative_to_TON618": -32.87286299112049
+    },
+    {
+      "page": "f7v",
+      "symbols": 358,
+      "cumulative": 5848,
+      "rung": 18.025024635159912,
+      "relative_to_TON618": -32.74158719190626
+    },
+    {
+      "page": "f8r",
+      "symbols": 689,
+      "cumulative": 6537,
+      "rung": 18.25647909322382,
+      "relative_to_TON618": -32.510132733842354
+    },
+    {
+      "page": "f8v",
+      "symbols": 556,
+      "cumulative": 7093,
+      "rung": 18.42611340671819,
+      "relative_to_TON618": -32.340498420347984
+    },
+    {
+      "page": "f9r",
+      "symbols": 396,
+      "cumulative": 7489,
+      "rung": 18.539009416787252,
+      "relative_to_TON618": -32.22760241027892
+    },
+    {
+      "page": "f9v",
+      "symbols": 386,
+      "cumulative": 7875,
+      "rung": 18.643449716936235,
+      "relative_to_TON618": -32.12316211012994
+    },
+    {
+      "page": "f10r",
+      "symbols": 431,
+      "cumulative": 8306,
+      "rung": 18.754180496443293,
+      "relative_to_TON618": -32.012431330622874
+    },
+    {
+      "page": "f10v",
+      "symbols": 266,
+      "cumulative": 8572,
+      "rung": 18.819687889988465,
+      "relative_to_TON618": -31.946923937077706
+    },
+    {
+      "page": "f11r",
+      "symbols": 248,
+      "cumulative": 8820,
+      "rung": 18.87895657567348,
+      "relative_to_TON618": -31.88765525139269
+    },
+    {
+      "page": "f11v",
+      "symbols": 208,
+      "cumulative": 9028,
+      "rung": 18.92739468072982,
+      "relative_to_TON618": -31.839217146336352
+    },
+    {
+      "page": "f13r",
+      "symbols": 342,
+      "cumulative": 9370,
+      "rung": 19.004662601754898,
+      "relative_to_TON618": -31.761949225311273
+    },
+    {
+      "page": "f13v",
+      "symbols": 287,
+      "cumulative": 9657,
+      "rung": 19.067358369321948,
+      "relative_to_TON618": -31.699253457744224
+    },
+    {
+      "page": "f14r",
+      "symbols": 344,
+      "cumulative": 10001,
+      "rung": 19.140095665429048,
+      "relative_to_TON618": -31.626516161637124
+    },
+    {
+      "page": "f14v",
+      "symbols": 324,
+      "cumulative": 10325,
+      "rung": 19.20635141641515,
+      "relative_to_TON618": -31.560260410651022
+    },
+    {
+      "page": "f15r",
+      "symbols": 425,
+      "cumulative": 10750,
+      "rung": 19.29017648809035,
+      "relative_to_TON618": -31.476435338975822
+    },
+    {
+      "page": "f15v",
+      "symbols": 303,
+      "cumulative": 11053,
+      "rung": 19.34793926179547,
+      "relative_to_TON618": -31.4186725652707
+    },
+    {
+      "page": "f16r",
+      "symbols": 377,
+      "cumulative": 11430,
+      "rung": 19.417637452345435,
+      "relative_to_TON618": -31.348974374720736
+    },
+    {
+      "page": "f16v",
+      "symbols": 352,
+      "cumulative": 11782,
+      "rung": 19.48066887367225,
+      "relative_to_TON618": -31.28594295339392
+    },
+    {
+      "page": "f17r",
+      "symbols": 377,
+      "cumulative": 12159,
+      "rung": 19.54612173990405,
+      "relative_to_TON618": -31.220490087162123
+    },
+    {
+      "page": "f17v",
+      "symbols": 639,
+      "cumulative": 12798,
+      "rung": 19.65255983999987,
+      "relative_to_TON618": -31.1140519870663
+    },
+    {
+      "page": "f18r",
+      "symbols": 407,
+      "cumulative": 13205,
+      "rung": 19.717617752963562,
+      "relative_to_TON618": -31.04899407410261
+    },
+    {
+      "page": "f18v",
+      "symbols": 293,
+      "cumulative": 13498,
+      "rung": 19.76322340816416,
+      "relative_to_TON618": -31.003388418902013
+    },
+    {
+      "page": "f19r",
+      "symbols": 337,
+      "cumulative": 13835,
+      "rung": 19.8144692122643,
+      "relative_to_TON618": -30.952142614801872
+    },
+    {
+      "page": "f19v",
+      "symbols": 359,
+      "cumulative": 14194,
+      "rung": 19.867705075411944,
+      "relative_to_TON618": -30.898906751654227
+    },
+    {
+      "page": "f20r",
+      "symbols": 469,
+      "cumulative": 14663,
+      "rung": 19.935259470793074,
+      "relative_to_TON618": -30.831352356273097
+    },
+    {
+      "page": "f20v",
+      "symbols": 375,
+      "cumulative": 15038,
+      "rung": 19.98773743506123,
+      "relative_to_TON618": -30.77887439200494
+    },
+    {
+      "page": "f21r",
+      "symbols": 492,
+      "cumulative": 15530,
+      "rung": 20.05463792363666,
+      "relative_to_TON618": -30.711973903429513
+    },
+    {
+      "page": "f21v",
+      "symbols": 282,
+      "cumulative": 15812,
+      "rung": 20.09203415402151,
+      "relative_to_TON618": -30.674577673044663
+    },
+    {
+      "page": "f22r",
+      "symbols": 503,
+      "cumulative": 16315,
+      "rung": 20.157111076449517,
+      "relative_to_TON618": -30.609500750616654
+    },
+    {
+      "page": "f22v",
+      "symbols": 374,
+      "cumulative": 16689,
+      "rung": 20.204210687339533,
+      "relative_to_TON618": -30.56240113972664
+    },
+    {
+      "page": "f23r",
+      "symbols": 464,
+      "cumulative": 17153,
+      "rung": 20.261198617058483,
+      "relative_to_TON618": -30.50541321000769
+    },
+    {
+      "page": "f23v",
+      "symbols": 404,
+      "cumulative": 17557,
+      "rung": 20.309575743610804,
+      "relative_to_TON618": -30.457036083455368
+    },
+    {
+      "page": "f24r",
+      "symbols": 444,
+      "cumulative": 18001,
+      "rung": 20.361475094002706,
+      "relative_to_TON618": -30.405136733063465
+    },
+    {
+      "page": "f24v",
+      "symbols": 390,
+      "cumulative": 18391,
+      "rung": 20.406017022301377,
+      "relative_to_TON618": -30.360594804764794
+    },
+    {
+      "page": "f25r",
+      "symbols": 250,
+      "cumulative": 18641,
+      "rung": 20.434075437882896,
+      "relative_to_TON618": -30.332536389183275
+    },
+    {
+      "page": "f25v",
+      "symbols": 282,
+      "cumulative": 18923,
+      "rung": 20.4652772013328,
+      "relative_to_TON618": -30.30133462573337
+    },
+    {
+      "page": "f26r",
+      "symbols": 406,
+      "cumulative": 19329,
+      "rung": 20.509391756082305,
+      "relative_to_TON618": -30.257220070983866
+    },
+    {
+      "page": "f26v",
+      "symbols": 451,
+      "cumulative": 19780,
+      "rung": 20.55732234749513,
+      "relative_to_TON618": -30.20928947957104
+    },
+    {
+      "page": "f27r",
+      "symbols": 381,
+      "cumulative": 20161,
+      "rung": 20.596969583825295,
+      "relative_to_TON618": -30.169642243240876
+    },
+    {
+      "page": "f27v",
+      "symbols": 282,
+      "cumulative": 20443,
+      "rung": 20.62583520958912,
+      "relative_to_TON618": -30.14077661747705
+    },
+    {
+      "page": "f28r",
+      "symbols": 342,
+      "cumulative": 20785,
+      "rung": 20.660312847580816,
+      "relative_to_TON618": -30.106298979485356
+    },
+    {
+      "page": "f28v",
+      "symbols": 302,
+      "cumulative": 21087,
+      "rung": 20.69028959255272,
+      "relative_to_TON618": -30.07632223451345
+    },
+    {
+      "page": "f29r",
+      "symbols": 299,
+      "cumulative": 21386,
+      "rung": 20.71954856903536,
+      "relative_to_TON618": -30.04706325803081
+    },
+    {
+      "page": "f29v",
+      "symbols": 416,
+      "cumulative": 21802,
+      "rung": 20.75958334243129,
+      "relative_to_TON618": -30.00702848463488
+    },
+    {
+      "page": "f30r",
+      "symbols": 484,
+      "cumulative": 22286,
+      "rung": 20.80521183444928,
+      "relative_to_TON618": -29.96139999261689
+    },
+    {
+      "page": "f30v",
+      "symbols": 328,
+      "cumulative": 22614,
+      "rung": 20.835573733570072,
+      "relative_to_TON618": -29.9310380934961
+    },
+    {
+      "page": "f31r",
+      "symbols": 507,
+      "cumulative": 23121,
+      "rung": 20.881649309431424,
+      "relative_to_TON618": -29.884962517634747
+    },
+    {
+      "page": "f31v",
+      "symbols": 517,
+      "cumulative": 23638,
+      "rung": 20.92760472859292,
+      "relative_to_TON618": -29.83900709847325
+    },
+    {
+      "page": "f32r",
+      "symbols": 357,
+      "cumulative": 23995,
+      "rung": 20.95875502029305,
+      "relative_to_TON618": -29.80785680677312
+    },
+    {
+      "page": "f32v",
+      "symbols": 372,
+      "cumulative": 24367,
+      "rung": 20.99072489670351,
+      "relative_to_TON618": -29.77588693036266
+    },
+    {
+      "page": "f33r",
+      "symbols": 352,
+      "cumulative": 24719,
+      "rung": 21.02052969381218,
+      "relative_to_TON618": -29.746082133253992
+    },
+    {
+      "page": "f33v",
+      "symbols": 417,
+      "cumulative": 25136,
+      "rung": 21.055293807961668,
+      "relative_to_TON618": -29.711318019104503
+    },
+    {
+      "page": "f34r",
+      "symbols": 640,
+      "cumulative": 25776,
+      "rung": 21.107542617346677,
+      "relative_to_TON618": -29.659069209719494
+    },
+    {
+      "page": "f34v",
+      "symbols": 549,
+      "cumulative": 26325,
+      "rung": 21.15133878046634,
+      "relative_to_TON618": -29.61527304659983
+    },
+    {
+      "page": "f35r",
+      "symbols": 443,
+      "cumulative": 26768,
+      "rung": 21.18601807418977,
+      "relative_to_TON618": -29.5805937528764
+    },
+    {
+      "page": "f35v",
+      "symbols": 418,
+      "cumulative": 27186,
+      "rung": 21.218218011642822,
+      "relative_to_TON618": -29.54839381542335
+    },
+    {
+      "page": "f36r",
+      "symbols": 276,
+      "cumulative": 27462,
+      "rung": 21.239208967102513,
+      "relative_to_TON618": -29.527402859963658
+    },
+    {
+      "page": "f36v",
+      "symbols": 334,
+      "cumulative": 27796,
+      "rung": 21.264330740764297,
+      "relative_to_TON618": -29.502281086301874
+    },
+    {
+      "page": "f37r",
+      "symbols": 371,
+      "cumulative": 28167,
+      "rung": 21.291884000684288,
+      "relative_to_TON618": -29.474727826381883
+    },
+    {
+      "page": "f37v",
+      "symbols": 438,
+      "cumulative": 28605,
+      "rung": 21.323949812396332,
+      "relative_to_TON618": -29.44266201466984
+    },
+    {
+      "page": "f38r",
+      "symbols": 195,
+      "cumulative": 28800,
+      "rung": 21.33806804280467,
+      "relative_to_TON618": -29.4285437842615
+    },
+    {
+      "page": "f38v",
+      "symbols": 266,
+      "cumulative": 29066,
+      "rung": 21.357173390145086,
+      "relative_to_TON618": -29.409438436921086
+    },
+    {
+      "page": "f39r",
+      "symbols": 714,
+      "cumulative": 29780,
+      "rung": 21.40760423948857,
+      "relative_to_TON618": -29.3590075875776
+    },
+    {
+      "page": "f39v",
+      "symbols": 595,
+      "cumulative": 30375,
+      "rung": 21.448714772053727,
+      "relative_to_TON618": -29.317897055012445
+    },
+    {
+      "page": "f40r",
+      "symbols": 412,
+      "cumulative": 30787,
+      "rung": 21.476712050165315,
+      "relative_to_TON618": -29.289899776900857
+    },
+    {
+      "page": "f40v",
+      "symbols": 477,
+      "cumulative": 31264,
+      "rung": 21.50866212309001,
+      "relative_to_TON618": -29.257949703976163
+    },
+    {
+      "page": "f41r",
+      "symbols": 509,
+      "cumulative": 31773,
+      "rung": 21.54222238871164,
+      "relative_to_TON618": -29.22438943835453
+    },
+    {
+      "page": "f41v",
+      "symbols": 346,
+      "cumulative": 32119,
+      "rung": 21.564729904632756,
+      "relative_to_TON618": -29.201881922433415
+    },
+    {
+      "page": "f42r",
+      "symbols": 663,
+      "cumulative": 32782,
+      "rung": 21.607189021095735,
+      "relative_to_TON618": -29.159422805970436
+    },
+    {
+      "page": "f42v",
+      "symbols": 500,
+      "cumulative": 33282,
+      "rung": 21.638645284732043,
+      "relative_to_TON618": -29.12796654233413
+    },
+    {
+      "page": "f43r",
+      "symbols": 691,
+      "cumulative": 33973,
+      "rung": 21.68134868502142,
+      "relative_to_TON618": -29.085263142044752
+    },
+    {
+      "page": "f43v",
+      "symbols": 715,
+      "cumulative": 34688,
+      "rung": 21.724630485762596,
+      "relative_to_TON618": -29.041981341303575
+    },
+    {
+      "page": "f44r",
+      "symbols": 358,
+      "cumulative": 35046,
+      "rung": 21.745967614100564,
+      "relative_to_TON618": -29.020644212965607
+    },
+    {
+      "page": "f44v",
+      "symbols": 449,
+      "cumulative": 35495,
+      "rung": 21.77242240291118,
+      "relative_to_TON618": -28.994189424154992
+    },
+    {
+      "page": "f45r",
+      "symbols": 392,
+      "cumulative": 35887,
+      "rung": 21.795246595624423,
+      "relative_to_TON618": -28.971365231441748
+    },
+    {
+      "page": "f45v",
+      "symbols": 362,
+      "cumulative": 36249,
+      "rung": 21.816103692786648,
+      "relative_to_TON618": -28.950508134279524
+    },
+    {
+      "page": "f46r",
+      "symbols": 752,
+      "cumulative": 37001,
+      "rung": 21.858773352016666,
+      "relative_to_TON618": -28.907838475049505
+    },
+    {
+      "page": "f46v",
+      "symbols": 506,
+      "cumulative": 37507,
+      "rung": 21.886999264618183,
+      "relative_to_TON618": -28.87961256244799
+    },
+    {
+      "page": "f47r",
+      "symbols": 352,
+      "cumulative": 37859,
+      "rung": 21.906410986487884,
+      "relative_to_TON618": -28.860200840578287
+    },
+    {
+      "page": "f47v",
+      "symbols": 391,
+      "cumulative": 38250,
+      "rung": 21.92776297205022,
+      "relative_to_TON618": -28.83884885501595
+    },
+    {
+      "page": "f48r",
+      "symbols": 457,
+      "cumulative": 38707,
+      "rung": 21.952444206677278,
+      "relative_to_TON618": -28.814167620388893
+    },
+    {
+      "page": "f48v",
+      "symbols": 560,
+      "cumulative": 39267,
+      "rung": 21.98229386642693,
+      "relative_to_TON618": -28.784317960639243
+    },
+    {
+      "page": "f49r",
+      "symbols": 552,
+      "cumulative": 39819,
+      "rung": 22.01130336517055,
+      "relative_to_TON618": -28.75530846189562
+    },
+    {
+      "page": "f49v",
+      "symbols": 768,
+      "cumulative": 40587,
+      "rung": 22.05100237500846,
+      "relative_to_TON618": -28.715609452057713
+    },
+    {
+      "page": "f50r",
+      "symbols": 452,
+      "cumulative": 41039,
+      "rung": 22.074017220504423,
+      "relative_to_TON618": -28.692594606561748
+    },
+    {
+      "page": "f50v",
+      "symbols": 471,
+      "cumulative": 41510,
+      "rung": 22.09773136753234,
+      "relative_to_TON618": -28.66888045953383
+    },
+    {
+      "page": "f51r",
+      "symbols": 458,
+      "cumulative": 41968,
+      "rung": 22.12053434220615,
+      "relative_to_TON618": -28.646077484860022
+    },
+    {
+      "page": "f51v",
+      "symbols": 416,
+      "cumulative": 42384,
+      "rung": 22.141031572098562,
+      "relative_to_TON618": -28.62558025496761
+    },
+    {
+      "page": "f52r",
+      "symbols": 319,
+      "cumulative": 42703,
+      "rung": 22.15661357249356,
+      "relative_to_TON618": -28.609998254572613
+    },
+    {
+      "page": "f52v",
+      "symbols": 387,
+      "cumulative": 43090,
+      "rung": 22.17536160772474,
+      "relative_to_TON618": -28.591250219341433
+    },
+    {
+      "page": "f53r",
+      "symbols": 260,
+      "cumulative": 43350,
+      "rung": 22.187862862443612,
+      "relative_to_TON618": -28.57874896462256
+    },
+    {
+      "page": "f53v",
+      "symbols": 379,
+      "cumulative": 43729,
+      "rung": 22.20595218171401,
+      "relative_to_TON618": -28.56065964535216
+    },
+    {
+      "page": "f54r",
+      "symbols": 451,
+      "cumulative": 44180,
+      "rung": 22.227274809070384,
+      "relative_to_TON618": -28.539337017995788
+    },
+    {
+      "page": "f54v",
+      "symbols": 413,
+      "cumulative": 44593,
+      "rung": 22.246610780380323,
+      "relative_to_TON618": -28.52000104668585
+    },
+    {
+      "page": "f55r",
+      "symbols": 523,
+      "cumulative": 45116,
+      "rung": 22.27084138764127,
+      "relative_to_TON618": -28.495770439424902
+    },
+    {
+      "page": "f55v",
+      "symbols": 449,
+      "cumulative": 45565,
+      "rung": 22.291420531076064,
+      "relative_to_TON618": -28.475191295990108
+    },
+    {
+      "page": "f56r",
+      "symbols": 490,
+      "cumulative": 46055,
+      "rung": 22.31364869741587,
+      "relative_to_TON618": -28.4529631296503
+    },
+    {
+      "page": "f56v",
+      "symbols": 439,
+      "cumulative": 46494,
+      "rung": 22.33336337830198,
+      "relative_to_TON618": -28.433248448764193
+    },
+    {
+      "page": "f57r",
+      "symbols": 458,
+      "cumulative": 46952,
+      "rung": 22.353733890279628,
+      "relative_to_TON618": -28.412877936786543
+    },
+    {
+      "page": "f57v",
+      "symbols": 447,
+      "cumulative": 47399,
+      "rung": 22.373424445836665,
+      "relative_to_TON618": -28.393187381229506
+    },
+    {
+      "page": "f58r",
+      "symbols": 1856,
+      "cumulative": 49255,
+      "rung": 22.453243253013344,
+      "relative_to_TON618": -28.313368574052827
+    },
+    {
+      "page": "f58v",
+      "symbols": 1751,
+      "cumulative": 51006,
+      "rung": 22.525835790720222,
+      "relative_to_TON618": -28.24077603634595
+    },
+    {
+      "page": "f65r",
+      "symbols": 12,
+      "cumulative": 51018,
+      "rung": 22.52632463732827,
+      "relative_to_TON618": -28.240287189737902
+    },
+    {
+      "page": "f65v",
+      "symbols": 211,
+      "cumulative": 51229,
+      "rung": 22.53490145548058,
+      "relative_to_TON618": -28.231710371585592
+    },
+    {
+      "page": "f66r",
+      "symbols": 1636,
+      "cumulative": 52865,
+      "rung": 22.600227606251313,
+      "relative_to_TON618": -28.16638422081486
+    },
+    {
+      "page": "f66v",
+      "symbols": 575,
+      "cumulative": 53440,
+      "rung": 22.6227084233895,
+      "relative_to_TON618": -28.14390340367667
+    },
+    {
+      "page": "f67r1",
+      "symbols": 783,
+      "cumulative": 54223,
+      "rung": 22.652935534799646,
+      "relative_to_TON618": -28.113676292266526
+    },
+    {
+      "page": "f67r2",
+      "symbols": 871,
+      "cumulative": 55094,
+      "rung": 22.686051189489397,
+      "relative_to_TON618": -28.080560637576774
+    },
+    {
+      "page": "f67v2",
+      "symbols": 299,
+      "cumulative": 55393,
+      "rung": 22.697298657630892,
+      "relative_to_TON618": -28.06931316943528
+    },
+    {
+      "page": "f67v1",
+      "symbols": 412,
+      "cumulative": 55805,
+      "rung": 22.712697778646774,
+      "relative_to_TON618": -28.053914048419397
+    },
+    {
+      "page": "f68r1",
+      "symbols": 381,
+      "cumulative": 56186,
+      "rung": 22.726837382214725,
+      "relative_to_TON618": -28.039774444851446
+    },
+    {
+      "page": "f68r2",
+      "symbols": 462,
+      "cumulative": 56648,
+      "rung": 22.74385497483566,
+      "relative_to_TON618": -28.02275685223051
+    },
+    {
+      "page": "f68r3",
+      "symbols": 571,
+      "cumulative": 57219,
+      "rung": 22.76469679166276,
+      "relative_to_TON618": -28.00191503540341
+    },
+    {
+      "page": "f68v3",
+      "symbols": 812,
+      "cumulative": 58031,
+      "rung": 22.793979819892293,
+      "relative_to_TON618": -27.97263200717388
+    },
+    {
+      "page": "f68v2",
+      "symbols": 549,
+      "cumulative": 58580,
+      "rung": 22.81354706738962,
+      "relative_to_TON618": -27.95306475967655
+    },
+    {
+      "page": "f68v1",
+      "symbols": 461,
+      "cumulative": 59041,
+      "rung": 22.82983672614353,
+      "relative_to_TON618": -27.93677510092264
+    },
+    {
+      "page": "f69r",
+      "symbols": 698,
+      "cumulative": 59739,
+      "rung": 22.854260389516803,
+      "relative_to_TON618": -27.91235143754937
+    },
+    {
+      "page": "f69v",
+      "symbols": 601,
+      "cumulative": 60340,
+      "rung": 22.87506237268716,
+      "relative_to_TON618": -27.89154945437901
+    },
+    {
+      "page": "f70r1",
+      "symbols": 540,
+      "cumulative": 60880,
+      "rung": 22.89357704618134,
+      "relative_to_TON618": -27.873034780884833
+    },
+    {
+      "page": "f70r2",
+      "symbols": 1083,
+      "cumulative": 61963,
+      "rung": 22.930219369248384,
+      "relative_to_TON618": -27.836392457817787
+    },
+    {
+      "page": "f70v2",
+      "symbols": 654,
+      "cumulative": 62617,
+      "rung": 22.952037981086896,
+      "relative_to_TON618": -27.814573845979275
+    },
+    {
+      "page": "f70v1",
+      "symbols": 459,
+      "cumulative": 63076,
+      "rung": 22.96721537579953,
+      "relative_to_TON618": -27.79939645126664
+    },
+    {
+      "page": "f71r",
+      "symbols": 469,
+      "cumulative": 63545,
+      "rung": 22.982609776778297,
+      "relative_to_TON618": -27.784002050287874
+    },
+    {
+      "page": "f71v",
+      "symbols": 473,
+      "cumulative": 64018,
+      "rung": 22.99802082259238,
+      "relative_to_TON618": -27.76859100447379
+    },
+    {
+      "page": "f72r1",
+      "symbols": 526,
+      "cumulative": 64544,
+      "rung": 23.015025533468886,
+      "relative_to_TON618": -27.751586293597285
+    },
+    {
+      "page": "f72r2",
+      "symbols": 539,
+      "cumulative": 65083,
+      "rung": 23.03230735447737,
+      "relative_to_TON618": -27.7343044725888
+    },
+    {
+      "page": "f72r3",
+      "symbols": 859,
+      "cumulative": 65942,
+      "rung": 23.059555623752402,
+      "relative_to_TON618": -27.70705620331377
+    },
+    {
+      "page": "f72v3",
+      "symbols": 660,
+      "cumulative": 66602,
+      "rung": 23.08025137314935,
+      "relative_to_TON618": -27.686360453916823
+    },
+    {
+      "page": "f72v2",
+      "symbols": 585,
+      "cumulative": 67187,
+      "rung": 23.09842459511301,
+      "relative_to_TON618": -27.668187231953162
+    },
+    {
+      "page": "f72v1",
+      "symbols": 533,
+      "cumulative": 67720,
+      "rung": 23.114845182512603,
+      "relative_to_TON618": -27.651766644553568
+    },
+    {
+      "page": "f73r",
+      "symbols": 514,
+      "cumulative": 68234,
+      "rung": 23.130558464457064,
+      "relative_to_TON618": -27.636053362609108
+    },
+    {
+      "page": "f73v",
+      "symbols": 483,
+      "cumulative": 68717,
+      "rung": 23.145216555957255,
+      "relative_to_TON618": -27.621395271108916
+    },
+    {
+      "page": "f75r",
+      "symbols": 1923,
+      "cumulative": 70640,
+      "rung": 23.20257161987839,
+      "relative_to_TON618": -27.56404020718778
+    },
+    {
+      "page": "f75v",
+      "symbols": 1604,
+      "cumulative": 72244,
+      "rung": 23.24923032836489,
+      "relative_to_TON618": -27.51738149870128
+    },
+    {
+      "page": "f76r",
+      "symbols": 2635,
+      "cumulative": 74879,
+      "rung": 23.323676127392073,
+      "relative_to_TON618": -27.4429356996741
+    },
+    {
+      "page": "f76v",
+      "symbols": 2037,
+      "cumulative": 76916,
+      "rung": 23.37945289452723,
+      "relative_to_TON618": -27.38715893253894
+    },
+    {
+      "page": "f77r",
+      "symbols": 1712,
+      "cumulative": 78628,
+      "rung": 23.425199801940582,
+      "relative_to_TON618": -27.34141202512559
+    },
+    {
+      "page": "f77v",
+      "symbols": 1649,
+      "cumulative": 80277,
+      "rung": 23.4683310860149,
+      "relative_to_TON618": -27.298280741051272
+    },
+    {
+      "page": "f78r",
+      "symbols": 1335,
+      "cumulative": 81612,
+      "rung": 23.502605297703987,
+      "relative_to_TON618": -27.264006529362184
+    },
+    {
+      "page": "f78v",
+      "symbols": 1294,
+      "cumulative": 82906,
+      "rung": 23.53529594468842,
+      "relative_to_TON618": -27.23131588237775
+    },
+    {
+      "page": "f79r",
+      "symbols": 1811,
+      "cumulative": 84717,
+      "rung": 23.5802010216145,
+      "relative_to_TON618": -27.186410805451672
+    },
+    {
+      "page": "f79v",
+      "symbols": 1741,
+      "cumulative": 86458,
+      "rung": 23.622474415423792,
+      "relative_to_TON618": -27.14413741164238
+    },
+    {
+      "page": "f80r",
+      "symbols": 2185,
+      "cumulative": 88643,
+      "rung": 23.67433997442324,
+      "relative_to_TON618": -27.09227185264293
+    },
+    {
+      "page": "f80v",
+      "symbols": 1776,
+      "cumulative": 90419,
+      "rung": 23.7155637226367,
+      "relative_to_TON618": -27.051048104429473
+    },
+    {
+      "page": "f81r",
+      "symbols": 937,
+      "cumulative": 91356,
+      "rung": 23.736987842473333,
+      "relative_to_TON618": -27.02962398459284
+    },
+    {
+      "page": "f81v",
+      "symbols": 1164,
+      "cumulative": 92520,
+      "rung": 23.763298241744163,
+      "relative_to_TON618": -27.003313585322008
+    },
+    {
+      "page": "f82r",
+      "symbols": 1519,
+      "cumulative": 94039,
+      "rung": 23.7971393728868,
+      "relative_to_TON618": -26.96947245417937
+    },
+    {
+      "page": "f82v",
+      "symbols": 1606,
+      "cumulative": 95645,
+      "rung": 23.83232934512003,
+      "relative_to_TON618": -26.93428248194614
+    },
+    {
+      "page": "f83r",
+      "symbols": 1814,
+      "cumulative": 97459,
+      "rung": 23.871373182282664,
+      "relative_to_TON618": -26.895238644783507
+    },
+    {
+      "page": "f83v",
+      "symbols": 1354,
+      "cumulative": 98813,
+      "rung": 23.90004537524208,
+      "relative_to_TON618": -26.86656645182409
+    },
+    {
+      "page": "f84r",
+      "symbols": 1672,
+      "cumulative": 100485,
+      "rung": 23.93491419331575,
+      "relative_to_TON618": -26.831697633750423
+    },
+    {
+      "page": "f84v",
+      "symbols": 1555,
+      "cumulative": 102040,
+      "rung": 23.966826190996535,
+      "relative_to_TON618": -26.799785636069636
+    },
+    {
+      "page": "f85r1",
+      "symbols": 1704,
+      "cumulative": 103744,
+      "rung": 24.001242287977423,
+      "relative_to_TON618": -26.76536953908875
+    },
+    {
+      "page": "f85r2",
+      "symbols": 771,
+      "cumulative": 104515,
+      "rung": 24.016629016388798,
+      "relative_to_TON618": -26.749982810677373
+    },
+    {
+      "page": "fRos",
+      "symbols": 2507,
+      "cumulative": 107022,
+      "rung": 24.06588761269935,
+      "relative_to_TON618": -26.700724214366822
+    },
+    {
+      "page": "f86v4",
+      "symbols": 893,
+      "cumulative": 107915,
+      "rung": 24.083155391614973,
+      "relative_to_TON618": -26.6834564354512
+    },
+    {
+      "page": "f86v6",
+      "symbols": 2383,
+      "cumulative": 110298,
+      "rung": 24.128544786431178,
+      "relative_to_TON618": -26.638067040634994
+    },
+    {
+      "page": "f86v5",
+      "symbols": 1791,
+      "cumulative": 112089,
+      "rung": 24.16201737380988,
+      "relative_to_TON618": -26.60459445325629
+    },
+    {
+      "page": "f86v3",
+      "symbols": 1452,
+      "cumulative": 113541,
+      "rung": 24.18876402863319,
+      "relative_to_TON618": -26.57784779843298
+    },
+    {
+      "page": "f87r",
+      "symbols": 545,
+      "cumulative": 114086,
+      "rung": 24.19871504091395,
+      "relative_to_TON618": -26.56789678615222
+    },
+    {
+      "page": "f87v",
+      "symbols": 456,
+      "cumulative": 114542,
+      "rung": 24.207004567066754,
+      "relative_to_TON618": -26.559607259999417
+    },
+    {
+      "page": "f88r",
+      "symbols": 710,
+      "cumulative": 115252,
+      "rung": 24.219846037332754,
+      "relative_to_TON618": -26.546765789733417
+    },
+    {
+      "page": "f88v",
+      "symbols": 789,
+      "cumulative": 116041,
+      "rung": 24.234023871861016,
+      "relative_to_TON618": -26.532587955205155
+    },
+    {
+      "page": "f89r1",
+      "symbols": 683,
+      "cumulative": 116724,
+      "rung": 24.24621932599491,
+      "relative_to_TON618": -26.52039250107126
+    },
+    {
+      "page": "f89r2",
+      "symbols": 1162,
+      "cumulative": 117886,
+      "rung": 24.266804610068483,
+      "relative_to_TON618": -26.499807216997688
+    },
+    {
+      "page": "f89v2",
+      "symbols": 819,
+      "cumulative": 118705,
+      "rung": 24.28119197042285,
+      "relative_to_TON618": -26.485419856643322
+    },
+    {
+      "page": "f89v1",
+      "symbols": 756,
+      "cumulative": 119461,
+      "rung": 24.294384777028444,
+      "relative_to_TON618": -26.472227050037727
+    },
+    {
+      "page": "f90r1",
+      "symbols": 350,
+      "cumulative": 119811,
+      "rung": 24.30046430945337,
+      "relative_to_TON618": -26.4661475176128
+    },
+    {
+      "page": "f90r2",
+      "symbols": 213,
+      "cumulative": 120024,
+      "rung": 24.304155452369105,
+      "relative_to_TON618": -26.462456374697066
+    },
+    {
+      "page": "f90v2",
+      "symbols": 325,
+      "cumulative": 120349,
+      "rung": 24.30977487435868,
+      "relative_to_TON618": -26.45683695270749
+    },
+    {
+      "page": "f90v1",
+      "symbols": 474,
+      "cumulative": 120823,
+      "rung": 24.317943438445504,
+      "relative_to_TON618": -26.448668388620668
+    },
+    {
+      "page": "f93r",
+      "symbols": 744,
+      "cumulative": 121567,
+      "rung": 24.33070057797191,
+      "relative_to_TON618": -26.43591124909426
+    },
+    {
+      "page": "f93v",
+      "symbols": 457,
+      "cumulative": 122024,
+      "rung": 24.338497966522564,
+      "relative_to_TON618": -26.428113860543608
+    },
+    {
+      "page": "f94r",
+      "symbols": 381,
+      "cumulative": 122405,
+      "rung": 24.344976344769158,
+      "relative_to_TON618": -26.421635482297013
+    },
+    {
+      "page": "f94v",
+      "symbols": 455,
+      "cumulative": 122860,
+      "rung": 24.35268662250021,
+      "relative_to_TON618": -26.41392520456596
+    },
+    {
+      "page": "f95r1",
+      "symbols": 505,
+      "cumulative": 123365,
+      "rung": 24.36121082082858,
+      "relative_to_TON618": -26.405401006237593
+    },
+    {
+      "page": "f95r2",
+      "symbols": 369,
+      "cumulative": 123734,
+      "rung": 24.36741735864494,
+      "relative_to_TON618": -26.399194468421232
+    },
+    {
+      "page": "f95v2",
+      "symbols": 302,
+      "cumulative": 124036,
+      "rung": 24.372483206495787,
+      "relative_to_TON618": -26.394128620570385
+    },
+    {
+      "page": "f95v1",
+      "symbols": 571,
+      "cumulative": 124607,
+      "rung": 24.38202773192345,
+      "relative_to_TON618": -26.38458409514272
+    },
+    {
+      "page": "f96r",
+      "symbols": 439,
+      "cumulative": 125046,
+      "rung": 24.38933612476243,
+      "relative_to_TON618": -26.37727570230374
+    },
+    {
+      "page": "f96v",
+      "symbols": 311,
+      "cumulative": 125357,
+      "rung": 24.39449808659847,
+      "relative_to_TON618": -26.3721137404677
+    },
+    {
+      "page": "f99r",
+      "symbols": 926,
+      "cumulative": 126283,
+      "rung": 24.4097922939984,
+      "relative_to_TON618": -26.35681953306777
+    },
+    {
+      "page": "f99v",
+      "symbols": 898,
+      "cumulative": 127181,
+      "rung": 24.424517303177705,
+      "relative_to_TON618": -26.342094523888466
+    },
+    {
+      "page": "f100r",
+      "symbols": 608,
+      "cumulative": 127789,
+      "rung": 24.434428110276194,
+      "relative_to_TON618": -26.332183716789977
+    },
+    {
+      "page": "f100v",
+      "symbols": 477,
+      "cumulative": 128266,
+      "rung": 24.442170576606333,
+      "relative_to_TON618": -26.324441250459838
+    },
+    {
+      "page": "f101r",
+      "symbols": 1029,
+      "cumulative": 129295,
+      "rung": 24.45877528631841,
+      "relative_to_TON618": -26.30783654074776
+    },
+    {
+      "page": "f101v",
+      "symbols": 1011,
+      "cumulative": 130306,
+      "rung": 24.474961329506996,
+      "relative_to_TON618": -26.291650497559175
+    },
+    {
+      "page": "f102r1",
+      "symbols": 584,
+      "cumulative": 130890,
+      "rung": 24.484254004619316,
+      "relative_to_TON618": -26.282357822446855
+    },
+    {
+      "page": "f102r2",
+      "symbols": 672,
+      "cumulative": 131562,
+      "rung": 24.494895778832067,
+      "relative_to_TON618": -26.271716048234104
+    },
+    {
+      "page": "f102v2",
+      "symbols": 843,
+      "cumulative": 132405,
+      "rung": 24.50816890183792,
+      "relative_to_TON618": -26.258442925228252
+    },
+    {
+      "page": "f102v1",
+      "symbols": 662,
+      "cumulative": 133067,
+      "rung": 24.5185330562,
+      "relative_to_TON618": -26.248078770866172
+    },
+    {
+      "page": "f103r",
+      "symbols": 2696,
+      "cumulative": 135763,
+      "rung": 24.560215235815875,
+      "relative_to_TON618": -26.206396591250297
+    },
+    {
+      "page": "f103v",
+      "symbols": 2189,
+      "cumulative": 137952,
+      "rung": 24.593454402499372,
+      "relative_to_TON618": -26.1731574245668
+    },
+    {
+      "page": "f104r",
+      "symbols": 2372,
+      "cumulative": 140324,
+      "rung": 24.628882118603645,
+      "relative_to_TON618": -26.137729708462526
+    },
+    {
+      "page": "f104v",
+      "symbols": 2489,
+      "cumulative": 142813,
+      "rung": 24.66541914195163,
+      "relative_to_TON618": -26.10119268511454
+    },
+    {
+      "page": "f105r",
+      "symbols": 1899,
+      "cumulative": 144712,
+      "rung": 24.69286958588287,
+      "relative_to_TON618": -26.0737422411833
+    },
+    {
+      "page": "f105v",
+      "symbols": 2001,
+      "cumulative": 146713,
+      "rung": 24.721407407133007,
+      "relative_to_TON618": -26.045204419933164
+    },
+    {
+      "page": "f106r",
+      "symbols": 2332,
+      "cumulative": 149045,
+      "rung": 24.754178788682314,
+      "relative_to_TON618": -26.012433038383858
+    },
+    {
+      "page": "f106v",
+      "symbols": 2296,
+      "cumulative": 151341,
+      "rung": 24.78594711671473,
+      "relative_to_TON618": -25.98066471035144
+    },
+    {
+      "page": "f107r",
+      "symbols": 2477,
+      "cumulative": 153818,
+      "rung": 24.819683853024184,
+      "relative_to_TON618": -25.946927974041987
+    },
+    {
+      "page": "f107v",
+      "symbols": 2328,
+      "cumulative": 156146,
+      "rung": 24.850899589816663,
+      "relative_to_TON618": -25.915712237249508
+    },
+    {
+      "page": "f108r",
+      "symbols": 2548,
+      "cumulative": 158694,
+      "rung": 24.88453623751499,
+      "relative_to_TON618": -25.88207558955118
+    },
+    {
+      "page": "f108v",
+      "symbols": 2986,
+      "cumulative": 161680,
+      "rung": 24.92327438252788,
+      "relative_to_TON618": -25.843337444538292
+    },
+    {
+      "page": "f111r",
+      "symbols": 3158,
+      "cumulative": 164838,
+      "rung": 24.963473104414685,
+      "relative_to_TON618": -25.803138722651486
+    },
+    {
+      "page": "f111v",
+      "symbols": 2825,
+      "cumulative": 167663,
+      "rung": 24.998785700865415,
+      "relative_to_TON618": -25.767826126200756
+    },
+    {
+      "page": "f112r",
+      "symbols": 1928,
+      "cumulative": 169591,
+      "rung": 25.022545805898933,
+      "relative_to_TON618": -25.74406602116724
+    },
+    {
+      "page": "f112v",
+      "symbols": 2146,
+      "cumulative": 171737,
+      "rung": 25.048676878035845,
+      "relative_to_TON618": -25.717934949030326
+    },
+    {
+      "page": "f113r",
+      "symbols": 2808,
+      "cumulative": 174545,
+      "rung": 25.08238002160595,
+      "relative_to_TON618": -25.68423180546022
+    },
+    {
+      "page": "f113v",
+      "symbols": 2484,
+      "cumulative": 177029,
+      "rung": 25.111745411589844,
+      "relative_to_TON618": -25.654866415476327
+    },
+    {
+      "page": "f114r",
+      "symbols": 2469,
+      "cumulative": 179498,
+      "rung": 25.140527964558338,
+      "relative_to_TON618": -25.626083862507834
+    },
+    {
+      "page": "f114v",
+      "symbols": 2051,
+      "cumulative": 181549,
+      "rung": 25.16413819881288,
+      "relative_to_TON618": -25.602473628253293
+    },
+    {
+      "page": "f115r",
+      "symbols": 2408,
+      "cumulative": 183957,
+      "rung": 25.19151999667997,
+      "relative_to_TON618": -25.575091830386203
+    },
+    {
+      "page": "f115v",
+      "symbols": 2204,
+      "cumulative": 186161,
+      "rung": 25.216269712786083,
+      "relative_to_TON618": -25.550342114280088
+    },
+    {
+      "page": "f116r",
+      "symbols": 2502,
+      "cumulative": 188663,
+      "rung": 25.2440131374468,
+      "relative_to_TON618": -25.52259868961937
+    },
+    {
+      "page": "f116v",
+      "symbols": 9,
+      "cumulative": 188672,
+      "rung": 25.244112268363857,
+      "relative_to_TON618": -25.522499558702314
+    }
+  ],
+  "interpretation": "The full RF transcription maps to a cumulative phi-rung information line anchored to TON618. It is a structural transform of Voynichese, not a plaintext linguistic decipherment."
+}

@@ -1,0 +1,171 @@
+{
+  "generator": "phi-transition long-range generator",
+  "operator": "T x[n] = phi^-1 x[n-1] + phi^-2 x[n+1]",
+  "phi": 1.618033988749895,
+  "dominant_modes": [
+    {
+      "bin": 2,
+      "normalized_frequency": 1.0497365161344502e-05,
+      "frequency_rung": -23.82399116623033,
+      "operator_eigenvalue_real": 0.9999999978248442,
+      "operator_eigenvalue_imag": -1.5570309742046565e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999979460614,
+      "power_fraction": 0.001106971733615778,
+      "wavelength_symbols": 95262.0,
+      "phi_power_frequency": -23.82399116623033,
+      "relative_to_lowest_dominant": -7.63967234481764
+    },
+    {
+      "bin": 1,
+      "normalized_frequency": 5.248682580672251e-06,
+      "frequency_rung": -25.26441125664288,
+      "operator_eigenvalue_real": 0.999999999456211,
+      "operator_eigenvalue_imag": -7.785154875256765e-06,
+      "operator_eigenvalue_abs_normalized": 0.9999999994865152,
+      "power_fraction": 0.0009906508521882163,
+      "wavelength_symbols": 190524.0,
+      "phi_power_frequency": -25.26441125664288,
+      "relative_to_lowest_dominant": -9.080092435230192
+    },
+    {
+      "bin": 3,
+      "normalized_frequency": 1.5746047742016755e-05,
+      "frequency_rung": -22.981399428053603,
+      "operator_eigenvalue_real": 0.9999999951058995,
+      "operator_eigenvalue_imag": -2.335546459190244e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999953786383,
+      "power_fraction": 0.000362538128143099,
+      "wavelength_symbols": 63507.99999999999,
+      "phi_power_frequency": -22.981399428053603,
+      "relative_to_lowest_dominant": -6.797080606640915
+    },
+    {
+      "bin": 9,
+      "normalized_frequency": 4.723814322605026e-05,
+      "frequency_rung": -20.698387599464326,
+      "operator_eigenvalue_real": 0.9999999559530972,
+      "operator_eigenvalue_imag": -7.006639286127544e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999584077469,
+      "power_fraction": 0.0003403327286278355,
+      "wavelength_symbols": 21169.333333333336,
+      "phi_power_frequency": -20.698387599464326,
+      "relative_to_lowest_dominant": -4.514068778051637
+    },
+    {
+      "bin": 5,
+      "normalized_frequency": 2.6243412903361258e-05,
+      "frequency_rung": -21.919859380273774,
+      "operator_eigenvalue_real": 0.9999999864052769,
+      "operator_eigenvalue_imag": -3.892577420694458e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999871628849,
+      "power_fraction": 0.00029541437133353513,
+      "wavelength_symbols": 38104.799999999996,
+      "phi_power_frequency": -21.919859380273774,
+      "relative_to_lowest_dominant": -5.735540558861086
+    },
+    {
+      "bin": 15,
+      "normalized_frequency": 7.873023871008376e-05,
+      "frequency_rung": -19.636847551684497,
+      "operator_eigenvalue_real": 0.999999877647494,
+      "operator_eigenvalue_imag": -0.00011677731838735276,
+      "operator_eigenvalue_abs_normalized": 0.9999998844659658,
+      "power_fraction": 0.00020047472164157123,
+      "wavelength_symbols": 12701.6,
+      "phi_power_frequency": -19.636847551684497,
+      "relative_to_lowest_dominant": -3.4525287302718084
+    },
+    {
+      "bin": 6,
+      "normalized_frequency": 3.149209548403351e-05,
+      "frequency_rung": -21.540979337641048,
+      "operator_eigenvalue_real": 0.9999999804235986,
+      "operator_eigenvalue_imag": -4.6710928955196897e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999815145539,
+      "power_fraction": 0.00019254271505017334,
+      "wavelength_symbols": 31753.999999999996,
+      "phi_power_frequency": -21.540979337641048,
+      "relative_to_lowest_dominant": -5.356660516228359
+    },
+    {
+      "bin": 4,
+      "normalized_frequency": 2.0994730322689005e-05,
+      "frequency_rung": -22.383571075817773,
+      "operator_eigenvalue_real": 0.9999999912993771,
+      "operator_eigenvalue_imag": -3.1140619416357436e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999917842461,
+      "power_fraction": 0.0001913382248541928,
+      "wavelength_symbols": 47631.0,
+      "phi_power_frequency": -22.383571075817773,
+      "relative_to_lowest_dominant": -6.199252254405085
+    },
+    {
+      "bin": 7,
+      "normalized_frequency": 3.674077806470576e-05,
+      "frequency_rung": -21.220640825992536,
+      "operator_eigenvalue_real": 0.9999999733543428,
+      "operator_eigenvalue_imag": -5.449608365264747e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999748392543,
+      "power_fraction": 0.00018067418697197176,
+      "wavelength_symbols": 27217.714285714286,
+      "phi_power_frequency": -21.220640825992536,
+      "relative_to_lowest_dominant": -5.036322004579848
+    },
+    {
+      "bin": 8,
+      "normalized_frequency": 4.198946064537801e-05,
+      "frequency_rung": -20.943150985405214,
+      "operator_eigenvalue_real": 0.9999999651975089,
+      "operator_eigenvalue_imag": -6.228123829082928e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999671369851,
+      "power_fraction": 0.00017654807976545073,
+      "wavelength_symbols": 23815.5,
+      "phi_power_frequency": -20.943150985405214,
+      "relative_to_lowest_dominant": -4.758832163992526
+    }
+  ],
+  "dominant_frequency_rungs": [
+    -23.82399116623033,
+    -25.26441125664288,
+    -22.981399428053603,
+    -20.698387599464326,
+    -21.919859380273774,
+    -19.636847551684497,
+    -21.540979337641048,
+    -22.383571075817773,
+    -21.220640825992536,
+    -20.943150985405214
+  ],
+  "adjacent_rung_gaps": [
+    -1.4404200904125517,
+    2.2830118285892773,
+    2.2830118285892773,
+    -1.2214717808094484,
+    2.2830118285892773,
+    -1.904131785956551,
+    -0.8425917381767256,
+    1.1629302498252372,
+    0.2774898405873216
+  ],
+  "weighted_gap_scale": 1.706996105387138,
+  "eigenphase_radians": [
+    -1.5570309774656154e-05,
+    -7.785154879332963e-06,
+    -2.3355464701959804e-05,
+    -7.006639583282419e-05,
+    -3.8925774716469386e-05,
+    -0.00011677733214452336,
+    -4.6710929835655777e-05,
+    -3.1140619677234144e-05,
+    -5.449608505078356e-05,
+    -6.228124037784294e-05
+  ],
+  "structural_read": {
+    "primary_mode_rung": -23.82399116623033,
+    "primary_mode_wavelength_symbols": 95262.0,
+    "low_frequency_cluster": "dominant modes occupy approximately rungs -25 to -20",
+    "successor_rule": "multiplication by phi advances frequency one rung; division by phi descends one rung",
+    "generator_form": "x[n] = long-range phi-scaled transition field plus symbol-specific residual modes",
+    "interpretation": "The dominant generator is a long-range, slowly varying phi-transition field. The spectrum does not identify a unique plaintext grammar; it identifies the transition scale and residual symbol modes."
+  }
+}

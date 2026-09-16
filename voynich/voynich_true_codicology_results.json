@@ -1,0 +1,127 @@
+{
+  "source": "/tmp/vesuvius-progress-prize/voynich_rf1b-e.txt",
+  "documented_codicology": "standard quire = four bifolios = eight folios; bifolio = two folios; 102 extant of originally probably 116; 18 extant of 20 quires; foldouts present; missing folios listed in model",
+  "missing_original_folios": [
+    12,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    74,
+    91,
+    92,
+    97,
+    98,
+    109,
+    110
+  ],
+  "symbols": 188672,
+  "folio_count": 103,
+  "quire_model": "original foliation starts 1,9,17,...,113",
+  "bifolio_model": "original foliation starts 1,3,5,...,115",
+  "quire_boundaries": {
+    "boundary_count": 14,
+    "zero_lag_correlation": 0.0024757649775541935,
+    "top_lags": [
+      {
+        "lag_symbols": 839,
+        "correlation": -0.01069952514879124
+      },
+      {
+        "lag_symbols": 4143,
+        "correlation": -0.010692648693250446
+      },
+      {
+        "lag_symbols": 530,
+        "correlation": -0.009892785615730757
+      },
+      {
+        "lag_symbols": -2641,
+        "correlation": -0.009758429422101141
+      },
+      {
+        "lag_symbols": -4642,
+        "correlation": -0.009569110774812841
+      },
+      {
+        "lag_symbols": -1963,
+        "correlation": -0.009568882265769973
+      },
+      {
+        "lag_symbols": -918,
+        "correlation": -0.009263064291693452
+      },
+      {
+        "lag_symbols": -2086,
+        "correlation": -0.009260430539356152
+      },
+      {
+        "lag_symbols": 4142,
+        "correlation": -0.008770081665155069
+      },
+      {
+        "lag_symbols": -3982,
+        "correlation": -0.008763396909426364
+      }
+    ],
+    "window": 100,
+    "near_mean": 1.438989351564512,
+    "interior_mean": 1.4242087988514334,
+    "difference": 0.014780552713078654,
+    "permutation_p_two_sided": 0.0345
+  },
+  "bifolio_boundaries": {
+    "boundary_count": 52,
+    "zero_lag_correlation": 0.004094186245730785,
+    "top_lags": [
+      {
+        "lag_symbols": 1890,
+        "correlation": -0.00899600451537693
+      },
+      {
+        "lag_symbols": 3069,
+        "correlation": -0.008982934813947213
+      },
+      {
+        "lag_symbols": -726,
+        "correlation": -0.008314410270236454
+      },
+      {
+        "lag_symbols": 2435,
+        "correlation": -0.008053957586169608
+      },
+      {
+        "lag_symbols": 4510,
+        "correlation": 0.0077217939639435944
+      },
+      {
+        "lag_symbols": -3156,
+        "correlation": -0.007405688043911438
+      },
+      {
+        "lag_symbols": -926,
+        "correlation": -0.007318173291856302
+      },
+      {
+        "lag_symbols": -649,
+        "correlation": -0.007317558715705188
+      },
+      {
+        "lag_symbols": 4185,
+        "correlation": 0.007302660565959497
+      },
+      {
+        "lag_symbols": 2119,
+        "correlation": -0.0072211254581372045
+      }
+    ],
+    "window": 100,
+    "near_mean": 1.4330394734011935,
+    "interior_mean": 1.4239211097370559,
+    "difference": 0.009118363664137652,
+    "permutation_p_two_sided": 0.0075
+  },
+  "status": "model-based physical gathering analysis; exact historical quire assignments and foldout panel topology are not encoded in RF transcription"
+}

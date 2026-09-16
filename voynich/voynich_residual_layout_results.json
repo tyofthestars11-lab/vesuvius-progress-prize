@@ -1,0 +1,2753 @@
+{
+  "source": "/tmp/vesuvius-progress-prize/voynich_rf1b-e.txt",
+  "phi": 1.618033988749895,
+  "operator": "prediction=phi^-1 previous + phi^-2 next",
+  "symbols": 188672,
+  "folios": 227,
+  "records": 5377,
+  "alphabet": [
+    "H",
+    "I",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x",
+    "y",
+    "z"
+  ],
+  "folio_residuals": [
+    {
+      "folio": "f111r",
+      "residual_energy": 4295.598346241292,
+      "symbols": 3158,
+      "lines": 54,
+      "energy_per_symbol": 1.3602274687274516
+    },
+    {
+      "folio": "f108v",
+      "residual_energy": 4028.694274321219,
+      "symbols": 2986,
+      "lines": 53,
+      "energy_per_symbol": 1.3491943316547954
+    },
+    {
+      "folio": "f111v",
+      "residual_energy": 4028.5703956611565,
+      "symbols": 2825,
+      "lines": 51,
+      "energy_per_symbol": 1.4260426179331527
+    },
+    {
+      "folio": "f113r",
+      "residual_energy": 3910.1245709411496,
+      "symbols": 2808,
+      "lines": 51,
+      "energy_per_symbol": 1.3924945053209223
+    },
+    {
+      "folio": "f76r",
+      "residual_energy": 3839.5811787960743,
+      "symbols": 2635,
+      "lines": 56,
+      "energy_per_symbol": 1.457146557417865
+    },
+    {
+      "folio": "f103r",
+      "residual_energy": 3786.8660304861073,
+      "symbols": 2696,
+      "lines": 54,
+      "energy_per_symbol": 1.4046238985482593
+    },
+    {
+      "folio": "fRos",
+      "residual_energy": 3644.0873035009636,
+      "symbols": 2507,
+      "lines": 160,
+      "energy_per_symbol": 1.4535649395695907
+    },
+    {
+      "folio": "f108r",
+      "residual_energy": 3629.7978799160464,
+      "symbols": 2548,
+      "lines": 50,
+      "energy_per_symbol": 1.4245674567959365
+    },
+    {
+      "folio": "f116r",
+      "residual_energy": 3602.735940586015,
+      "symbols": 2502,
+      "lines": 50,
+      "energy_per_symbol": 1.4399424222965689
+    },
+    {
+      "folio": "f104v",
+      "residual_energy": 3460.5130282260125,
+      "symbols": 2489,
+      "lines": 44,
+      "energy_per_symbol": 1.3903226308662164
+    },
+    {
+      "folio": "f115r",
+      "residual_energy": 3448.5594394559685,
+      "symbols": 2408,
+      "lines": 45,
+      "energy_per_symbol": 1.4321260130631097
+    },
+    {
+      "folio": "f113v",
+      "residual_energy": 3426.5919619309907,
+      "symbols": 2484,
+      "lines": 49,
+      "energy_per_symbol": 1.379465363096212
+    },
+    {
+      "folio": "f114r",
+      "residual_energy": 3410.1786596860084,
+      "symbols": 2469,
+      "lines": 45,
+      "energy_per_symbol": 1.3811983230806029
+    },
+    {
+      "folio": "f107r",
+      "residual_energy": 3405.483611371005,
+      "symbols": 2477,
+      "lines": 51,
+      "energy_per_symbol": 1.3748419908643539
+    },
+    {
+      "folio": "f86v6",
+      "residual_energy": 3389.9170136109506,
+      "symbols": 2383,
+      "lines": 45,
+      "energy_per_symbol": 1.4225417598031684
+    },
+    {
+      "folio": "f104r",
+      "residual_energy": 3330.808663050964,
+      "symbols": 2372,
+      "lines": 45,
+      "energy_per_symbol": 1.4042195038157521
+    },
+    {
+      "folio": "f106r",
+      "residual_energy": 3286.38914956595,
+      "symbols": 2332,
+      "lines": 47,
+      "energy_per_symbol": 1.4092577828327402
+    },
+    {
+      "folio": "f106v",
+      "residual_energy": 3282.218859675932,
+      "symbols": 2296,
+      "lines": 47,
+      "energy_per_symbol": 1.4295378308693083
+    },
+    {
+      "folio": "f107v",
+      "residual_energy": 3250.638373160947,
+      "symbols": 2328,
+      "lines": 49,
+      "energy_per_symbol": 1.3963223252409567
+    },
+    {
+      "folio": "f80r",
+      "residual_energy": 3214.7637180958804,
+      "symbols": 2185,
+      "lines": 53,
+      "energy_per_symbol": 1.4712877428356432
+    },
+    {
+      "folio": "f115v",
+      "residual_energy": 3127.1569203459007,
+      "symbols": 2204,
+      "lines": 45,
+      "energy_per_symbol": 1.4188552270171964
+    },
+    {
+      "folio": "f103v",
+      "residual_energy": 3091.1832315808933,
+      "symbols": 2189,
+      "lines": 46,
+      "energy_per_symbol": 1.4121440071178133
+    },
+    {
+      "folio": "f112v",
+      "residual_energy": 2885.760612475865,
+      "symbols": 2146,
+      "lines": 47,
+      "energy_per_symbol": 1.3447160356364702
+    },
+    {
+      "folio": "f114v",
+      "residual_energy": 2863.6166338208404,
+      "symbols": 2051,
+      "lines": 41,
+      "energy_per_symbol": 1.3962050871871479
+    },
+    {
+      "folio": "f75r",
+      "residual_energy": 2834.522172015785,
+      "symbols": 1923,
+      "lines": 53,
+      "energy_per_symbol": 1.474010489867803
+    },
+    {
+      "folio": "f76v",
+      "residual_energy": 2822.0036248308315,
+      "symbols": 2037,
+      "lines": 41,
+      "energy_per_symbol": 1.3853724225973645
+    },
+    {
+      "folio": "f58r",
+      "residual_energy": 2770.3982933557236,
+      "symbols": 1856,
+      "lines": 41,
+      "energy_per_symbol": 1.4926714942649373
+    },
+    {
+      "folio": "f105v",
+      "residual_energy": 2704.3317821308055,
+      "symbols": 2001,
+      "lines": 38,
+      "energy_per_symbol": 1.3514901459924065
+    },
+    {
+      "folio": "f112r",
+      "residual_energy": 2669.9912023507695,
+      "symbols": 1928,
+      "lines": 45,
+      "energy_per_symbol": 1.3848502086881584
+    },
+    {
+      "folio": "f80v",
+      "residual_energy": 2646.4246045907166,
+      "symbols": 1776,
+      "lines": 44,
+      "energy_per_symbol": 1.4901039440263044
+    },
+    {
+      "folio": "f83r",
+      "residual_energy": 2626.542272010747,
+      "symbols": 1814,
+      "lines": 55,
+      "energy_per_symbol": 1.447928485121691
+    },
+    {
+      "folio": "f79r",
+      "residual_energy": 2618.483438300733,
+      "symbols": 1811,
+      "lines": 44,
+      "energy_per_symbol": 1.445877105632652
+    },
+    {
+      "folio": "f58v",
+      "residual_energy": 2573.198586610697,
+      "symbols": 1751,
+      "lines": 39,
+      "energy_per_symbol": 1.4695594440952011
+    },
+    {
+      "folio": "f105r",
+      "residual_energy": 2535.768289990767,
+      "symbols": 1899,
+      "lines": 37,
+      "energy_per_symbol": 1.3353176882521152
+    },
+    {
+      "folio": "f86v5",
+      "residual_energy": 2486.2868371757227,
+      "symbols": 1791,
+      "lines": 39,
+      "energy_per_symbol": 1.3882115227111795
+    },
+    {
+      "folio": "f84r",
+      "residual_energy": 2472.4973270556643,
+      "symbols": 1672,
+      "lines": 47,
+      "energy_per_symbol": 1.4787663439328136
+    },
+    {
+      "folio": "f79v",
+      "residual_energy": 2446.7001394207055,
+      "symbols": 1741,
+      "lines": 42,
+      "energy_per_symbol": 1.4053418376913873
+    },
+    {
+      "folio": "f85r1",
+      "residual_energy": 2441.4741214406868,
+      "symbols": 1704,
+      "lines": 35,
+      "energy_per_symbol": 1.432789977371295
+    },
+    {
+      "folio": "f77v",
+      "residual_energy": 2384.539899528169,
+      "symbols": 1649,
+      "lines": 45,
+      "energy_per_symbol": 1.4460520918909454
+    },
+    {
+      "folio": "f75v",
+      "residual_energy": 2364.2155809856445,
+      "symbols": 1604,
+      "lines": 70,
+      "energy_per_symbol": 1.4739498634573844
+    },
+    {
+      "folio": "f66r",
+      "residual_energy": 2363.192375370668,
+      "symbols": 1636,
+      "lines": 80,
+      "energy_per_symbol": 1.4444941169747358
+    },
+    {
+      "folio": "f77r",
+      "residual_energy": 2360.073974813199,
+      "symbols": 1712,
+      "lines": 50,
+      "energy_per_symbol": 1.3785478824843453
+    },
+    {
+      "folio": "f82v",
+      "residual_energy": 2359.9400461556556,
+      "symbols": 1606,
+      "lines": 48,
+      "energy_per_symbol": 1.4694520835340321
+    },
+    {
+      "folio": "f84v",
+      "residual_energy": 2246.0452910956274,
+      "symbols": 1555,
+      "lines": 50,
+      "energy_per_symbol": 1.4444021164602106
+    },
+    {
+      "folio": "f82r",
+      "residual_energy": 2114.07160233062,
+      "symbols": 1519,
+      "lines": 45,
+      "energy_per_symbol": 1.3917522069326003
+    },
+    {
+      "folio": "f86v3",
+      "residual_energy": 1966.288303450593,
+      "symbols": 1452,
+      "lines": 36,
+      "energy_per_symbol": 1.3541930464535765
+    },
+    {
+      "folio": "f83v",
+      "residual_energy": 1963.141219175554,
+      "symbols": 1354,
+      "lines": 35,
+      "energy_per_symbol": 1.449882732035121
+    },
+    {
+      "folio": "f78r",
+      "residual_energy": 1926.498793330536,
+      "symbols": 1335,
+      "lines": 47,
+      "energy_per_symbol": 1.4430702571764316
+    },
+    {
+      "folio": "f78v",
+      "residual_energy": 1898.551415800521,
+      "symbols": 1294,
+      "lines": 32,
+      "energy_per_symbol": 1.4671958391039575
+    },
+    {
+      "folio": "f81v",
+      "residual_energy": 1668.8470506254732,
+      "symbols": 1164,
+      "lines": 28,
+      "energy_per_symbol": 1.4337173974445647
+    },
+    {
+      "folio": "f89r2",
+      "residual_energy": 1625.345497815466,
+      "symbols": 1162,
+      "lines": 34,
+      "energy_per_symbol": 1.3987482769496264
+    },
+    {
+      "folio": "f70r2",
+      "residual_energy": 1541.6148214054244,
+      "symbols": 1083,
+      "lines": 19,
+      "energy_per_symbol": 1.4234670557760152
+    },
+    {
+      "folio": "f101r",
+      "residual_energy": 1449.778900055412,
+      "symbols": 1029,
+      "lines": 10,
+      "energy_per_symbol": 1.4089202138536558
+    },
+    {
+      "folio": "f101v",
+      "residual_energy": 1429.025018030393,
+      "symbols": 1011,
+      "lines": 28,
+      "energy_per_symbol": 1.413476773521655
+    },
+    {
+      "folio": "f1r",
+      "residual_energy": 1386.8021056703894,
+      "symbols": 961,
+      "lines": 28,
+      "energy_per_symbol": 1.4430823159941617
+    },
+    {
+      "folio": "f81r",
+      "residual_energy": 1365.7990000503744,
+      "symbols": 937,
+      "lines": 31,
+      "energy_per_symbol": 1.457629669210645
+    },
+    {
+      "folio": "f99r",
+      "residual_energy": 1320.881039375368,
+      "symbols": 926,
+      "lines": 52,
+      "energy_per_symbol": 1.4264374075327948
+    },
+    {
+      "folio": "f99v",
+      "residual_energy": 1301.819100045337,
+      "symbols": 898,
+      "lines": 44,
+      "energy_per_symbol": 1.4496871938144065
+    },
+    {
+      "folio": "f86v4",
+      "residual_energy": 1277.2943416203518,
+      "symbols": 893,
+      "lines": 9,
+      "energy_per_symbol": 1.4303408080855005
+    },
+    {
+      "folio": "f67r2",
+      "residual_energy": 1247.6124489228457,
+      "symbols": 871,
+      "lines": 74,
+      "energy_per_symbol": 1.4323908713235887
+    },
+    {
+      "folio": "f72r3",
+      "residual_energy": 1195.2355079103359,
+      "symbols": 859,
+      "lines": 34,
+      "energy_per_symbol": 1.3914266681144771
+    },
+    {
+      "folio": "f89v2",
+      "residual_energy": 1166.9274506053234,
+      "symbols": 819,
+      "lines": 27,
+      "energy_per_symbol": 1.424819842008942
+    },
+    {
+      "folio": "f102v2",
+      "residual_energy": 1165.37327532533,
+      "symbols": 843,
+      "lines": 39,
+      "energy_per_symbol": 1.382411951750095
+    },
+    {
+      "folio": "f68v3",
+      "residual_energy": 1153.5373539753175,
+      "symbols": 812,
+      "lines": 19,
+      "energy_per_symbol": 1.4206125048957112
+    },
+    {
+      "folio": "f88v",
+      "residual_energy": 1140.1209461103185,
+      "symbols": 789,
+      "lines": 30,
+      "energy_per_symbol": 1.445020210532723
+    },
+    {
+      "folio": "f93r",
+      "residual_energy": 1112.4491034102934,
+      "symbols": 744,
+      "lines": 32,
+      "energy_per_symbol": 1.4952272895299643
+    },
+    {
+      "folio": "f49v",
+      "residual_energy": 1104.9537618403165,
+      "symbols": 768,
+      "lines": 47,
+      "energy_per_symbol": 1.4387418773962455
+    },
+    {
+      "folio": "f89v1",
+      "residual_energy": 1100.8949281303005,
+      "symbols": 756,
+      "lines": 24,
+      "energy_per_symbol": 1.4562102223945774
+    },
+    {
+      "folio": "f46r",
+      "residual_energy": 1093.0063843103019,
+      "symbols": 752,
+      "lines": 15,
+      "energy_per_symbol": 1.4534659365828482
+    },
+    {
+      "folio": "f85r2",
+      "residual_energy": 1092.2850247603062,
+      "symbols": 771,
+      "lines": 24,
+      "energy_per_symbol": 1.416712094371344
+    },
+    {
+      "folio": "f67r1",
+      "residual_energy": 1090.5768208278068,
+      "symbols": 783,
+      "lines": 19,
+      "energy_per_symbol": 1.3928184174046065
+    },
+    {
+      "folio": "f88r",
+      "residual_energy": 1062.7246382402827,
+      "symbols": 710,
+      "lines": 31,
+      "energy_per_symbol": 1.4967952651271588
+    },
+    {
+      "folio": "f43v",
+      "residual_energy": 1039.059006780288,
+      "symbols": 715,
+      "lines": 16,
+      "energy_per_symbol": 1.4532293801122909
+    },
+    {
+      "folio": "f69r",
+      "residual_energy": 1025.695221385275,
+      "symbols": 698,
+      "lines": 49,
+      "energy_per_symbol": 1.469477394534778
+    },
+    {
+      "folio": "f39r",
+      "residual_energy": 1018.363958465285,
+      "symbols": 714,
+      "lines": 16,
+      "energy_per_symbol": 1.426280053872948
+    },
+    {
+      "folio": "f43r",
+      "residual_energy": 1000.7509494752755,
+      "symbols": 691,
+      "lines": 14,
+      "energy_per_symbol": 1.4482647604562597
+    },
+    {
+      "folio": "f8r",
+      "residual_energy": 996.6131820602809,
+      "symbols": 689,
+      "lines": 21,
+      "energy_per_symbol": 1.446463254078782
+    },
+    {
+      "folio": "f89r1",
+      "residual_energy": 983.4459977902785,
+      "symbols": 683,
+      "lines": 27,
+      "energy_per_symbol": 1.439891651230276
+    },
+    {
+      "folio": "f102r2",
+      "residual_energy": 958.0822123952654,
+      "symbols": 672,
+      "lines": 22,
+      "energy_per_symbol": 1.425717577969145
+    },
+    {
+      "folio": "f42r",
+      "residual_energy": 956.0559011602726,
+      "symbols": 663,
+      "lines": 23,
+      "energy_per_symbol": 1.442014933876731
+    },
+    {
+      "folio": "f34r",
+      "residual_energy": 951.3020191352538,
+      "symbols": 640,
+      "lines": 15,
+      "energy_per_symbol": 1.486409404898834
+    },
+    {
+      "folio": "f70v2",
+      "residual_energy": 938.2462910452529,
+      "symbols": 654,
+      "lines": 33,
+      "energy_per_symbol": 1.4346273563383072
+    },
+    {
+      "folio": "f102v1",
+      "residual_energy": 936.8887168902702,
+      "symbols": 662,
+      "lines": 24,
+      "energy_per_symbol": 1.41523975361068
+    },
+    {
+      "folio": "f72v3",
+      "residual_energy": 919.3871640802623,
+      "symbols": 660,
+      "lines": 33,
+      "energy_per_symbol": 1.393010854667064
+    },
+    {
+      "folio": "f17v",
+      "residual_energy": 907.55124273025,
+      "symbols": 639,
+      "lines": 23,
+      "energy_per_symbol": 1.420267985493349
+    },
+    {
+      "folio": "f100r",
+      "residual_energy": 868.2726022802459,
+      "symbols": 608,
+      "lines": 27,
+      "energy_per_symbol": 1.4280799379609308
+    },
+    {
+      "folio": "f39v",
+      "residual_energy": 863.6038652002355,
+      "symbols": 595,
+      "lines": 14,
+      "energy_per_symbol": 1.451435067563421
+    },
+    {
+      "folio": "f69v",
+      "residual_energy": 859.6038652002352,
+      "symbols": 601,
+      "lines": 31,
+      "energy_per_symbol": 1.430289293178428
+    },
+    {
+      "folio": "f102r1",
+      "residual_energy": 834.5744483452278,
+      "symbols": 584,
+      "lines": 17,
+      "energy_per_symbol": 1.4290658362075819
+    },
+    {
+      "folio": "f95v1",
+      "residual_energy": 829.0202730652344,
+      "symbols": 571,
+      "lines": 13,
+      "energy_per_symbol": 1.451874383651899
+    },
+    {
+      "folio": "f3r",
+      "residual_energy": 828.7122157602222,
+      "symbols": 556,
+      "lines": 20,
+      "energy_per_symbol": 1.4904895966910472
+    },
+    {
+      "folio": "f72v2",
+      "residual_energy": 827.380952840232,
+      "symbols": 585,
+      "lines": 33,
+      "energy_per_symbol": 1.4143264151115076
+    },
+    {
+      "folio": "f66v",
+      "residual_energy": 825.6038652002356,
+      "symbols": 575,
+      "lines": 13,
+      "energy_per_symbol": 1.435832809043888
+    },
+    {
+      "folio": "f68r3",
+      "residual_energy": 814.2826522777268,
+      "symbols": 571,
+      "lines": 22,
+      "energy_per_symbol": 1.426064189628243
+    },
+    {
+      "folio": "f8v",
+      "residual_energy": 805.1580404802288,
+      "symbols": 556,
+      "lines": 17,
+      "energy_per_symbol": 1.4481259720867425
+    },
+    {
+      "folio": "f49r",
+      "residual_energy": 804.2400798052226,
+      "symbols": 552,
+      "lines": 21,
+      "energy_per_symbol": 1.4569566663138092
+    },
+    {
+      "folio": "f34v",
+      "residual_energy": 799.184351715222,
+      "symbols": 549,
+      "lines": 11,
+      "energy_per_symbol": 1.455709201667071
+    },
+    {
+      "folio": "f48v",
+      "residual_energy": 798.3515359852244,
+      "symbols": 560,
+      "lines": 11,
+      "energy_per_symbol": 1.4256277428307578
+    },
+    {
+      "folio": "f70r1",
+      "residual_energy": 792.9877505902109,
+      "symbols": 540,
+      "lines": 19,
+      "energy_per_symbol": 1.4684958344263166
+    },
+    {
+      "folio": "f87r",
+      "residual_energy": 767.6564876702212,
+      "symbols": 545,
+      "lines": 16,
+      "energy_per_symbol": 1.4085440140738004
+    },
+    {
+      "folio": "f68v2",
+      "residual_energy": 766.7122157602223,
+      "symbols": 549,
+      "lines": 18,
+      "energy_per_symbol": 1.3965614130422992
+    },
+    {
+      "folio": "f72v1",
+      "residual_energy": 764.7648382302077,
+      "symbols": 533,
+      "lines": 33,
+      "energy_per_symbol": 1.4348308409572377
+    },
+    {
+      "folio": "f72r2",
+      "residual_energy": 764.2663910402156,
+      "symbols": 539,
+      "lines": 32,
+      "energy_per_symbol": 1.4179339351395466
+    },
+    {
+      "folio": "f72r1",
+      "residual_energy": 762.0697899152051,
+      "symbols": 526,
+      "lines": 18,
+      "energy_per_symbol": 1.4488018819680706
+    },
+    {
+      "folio": "f6v",
+      "residual_energy": 754.653382050206,
+      "symbols": 510,
+      "lines": 21,
+      "energy_per_symbol": 1.4797125138239333
+    },
+    {
+      "folio": "f55r",
+      "residual_energy": 741.9320225002102,
+      "symbols": 523,
+      "lines": 13,
+      "energy_per_symbol": 1.4186080736141686
+    },
+    {
+      "folio": "f46v",
+      "residual_energy": 737.7091101402071,
+      "symbols": 506,
+      "lines": 13,
+      "energy_per_symbol": 1.4579231425695793
+    },
+    {
+      "folio": "f41r",
+      "residual_energy": 734.1812460952067,
+      "symbols": 509,
+      "lines": 11,
+      "energy_per_symbol": 1.4423993047057106
+    },
+    {
+      "folio": "f31v",
+      "residual_energy": 728.2927022752083,
+      "symbols": 517,
+      "lines": 11,
+      "energy_per_symbol": 1.4086899463737104
+    },
+    {
+      "folio": "f56r",
+      "residual_energy": 723.2632854202001,
+      "symbols": 490,
+      "lines": 19,
+      "energy_per_symbol": 1.4760475212657145
+    },
+    {
+      "folio": "f22r",
+      "residual_energy": 717.2632854202003,
+      "symbols": 503,
+      "lines": 13,
+      "energy_per_symbol": 1.4259707463622273
+    },
+    {
+      "folio": "f42v",
+      "residual_energy": 716.6796932851989,
+      "symbols": 500,
+      "lines": 16,
+      "energy_per_symbol": 1.433359386570398
+    },
+    {
+      "folio": "f95r1",
+      "residual_energy": 715.709110140207,
+      "symbols": 505,
+      "lines": 11,
+      "energy_per_symbol": 1.4172457626538753
+    },
+    {
+      "folio": "f73r",
+      "residual_energy": 703.4861977802035,
+      "symbols": 514,
+      "lines": 33,
+      "energy_per_symbol": 1.368650190233859
+    },
+    {
+      "folio": "f21r",
+      "residual_energy": 699.1518292401985,
+      "symbols": 492,
+      "lines": 12,
+      "energy_per_symbol": 1.4210403033337367
+    },
+    {
+      "folio": "f100v",
+      "residual_energy": 695.4273640701877,
+      "symbols": 477,
+      "lines": 22,
+      "energy_per_symbol": 1.45791900224358
+    },
+    {
+      "folio": "f30r",
+      "residual_energy": 693.0403730601969,
+      "symbols": 484,
+      "lines": 13,
+      "energy_per_symbol": 1.4319015972318117
+    },
+    {
+      "folio": "f31r",
+      "residual_energy": 692.8762944102094,
+      "symbols": 507,
+      "lines": 16,
+      "energy_per_symbol": 1.3666199100793086
+    },
+    {
+      "folio": "f23r",
+      "residual_energy": 679.6765876651838,
+      "symbols": 464,
+      "lines": 11,
+      "energy_per_symbol": 1.464820232037034
+    },
+    {
+      "folio": "f71v",
+      "residual_energy": 678.7323157551847,
+      "symbols": 473,
+      "lines": 18,
+      "energy_per_symbol": 1.4349520417657182
+    },
+    {
+      "folio": "f50v",
+      "residual_energy": 676.2338685651923,
+      "symbols": 471,
+      "lines": 11,
+      "energy_per_symbol": 1.435740697590642
+    },
+    {
+      "folio": "f40v",
+      "residual_energy": 673.8731887901943,
+      "symbols": 477,
+      "lines": 19,
+      "energy_per_symbol": 1.4127320519710571
+    },
+    {
+      "folio": "f71r",
+      "residual_energy": 673.8143550801784,
+      "symbols": 469,
+      "lines": 18,
+      "energy_per_symbol": 1.436704381834069
+    },
+    {
+      "folio": "f73v",
+      "residual_energy": 671.289596655193,
+      "symbols": 483,
+      "lines": 33,
+      "energy_per_symbol": 1.3898335334476046
+    },
+    {
+      "folio": "f70v1",
+      "residual_energy": 671.1193067651755,
+      "symbols": 459,
+      "lines": 17,
+      "energy_per_symbol": 1.4621335659372015
+    },
+    {
+      "folio": "f68r2",
+      "residual_energy": 661.6340151926793,
+      "symbols": 462,
+      "lines": 31,
+      "energy_per_symbol": 1.4321082579928124
+    },
+    {
+      "folio": "f20r",
+      "residual_energy": 661.1781404751913,
+      "symbols": 469,
+      "lines": 13,
+      "energy_per_symbol": 1.4097614935505145
+    },
+    {
+      "folio": "f50r",
+      "residual_energy": 660.2864910351781,
+      "symbols": 452,
+      "lines": 10,
+      "energy_per_symbol": 1.4608108208742878
+    },
+    {
+      "folio": "f54r",
+      "residual_energy": 659.565131485182,
+      "symbols": 451,
+      "lines": 12,
+      "energy_per_symbol": 1.4624504024061684
+    },
+    {
+      "folio": "f48r",
+      "residual_energy": 657.7880438451857,
+      "symbols": 457,
+      "lines": 9,
+      "energy_per_symbol": 1.439361146269553
+    },
+    {
+      "folio": "f93v",
+      "residual_energy": 657.7880438451856,
+      "symbols": 457,
+      "lines": 10,
+      "energy_per_symbol": 1.4393611462695528
+    },
+    {
+      "folio": "f57v",
+      "residual_energy": 657.5914427201752,
+      "symbols": 447,
+      "lines": 13,
+      "energy_per_symbol": 1.4711217957945755
+    },
+    {
+      "folio": "f51r",
+      "residual_energy": 656.8437719351864,
+      "symbols": 458,
+      "lines": 15,
+      "energy_per_symbol": 1.4341567072820665
+    },
+    {
+      "folio": "f44v",
+      "residual_energy": 655.3422191251789,
+      "symbols": 449,
+      "lines": 13,
+      "energy_per_symbol": 1.459559508073895
+    },
+    {
+      "folio": "f87v",
+      "residual_energy": 654.5094033951814,
+      "symbols": 456,
+      "lines": 16,
+      "energy_per_symbol": 1.4353276390245207
+    },
+    {
+      "folio": "f90v1",
+      "residual_energy": 654.371635980187,
+      "symbols": 474,
+      "lines": 11,
+      "energy_per_symbol": 1.380530877595331
+    },
+    {
+      "folio": "f94v",
+      "residual_energy": 654.1487236201835,
+      "symbols": 455,
+      "lines": 12,
+      "energy_per_symbol": 1.4376895024619418
+    },
+    {
+      "folio": "f57r",
+      "residual_energy": 650.7323157551848,
+      "symbols": 458,
+      "lines": 11,
+      "energy_per_symbol": 1.4208129164960366
+    },
+    {
+      "folio": "f68v1",
+      "residual_energy": 647.0929955301825,
+      "symbols": 461,
+      "lines": 10,
+      "energy_per_symbol": 1.4036724414971422
+    },
+    {
+      "folio": "f2r",
+      "residual_energy": 645.0666842951897,
+      "symbols": 463,
+      "lines": 15,
+      "energy_per_symbol": 1.3932325794712521
+    },
+    {
+      "folio": "f96r",
+      "residual_energy": 643.7028989001766,
+      "symbols": 439,
+      "lines": 13,
+      "energy_per_symbol": 1.466293619362589
+    },
+    {
+      "folio": "f24r",
+      "residual_energy": 636.3979472151797,
+      "symbols": 444,
+      "lines": 20,
+      "energy_per_symbol": 1.4333287099440983
+    },
+    {
+      "folio": "f10r",
+      "residual_energy": 633.3685303601716,
+      "symbols": 431,
+      "lines": 12,
+      "energy_per_symbol": 1.4695325530398413
+    },
+    {
+      "folio": "f26v",
+      "residual_energy": 632.5094033951814,
+      "symbols": 451,
+      "lines": 9,
+      "energy_per_symbol": 1.4024598744904244
+    },
+    {
+      "folio": "f55v",
+      "residual_energy": 622.9815393501808,
+      "symbols": 449,
+      "lines": 12,
+      "energy_per_symbol": 1.3874867246106477
+    },
+    {
+      "folio": "f56v",
+      "residual_energy": 618.8700831701793,
+      "symbols": 439,
+      "lines": 16,
+      "energy_per_symbol": 1.4097268409343493
+    },
+    {
+      "folio": "f18r",
+      "residual_energy": 603.3948415951643,
+      "symbols": 407,
+      "lines": 14,
+      "energy_per_symbol": 1.482542608341927
+    },
+    {
+      "folio": "f15r",
+      "residual_energy": 603.0078505851737,
+      "symbols": 425,
+      "lines": 15,
+      "energy_per_symbol": 1.4188420013768794
+    },
+    {
+      "folio": "f37v",
+      "residual_energy": 603.0078505851736,
+      "symbols": 438,
+      "lines": 23,
+      "energy_per_symbol": 1.3767302524775653
+    },
+    {
+      "folio": "f33v",
+      "residual_energy": 602.3391135051637,
+      "symbols": 417,
+      "lines": 11,
+      "energy_per_symbol": 1.4444583057677787
+    },
+    {
+      "folio": "f40r",
+      "residual_energy": 600.0047449651586,
+      "symbols": 412,
+      "lines": 11,
+      "energy_per_symbol": 1.4563221965173752
+    },
+    {
+      "folio": "f35r",
+      "residual_energy": 598.1487236201833,
+      "symbols": 443,
+      "lines": 15,
+      "energy_per_symbol": 1.3502228524157638
+    },
+    {
+      "folio": "f51v",
+      "residual_energy": 596.6734820451686,
+      "symbols": 416,
+      "lines": 13,
+      "energy_per_symbol": 1.4343112549162707
+    },
+    {
+      "folio": "f54v",
+      "residual_energy": 591.25707418017,
+      "symbols": 413,
+      "lines": 16,
+      "energy_per_symbol": 1.4316151917195399
+    },
+    {
+      "folio": "f29v",
+      "residual_energy": 590.0898899101675,
+      "symbols": 416,
+      "lines": 12,
+      "energy_per_symbol": 1.4184853122840564
+    },
+    {
+      "folio": "f23v",
+      "residual_energy": 587.6703764251536,
+      "symbols": 404,
+      "lines": 12,
+      "energy_per_symbol": 1.4546296446167168
+    },
+    {
+      "folio": "f35v",
+      "residual_energy": 585.9521224951728,
+      "symbols": 418,
+      "lines": 21,
+      "energy_per_symbol": 1.4017993361128536
+    },
+    {
+      "folio": "f1v",
+      "residual_energy": 581.7818326051552,
+      "symbols": 388,
+      "lines": 10,
+      "energy_per_symbol": 1.4994377128998844
+    },
+    {
+      "folio": "f24v",
+      "residual_energy": 580.168823615146,
+      "symbols": 390,
+      "lines": 16,
+      "energy_per_symbol": 1.4876123682439641
+    },
+    {
+      "folio": "f4v",
+      "residual_energy": 580.0898899101675,
+      "symbols": 410,
+      "lines": 14,
+      "energy_per_symbol": 1.4148533900247988
+    },
+    {
+      "folio": "f9r",
+      "residual_energy": 577.0604730551594,
+      "symbols": 396,
+      "lines": 10,
+      "energy_per_symbol": 1.4572234168059581
+    },
+    {
+      "folio": "f26r",
+      "residual_energy": 570.922705640165,
+      "symbols": 406,
+      "lines": 10,
+      "energy_per_symbol": 1.4062135606900614
+    },
+    {
+      "folio": "f45r",
+      "residual_energy": 569.0604730551595,
+      "symbols": 392,
+      "lines": 11,
+      "energy_per_symbol": 1.4516848802427538
+    },
+    {
+      "folio": "f17r",
+      "residual_energy": 567.6966876601464,
+      "symbols": 377,
+      "lines": 13,
+      "energy_per_symbol": 1.5058267577192213
+    },
+    {
+      "folio": "f47v",
+      "residual_energy": 565.1719292351612,
+      "symbols": 391,
+      "lines": 14,
+      "energy_per_symbol": 1.4454525044377524
+    },
+    {
+      "folio": "f67v1",
+      "residual_energy": 564.6997932801615,
+      "symbols": 412,
+      "lines": 29,
+      "energy_per_symbol": 1.3706305662139844
+    },
+    {
+      "folio": "f3v",
+      "residual_energy": 563.1982404701539,
+      "symbols": 384,
+      "lines": 14,
+      "energy_per_symbol": 1.4666620845576925
+    },
+    {
+      "folio": "f27r",
+      "residual_energy": 557.4211528301573,
+      "symbols": 381,
+      "lines": 13,
+      "energy_per_symbol": 1.46304764522351
+    },
+    {
+      "folio": "f45v",
+      "residual_energy": 555.2508629401397,
+      "symbols": 362,
+      "lines": 11,
+      "energy_per_symbol": 1.5338421628180654
+    },
+    {
+      "folio": "f9v",
+      "residual_energy": 549.6703764251536,
+      "symbols": 386,
+      "lines": 12,
+      "energy_per_symbol": 1.4240165192361491
+    },
+    {
+      "folio": "f6r",
+      "residual_energy": 547.3096966501557,
+      "symbols": 385,
+      "lines": 14,
+      "energy_per_symbol": 1.421583627662742
+    },
+    {
+      "folio": "f95r2",
+      "residual_energy": 547.1130955251451,
+      "symbols": 369,
+      "lines": 9,
+      "energy_per_symbol": 1.482691315786301
+    },
+    {
+      "folio": "f16r",
+      "residual_energy": 546.863871930149,
+      "symbols": 377,
+      "lines": 13,
+      "energy_per_symbol": 1.450567299549467
+    },
+    {
+      "folio": "f20v",
+      "residual_energy": 546.503192155151,
+      "symbols": 375,
+      "lines": 11,
+      "energy_per_symbol": 1.4573418457470695
+    },
+    {
+      "folio": "f68r1",
+      "residual_energy": 545.4474640651501,
+      "symbols": 381,
+      "lines": 37,
+      "energy_per_symbol": 1.4316206405909453
+    },
+    {
+      "folio": "f94r",
+      "residual_energy": 545.3096966501556,
+      "symbols": 381,
+      "lines": 9,
+      "energy_per_symbol": 1.4312590463258679
+    },
+    {
+      "folio": "f52v",
+      "residual_energy": 543.4211528301573,
+      "symbols": 387,
+      "lines": 14,
+      "energy_per_symbol": 1.4041890254009233
+    },
+    {
+      "folio": "f53v",
+      "residual_energy": 537.1982404701539,
+      "symbols": 379,
+      "lines": 13,
+      "energy_per_symbol": 1.4174096054621474
+    },
+    {
+      "folio": "f22v",
+      "residual_energy": 534.1425123801531,
+      "symbols": 374,
+      "lines": 16,
+      "energy_per_symbol": 1.4281885357758104
+    },
+    {
+      "folio": "f37r",
+      "residual_energy": 532.2802797951476,
+      "symbols": 371,
+      "lines": 11,
+      "energy_per_symbol": 1.4347177352968938
+    },
+    {
+      "folio": "f44r",
+      "residual_energy": 527.8344550751409,
+      "symbols": 358,
+      "lines": 11,
+      "energy_per_symbol": 1.4743979192043042
+    },
+    {
+      "folio": "f32r",
+      "residual_energy": 525.1130955251451,
+      "symbols": 357,
+      "lines": 19,
+      "energy_per_symbol": 1.4709050294821993
+    },
+    {
+      "folio": "f16v",
+      "residual_energy": 522.8901831651417,
+      "symbols": 352,
+      "lines": 13,
+      "energy_per_symbol": 1.4854834749009707
+    },
+    {
+      "folio": "f32v",
+      "residual_energy": 522.7261045151544,
+      "symbols": 372,
+      "lines": 11,
+      "energy_per_symbol": 1.4051777003095547
+    },
+    {
+      "folio": "f90r1",
+      "residual_energy": 519.3623191201414,
+      "symbols": 350,
+      "lines": 9,
+      "energy_per_symbol": 1.4838923403432611
+    },
+    {
+      "folio": "f19v",
+      "residual_energy": 519.0016393451435,
+      "symbols": 359,
+      "lines": 14,
+      "energy_per_symbol": 1.4456870176744945
+    },
+    {
+      "folio": "f47r",
+      "residual_energy": 514.0573674351443,
+      "symbols": 352,
+      "lines": 11,
+      "energy_per_symbol": 1.4603902483952964
+    },
+    {
+      "folio": "f7v",
+      "residual_energy": 501.1130955251451,
+      "symbols": 358,
+      "lines": 9,
+      "energy_per_symbol": 1.3997572500702378
+    },
+    {
+      "folio": "f13r",
+      "residual_energy": 500.1951348501388,
+      "symbols": 342,
+      "lines": 10,
+      "energy_per_symbol": 1.4625588738308153
+    },
+    {
+      "folio": "f14r",
+      "residual_energy": 499.3886303551341,
+      "symbols": 344,
+      "lines": 13,
+      "energy_per_symbol": 1.451711134753297
+    },
+    {
+      "folio": "f28r",
+      "residual_energy": 499.13940676013794,
+      "symbols": 342,
+      "lines": 9,
+      "energy_per_symbol": 1.4594719495910466
+    },
+    {
+      "folio": "f19r",
+      "residual_energy": 497.9722224901355,
+      "symbols": 337,
+      "lines": 13,
+      "energy_per_symbol": 1.4776623812763665
+    },
+    {
+      "folio": "f33r",
+      "residual_energy": 490.4180472101423,
+      "symbols": 352,
+      "lines": 7,
+      "energy_per_symbol": 1.393233088665177
+    },
+    {
+      "folio": "f14v",
+      "residual_energy": 479.77562136512495,
+      "symbols": 324,
+      "lines": 9,
+      "energy_per_symbol": 1.4807889548306326
+    },
+    {
+      "folio": "f7r",
+      "residual_energy": 479.25086294013965,
+      "symbols": 342,
+      "lines": 10,
+      "energy_per_symbol": 1.401318312690467
+    },
+    {
+      "folio": "f41v",
+      "residual_energy": 478.8901831651418,
+      "symbols": 346,
+      "lines": 8,
+      "energy_per_symbol": 1.3840756738876931
+    },
+    {
+      "folio": "f36v",
+      "residual_energy": 476.3329022651333,
+      "symbols": 334,
+      "lines": 14,
+      "energy_per_symbol": 1.426146413967465
+    },
+    {
+      "folio": "f30v",
+      "residual_energy": 473.86076631013367,
+      "symbols": 328,
+      "lines": 11,
+      "energy_per_symbol": 1.4446974582626027
+    },
+    {
+      "folio": "f52r",
+      "residual_energy": 465.6378539501304,
+      "symbols": 319,
+      "lines": 8,
+      "energy_per_symbol": 1.4596797929471172
+    },
+    {
+      "folio": "f67v2",
+      "residual_energy": 451.4675640601127,
+      "symbols": 299,
+      "lines": 22,
+      "energy_per_symbol": 1.5099249634117482
+    },
+    {
+      "folio": "f90v2",
+      "residual_energy": 448.6935820401313,
+      "symbols": 325,
+      "lines": 8,
+      "energy_per_symbol": 1.3805956370465577
+    },
+    {
+      "folio": "f4r",
+      "residual_energy": 448.10998990512985,
+      "symbols": 319,
+      "lines": 13,
+      "energy_per_symbol": 1.4047335106743883
+    },
+    {
+      "folio": "f96v",
+      "residual_energy": 444.0248449601211,
+      "symbols": 311,
+      "lines": 13,
+      "energy_per_symbol": 1.42773262045055
+    },
+    {
+      "folio": "f15v",
+      "residual_energy": 441.44125282511993,
+      "symbols": 303,
+      "lines": 12,
+      "energy_per_symbol": 1.4569018245053462
+    },
+    {
+      "folio": "f95v2",
+      "residual_energy": 436.49698091512073,
+      "symbols": 302,
+      "lines": 7,
+      "energy_per_symbol": 1.4453542414407972
+    },
+    {
+      "folio": "f29r",
+      "residual_energy": 432.6084370951223,
+      "symbols": 299,
+      "lines": 9,
+      "energy_per_symbol": 1.4468509601843556
+    },
+    {
+      "folio": "f28v",
+      "residual_energy": 428.13630114012284,
+      "symbols": 302,
+      "lines": 9,
+      "energy_per_symbol": 1.41766987132491
+    },
+    {
+      "folio": "f18v",
+      "residual_energy": 424.85766069011856,
+      "symbols": 293,
+      "lines": 10,
+      "energy_per_symbol": 1.4500261457000634
+    },
+    {
+      "folio": "f13v",
+      "residual_energy": 424.52329215011355,
+      "symbols": 287,
+      "lines": 10,
+      "energy_per_symbol": 1.479175233972521
+    },
+    {
+      "folio": "f27v",
+      "residual_energy": 420.6347483301153,
+      "symbols": 282,
+      "lines": 8,
+      "energy_per_symbol": 1.4916125827309055
+    },
+    {
+      "folio": "f2v",
+      "residual_energy": 397.5790202401144,
+      "symbols": 281,
+      "lines": 8,
+      "energy_per_symbol": 1.4148719581498732
+    },
+    {
+      "folio": "f21v",
+      "residual_energy": 396.16261237511566,
+      "symbols": 282,
+      "lines": 8,
+      "energy_per_symbol": 1.404831958777006
+    },
+    {
+      "folio": "f36r",
+      "residual_energy": 395.356107880111,
+      "symbols": 276,
+      "lines": 9,
+      "energy_per_symbol": 1.432449666232286
+    },
+    {
+      "folio": "f53r",
+      "residual_energy": 389.6316427101001,
+      "symbols": 260,
+      "lines": 9,
+      "energy_per_symbol": 1.4985832411926927
+    },
+    {
+      "folio": "f25v",
+      "residual_energy": 386.2740685551174,
+      "symbols": 282,
+      "lines": 7,
+      "energy_per_symbol": 1.3697662005500617
+    },
+    {
+      "folio": "f5r",
+      "residual_energy": 379.49387529510557,
+      "symbols": 265,
+      "lines": 7,
+      "energy_per_symbol": 1.4320523596041719
+    },
+    {
+      "folio": "f10v",
+      "residual_energy": 376.0774674301068,
+      "symbols": 266,
+      "lines": 7,
+      "energy_per_symbol": 1.4138250655267173
+    },
+    {
+      "folio": "f11r",
+      "residual_energy": 358.5759146200993,
+      "symbols": 248,
+      "lines": 7,
+      "energy_per_symbol": 1.4458706234681424
+    },
+    {
+      "folio": "f38v",
+      "residual_energy": 355.6053314751073,
+      "symbols": 266,
+      "lines": 8,
+      "energy_per_symbol": 1.336862148402659
+    },
+    {
+      "folio": "f25r",
+      "residual_energy": 355.2709629351022,
+      "symbols": 250,
+      "lines": 7,
+      "energy_per_symbol": 1.4210838517404087
+    },
+    {
+      "folio": "f5v",
+      "residual_energy": 320.01863372009086,
+      "symbols": 226,
+      "lines": 6,
+      "energy_per_symbol": 1.4160116536287206
+    },
+    {
+      "folio": "f11v",
+      "residual_energy": 313.57280900008413,
+      "symbols": 208,
+      "lines": 7,
+      "energy_per_symbol": 1.5075615817311738
+    },
+    {
+      "folio": "f65v",
+      "residual_energy": 308.15640113508533,
+      "symbols": 211,
+      "lines": 6,
+      "energy_per_symbol": 1.460456877417466
+    },
+    {
+      "folio": "f90r2",
+      "residual_energy": 302.87776068508117,
+      "symbols": 213,
+      "lines": 6,
+      "energy_per_symbol": 1.421961317770334
+    },
+    {
+      "folio": "f38r",
+      "residual_energy": 282.54339214507615,
+      "symbols": 195,
+      "lines": 6,
+      "energy_per_symbol": 1.4489404725388522
+    },
+    {
+      "folio": "f65r",
+      "residual_energy": 19.278640450004204,
+      "symbols": 12,
+      "lines": 1,
+      "energy_per_symbol": 1.6065533708336837
+    },
+    {
+      "folio": "f116v",
+      "residual_energy": 12.695048315002943,
+      "symbols": 9,
+      "lines": 1,
+      "energy_per_symbol": 1.4105609238892158
+    }
+  ],
+  "layout_bands_20": [
+    {
+      "layout_band": 0,
+      "residual_energy": 29361.15227638321,
+      "symbols": 20438,
+      "energy_per_symbol": 1.43659615795984
+    },
+    {
+      "layout_band": 1,
+      "residual_energy": 22726.769551983914,
+      "symbols": 15906,
+      "energy_per_symbol": 1.4288173992194086
+    },
+    {
+      "layout_band": 2,
+      "residual_energy": 22952.12328738144,
+      "symbols": 16033,
+      "energy_per_symbol": 1.4315551230201111
+    },
+    {
+      "layout_band": 3,
+      "residual_energy": 20814.25449741585,
+      "symbols": 14497,
+      "energy_per_symbol": 1.4357628817973271
+    },
+    {
+      "layout_band": 4,
+      "residual_energy": 17910.283395060043,
+      "symbols": 12492,
+      "energy_per_symbol": 1.4337402653746432
+    },
+    {
+      "layout_band": 5,
+      "residual_energy": 15675.018297224422,
+      "symbols": 11012,
+      "energy_per_symbol": 1.4234488101366165
+    },
+    {
+      "layout_band": 6,
+      "residual_energy": 12791.28015722611,
+      "symbols": 8970,
+      "energy_per_symbol": 1.4260067064912052
+    },
+    {
+      "layout_band": 7,
+      "residual_energy": 11208.301550425671,
+      "symbols": 7829,
+      "energy_per_symbol": 1.4316389769351987
+    },
+    {
+      "layout_band": 8,
+      "residual_energy": 10266.432200392928,
+      "symbols": 7236,
+      "energy_per_symbol": 1.4187993643439647
+    },
+    {
+      "layout_band": 9,
+      "residual_energy": 10232.049048140376,
+      "symbols": 7146,
+      "energy_per_symbol": 1.4318568497257733
+    },
+    {
+      "layout_band": 10,
+      "residual_energy": 9823.266482397792,
+      "symbols": 6912,
+      "energy_per_symbol": 1.421190173958014
+    },
+    {
+      "layout_band": 11,
+      "residual_energy": 8305.848262117375,
+      "symbols": 5895,
+      "energy_per_symbol": 1.4089649299605387
+    },
+    {
+      "layout_band": 12,
+      "residual_energy": 7929.987495807244,
+      "symbols": 5578,
+      "energy_per_symbol": 1.421654266010621
+    },
+    {
+      "layout_band": 13,
+      "residual_energy": 7358.582604214599,
+      "symbols": 5204,
+      "energy_per_symbol": 1.4140243282503073
+    },
+    {
+      "layout_band": 14,
+      "residual_energy": 7109.068628924528,
+      "symbols": 5036,
+      "energy_per_symbol": 1.4116498468873169
+    },
+    {
+      "layout_band": 15,
+      "residual_energy": 7059.036106449507,
+      "symbols": 4971,
+      "energy_per_symbol": 1.4200434734358294
+    },
+    {
+      "layout_band": 16,
+      "residual_energy": 6568.65058171439,
+      "symbols": 4672,
+      "energy_per_symbol": 1.4059611690313334
+    },
+    {
+      "layout_band": 17,
+      "residual_energy": 6182.970155291749,
+      "symbols": 4324,
+      "energy_per_symbol": 1.4299190923431426
+    },
+    {
+      "layout_band": 18,
+      "residual_energy": 5586.1751670691,
+      "symbols": 3965,
+      "energy_per_symbol": 1.408871416663077
+    },
+    {
+      "layout_band": 19,
+      "residual_energy": 28887.187171340815,
+      "symbols": 20556,
+      "energy_per_symbol": 1.4052922344493488
+    }
+  ],
+  "top_residual_loci": [
+    {
+      "locus": "f72v3.1,@Cc",
+      "page": "f72v3",
+      "line": 1,
+      "n": 241,
+      "start": 65942,
+      "residual_energy": 339.992322485098,
+      "residual_per_symbol": 1.4107565248344314,
+      "symbol_count": 241
+    },
+    {
+      "locus": "f72r3.1,@Cc",
+      "page": "f72r3",
+      "line": 1,
+      "n": 240,
+      "start": 65083,
+      "residual_energy": 335.18581799009337,
+      "residual_per_symbol": 1.3966075749587223,
+      "symbol_count": 240
+    },
+    {
+      "locus": "f68v3.5,@Cc",
+      "page": "f68v3",
+      "line": 5,
+      "n": 232,
+      "start": 57432,
+      "residual_energy": 332.4907696750904,
+      "residual_per_symbol": 1.4331498692891829,
+      "symbol_count": 232
+    },
+    {
+      "locus": "f68r3.1,@Cc",
+      "page": "f68r3",
+      "line": 1,
+      "n": 236,
+      "start": 56648,
+      "residual_energy": 325.00547810259445,
+      "residual_per_symbol": 1.3771418563669255,
+      "symbol_count": 236
+    },
+    {
+      "locus": "f70v2.1,@Cc",
+      "page": "f70v2",
+      "line": 1,
+      "n": 223,
+      "start": 61963,
+      "residual_energy": 314.4907696750905,
+      "residual_per_symbol": 1.4102725097537692,
+      "symbol_count": 223
+    },
+    {
+      "locus": "f72v1.1,@Cc",
+      "page": "f72v1",
+      "line": 1,
+      "n": 210,
+      "start": 67187,
+      "residual_energy": 308.5170809100833,
+      "residual_per_symbol": 1.4691289567146824,
+      "symbol_count": 210
+    },
+    {
+      "locus": "f72r1.1,@Cc",
+      "page": "f72r1",
+      "line": 1,
+      "n": 199,
+      "start": 64018,
+      "residual_energy": 285.1269842800774,
+      "residual_per_symbol": 1.4327989159802885,
+      "symbol_count": 199
+    },
+    {
+      "locus": "f86v4.1,@Cc",
+      "page": "f86v4",
+      "line": 1,
+      "n": 192,
+      "start": 107022,
+      "residual_energy": 284.43193596507444,
+      "residual_per_symbol": 1.4814163331514294,
+      "symbol_count": 192
+    },
+    {
+      "locus": "f70v1.1,@Cc",
+      "page": "f70v1",
+      "line": 1,
+      "n": 196,
+      "start": 62617,
+      "residual_energy": 279.1269842800774,
+      "residual_per_symbol": 1.4241172667350888,
+      "symbol_count": 196
+    },
+    {
+      "locus": "f70r1.2,@Cc",
+      "page": "f70r1",
+      "line": 2,
+      "n": 184,
+      "start": 60356,
+      "residual_energy": 274.904071920074,
+      "residual_per_symbol": 1.4940438691308369,
+      "symbol_count": 184
+    },
+    {
+      "locus": "f72r3.14,@Cc",
+      "page": "f72r3",
+      "line": 14,
+      "n": 194,
+      "start": 65438,
+      "residual_energy": 273.1269842800774,
+      "residual_per_symbol": 1.4078710529900897,
+      "symbol_count": 194
+    },
+    {
+      "locus": "f85r2.1,@Cc",
+      "page": "f85r2",
+      "line": 1,
+      "n": 193,
+      "start": 103744,
+      "residual_energy": 267.59912023507695,
+      "residual_per_symbol": 1.3865239390418496,
+      "symbol_count": 193
+    },
+    {
+      "locus": "f72v2.1,@Cc",
+      "page": "f72v2",
+      "line": 1,
+      "n": 189,
+      "start": 66602,
+      "residual_energy": 267.4876640550753,
+      "residual_per_symbol": 1.4152786457940492,
+      "symbol_count": 189
+    },
+    {
+      "locus": "f73r.5,@Cc",
+      "page": "f73r",
+      "line": 5,
+      "n": 193,
+      "start": 67742,
+      "residual_energy": 266.72373203257507,
+      "residual_per_symbol": 1.381988248873446,
+      "symbol_count": 193
+    },
+    {
+      "locus": "f67r1.5,@Cc",
+      "page": "f67r1",
+      "line": 5,
+      "n": 181,
+      "start": 53617,
+      "residual_energy": 257.9861112450677,
+      "residual_per_symbol": 1.4253376311882195,
+      "symbol_count": 181
+    },
+    {
+      "locus": "fRos.62,@Cc",
+      "page": "fRos",
+      "line": 62,
+      "n": 176,
+      "start": 105577,
+      "residual_energy": 255.58285899756538,
+      "residual_per_symbol": 1.4521753352134397,
+      "symbol_count": 176
+    },
+    {
+      "locus": "f71r.1,@Cc",
+      "page": "f71r",
+      "line": 1,
+      "n": 181,
+      "start": 63076,
+      "residual_energy": 254.9303831550669,
+      "residual_per_symbol": 1.4084551555528557,
+      "symbol_count": 181
+    },
+    {
+      "locus": "f68v1.1,@Cc",
+      "page": "f68v1",
+      "line": 1,
+      "n": 187,
+      "start": 58580,
+      "residual_energy": 254.54339214507613,
+      "residual_per_symbol": 1.3611946104014767,
+      "symbol_count": 187
+    },
+    {
+      "locus": "f68v1.2,@Cc",
+      "page": "f68v1",
+      "line": 2,
+      "n": 178,
+      "start": 58767,
+      "residual_energy": 251.62543147006983,
+      "residual_per_symbol": 1.4136260194947743,
+      "symbol_count": 178
+    },
+    {
+      "locus": "f71v.1,@Cc",
+      "page": "f71v",
+      "line": 1,
+      "n": 179,
+      "start": 63545,
+      "residual_energy": 247.15329551507025,
+      "residual_per_symbol": 1.3807446676819568,
+      "symbol_count": 179
+    },
+    {
+      "locus": "f72r2.6,@Cc",
+      "page": "f72r2",
+      "line": 6,
+      "n": 183,
+      "start": 64579,
+      "residual_energy": 246.90407192007405,
+      "residual_per_symbol": 1.349202578798219,
+      "symbol_count": 183
+    },
+    {
+      "locus": "f67r1.6,+Cc",
+      "page": "f67r1",
+      "line": 6,
+      "n": 172,
+      "start": 53798,
+      "residual_energy": 245.51397529006812,
+      "residual_per_symbol": 1.4274068330817913,
+      "symbol_count": 172
+    },
+    {
+      "locus": "f68v2.6,@Cc",
+      "page": "f68v2",
+      "line": 6,
+      "n": 182,
+      "start": 58260,
+      "residual_energy": 243.9598000100749,
+      "residual_per_symbol": 1.340438461593818,
+      "symbol_count": 182
+    },
+    {
+      "locus": "f70r2.15,@Cc",
+      "page": "f70r2",
+      "line": 15,
+      "n": 168,
+      "start": 61289,
+      "residual_energy": 243.874655065066,
+      "residual_per_symbol": 1.451634851577774,
+      "symbol_count": 168
+    },
+    {
+      "locus": "f73v.5,@Cc",
+      "page": "f73v",
+      "line": 5,
+      "n": 175,
+      "start": 68255,
+      "residual_energy": 240.68115956007068,
+      "residual_per_symbol": 1.3753209117718326,
+      "symbol_count": 175
+    },
+    {
+      "locus": "f57v.2,@Cc",
+      "page": "f57v",
+      "line": 2,
+      "n": 161,
+      "start": 46958,
+      "residual_energy": 238.59601461506182,
+      "residual_per_symbol": 1.481962823696036,
+      "symbol_count": 161
+    },
+    {
+      "locus": "f70r1.3,+Cc",
+      "page": "f70r1",
+      "line": 3,
+      "n": 161,
+      "start": 60540,
+      "residual_energy": 238.52713090756455,
+      "residual_per_symbol": 1.4815349745811464,
+      "symbol_count": 161
+    },
+    {
+      "locus": "f86v4.3,@Cc",
+      "page": "f86v4",
+      "line": 3,
+      "n": 161,
+      "start": 107389,
+      "residual_energy": 236.12387866006225,
+      "residual_per_symbol": 1.4666079419879643,
+      "symbol_count": 161
+    },
+    {
+      "locus": "f67r1.7,+Cc",
+      "page": "f67r1",
+      "line": 7,
+      "n": 168,
+      "start": 53970,
+      "residual_energy": 235.40251911006644,
+      "residual_per_symbol": 1.4012054708932526,
+      "symbol_count": 168
+    },
+    {
+      "locus": "f70v2.21,@Cc",
+      "page": "f70v2",
+      "line": 21,
+      "n": 171,
+      "start": 62281,
+      "residual_energy": 235.29106293006478,
+      "residual_per_symbol": 1.375971128245993,
+      "symbol_count": 171
+    },
+    {
+      "locus": "f86v4.4,@Cc",
+      "page": "f86v4",
+      "line": 4,
+      "n": 159,
+      "start": 107550,
+      "residual_energy": 234.59601461506185,
+      "residual_per_symbol": 1.4754466327991311,
+      "symbol_count": 159
+    },
+    {
+      "locus": "f69v.1,@Cc",
+      "page": "f69v",
+      "line": 1,
+      "n": 165,
+      "start": 59739,
+      "residual_energy": 234.34679102006564,
+      "residual_per_symbol": 1.4202835819397917,
+      "symbol_count": 165
+    },
+    {
+      "locus": "fRos.87,@Cc",
+      "page": "fRos",
+      "line": 87,
+      "n": 152,
+      "start": 105884,
+      "residual_energy": 231.13703427755866,
+      "residual_per_symbol": 1.5206383834049912,
+      "symbol_count": 152
+    },
+    {
+      "locus": "fRos.94,@Cc",
+      "page": "fRos",
+      "line": 94,
+      "n": 153,
+      "start": 106081,
+      "residual_energy": 228.37310225505846,
+      "residual_per_symbol": 1.49263465526182,
+      "symbol_count": 153
+    },
+    {
+      "locus": "f86v4.2,@Cc",
+      "page": "f86v4",
+      "line": 2,
+      "n": 175,
+      "start": 107214,
+      "residual_energy": 228.2090236050711,
+      "residual_per_symbol": 1.3040515634575491,
+      "symbol_count": 175
+    },
+    {
+      "locus": "f72v3.20,@Cc",
+      "page": "f72v3",
+      "line": 20,
+      "n": 165,
+      "start": 66299,
+      "residual_energy": 225.87465506506607,
+      "residual_per_symbol": 1.3689373034246428,
+      "symbol_count": 165
+    },
+    {
+      "locus": "fRos.35,@Cc",
+      "page": "fRos",
+      "line": 35,
+      "n": 158,
+      "start": 105019,
+      "residual_energy": 223.06815057006142,
+      "residual_per_symbol": 1.4118237377851988,
+      "symbol_count": 158
+    },
+    {
+      "locus": "f70r2.16,+Cc",
+      "page": "f70r2",
+      "line": 16,
+      "n": 160,
+      "start": 61457,
+      "residual_energy": 217.94353877256327,
+      "residual_per_symbol": 1.3621471173285205,
+      "symbol_count": 160
+    },
+    {
+      "locus": "fRos.20,@Cc",
+      "page": "fRos",
+      "line": 20,
+      "n": 152,
+      "start": 104789,
+      "residual_energy": 216.84523821005803,
+      "residual_per_symbol": 1.4266134092766976,
+      "symbol_count": 152
+    },
+    {
+      "locus": "fRos.47,@Cc",
+      "page": "fRos",
+      "line": 47,
+      "n": 153,
+      "start": 105353,
+      "residual_energy": 212.9566943900597,
+      "residual_per_symbol": 1.391873819542874,
+      "symbol_count": 153
+    },
+    {
+      "locus": "f70r2.17,+Cc",
+      "page": "f70r2",
+      "line": 17,
+      "n": 155,
+      "start": 61617,
+      "residual_energy": 212.77635450256076,
+      "residual_per_symbol": 1.3727506742100695,
+      "symbol_count": 155
+    },
+    {
+      "locus": "f69v.2,@Cc",
+      "page": "f69v",
+      "line": 2,
+      "n": 151,
+      "start": 59904,
+      "residual_energy": 211.54028652506105,
+      "residual_per_symbol": 1.4009290498348415,
+      "symbol_count": 151
+    },
+    {
+      "locus": "f72v2.20,@Cc",
+      "page": "f72v2",
+      "line": 20,
+      "n": 147,
+      "start": 66906,
+      "residual_energy": 209.31737416505763,
+      "residual_per_symbol": 1.4239277154085552,
+      "symbol_count": 147
+    },
+    {
+      "locus": "f70r2.18,+Cc",
+      "page": "f70r2",
+      "line": 18,
+      "n": 149,
+      "start": 61772,
+      "residual_energy": 208.2616460750568,
+      "residual_per_symbol": 1.3977291682889719,
+      "symbol_count": 149
+    },
+    {
+      "locus": "fRos.122,@Cc",
+      "page": "fRos",
+      "line": 122,
+      "n": 146,
+      "start": 106419,
+      "residual_energy": 207.31737416505763,
+      "residual_per_symbol": 1.4199820148291618,
+      "symbol_count": 146
+    },
+    {
+      "locus": "fRos.2,@Cc",
+      "page": "fRos",
+      "line": 2,
+      "n": 141,
+      "start": 104522,
+      "residual_energy": 201.92727753505173,
+      "residual_per_symbol": 1.4321083513124235,
+      "symbol_count": 141
+    },
+    {
+      "locus": "f72r1.12,@Cc",
+      "page": "f72r1",
+      "line": 12,
+      "n": 135,
+      "start": 64308,
+      "residual_energy": 198.39941349005136,
+      "residual_per_symbol": 1.4696252851114915,
+      "symbol_count": 135
+    },
+    {
+      "locus": "fRos.133,@Cc",
+      "page": "fRos",
+      "line": 133,
+      "n": 138,
+      "start": 106626,
+      "residual_energy": 192.8715494450509,
+      "residual_per_symbol": 1.3976199235148616,
+      "symbol_count": 138
+    },
+    {
+      "locus": "f69v.3,@Cc",
+      "page": "f69v",
+      "line": 3,
+      "n": 131,
+      "start": 60055,
+      "residual_energy": 189.81582135505005,
+      "residual_per_symbol": 1.4489757355347332,
+      "symbol_count": 131
+    },
+    {
+      "locus": "f71v.12,@Cc",
+      "page": "f71v",
+      "line": 12,
+      "n": 126,
+      "start": 63797,
+      "residual_energy": 188.7600932650492,
+      "residual_per_symbol": 1.4980959782940413,
+      "symbol_count": 126
+    },
+    {
+      "locus": "f72v1.22,@Cc",
+      "page": "f72v1",
+      "line": 22,
+      "n": 121,
+      "start": 67499,
+      "residual_energy": 183.59290899504668,
+      "residual_per_symbol": 1.5172967685541048,
+      "symbol_count": 121
+    },
+    {
+      "locus": "f72r3.26,@Cc",
+      "page": "f72r3",
+      "line": 26,
+      "n": 129,
+      "start": 65720,
+      "residual_energy": 182.7600932650492,
+      "residual_per_symbol": 1.416744909031389,
+      "symbol_count": 129
+    },
+    {
+      "locus": "f71r.12,@Cc",
+      "page": "f71r",
+      "line": 12,
+      "n": 126,
+      "start": 63330,
+      "residual_energy": 174.4682971975486,
+      "residual_per_symbol": 1.3846690253773697,
+      "symbol_count": 126
+    },
+    {
+      "locus": "f72r2.22,@Cc",
+      "page": "f72r2",
+      "line": 22,
+      "n": 124,
+      "start": 64850,
+      "residual_energy": 173.81582135505005,
+      "residual_per_symbol": 1.4017404947987908,
+      "symbol_count": 124
+    },
+    {
+      "locus": "f70v1.12,@Cc",
+      "page": "f70v1",
+      "line": 12,
+      "n": 123,
+      "start": 62897,
+      "residual_energy": 173.5929089950467,
+      "residual_per_symbol": 1.4113244633743636,
+      "symbol_count": 123
+    },
+    {
+      "locus": "f101r.1,@P0",
+      "page": "f101r",
+      "line": 1,
+      "n": 116,
+      "start": 128266,
+      "residual_energy": 163.12077304004714,
+      "residual_per_symbol": 1.4062135606900616,
+      "symbol_count": 116
+    },
+    {
+      "locus": "f101r.5,+P0",
+      "page": "f101r",
+      "line": 5,
+      "n": 112,
+      "start": 128690,
+      "residual_energy": 161.84213259004287,
+      "residual_per_symbol": 1.4450190409825256,
+      "symbol_count": 112
+    },
+    {
+      "locus": "f73v.22,@Cc",
+      "page": "f73v",
+      "line": 22,
+      "n": 109,
+      "start": 68521,
+      "residual_energy": 159.95358877004463,
+      "residual_per_symbol": 1.4674641171563727,
+      "symbol_count": 109
+    },
+    {
+      "locus": "f73r.22,@Cc",
+      "page": "f73r",
+      "line": 22,
+      "n": 117,
+      "start": 68024,
+      "residual_energy": 157.59290899504668,
+      "residual_per_symbol": 1.3469479401286042,
+      "symbol_count": 117
+    },
+    {
+      "locus": "f101r.9,+P0",
+      "page": "f101r",
+      "line": 9,
+      "n": 108,
+      "start": 129102,
+      "residual_energy": 155.1896567475444,
+      "residual_per_symbol": 1.4369412661809666,
+      "symbol_count": 108
+    },
+    {
+      "locus": "f101r.7,+P0",
+      "page": "f101r",
+      "line": 7,
+      "n": 110,
+      "start": 128889,
+      "residual_energy": 155.0093168600455,
+      "residual_per_symbol": 1.4091756078185953,
+      "symbol_count": 110
+    },
+    {
+      "locus": "f101v.25,+P0",
+      "page": "f101v",
+      "line": 25,
+      "n": 107,
+      "start": 129946,
+      "residual_energy": 151.36999663504332,
+      "residual_per_symbol": 1.4146728657480685,
+      "symbol_count": 107
+    },
+    {
+      "locus": "f101v.22,+P0",
+      "page": "f101v",
+      "line": 22,
+      "n": 105,
+      "start": 129645,
+      "residual_energy": 150.4946084325414,
+      "residual_per_symbol": 1.433281985071823,
+      "symbol_count": 105
+    },
+    {
+      "locus": "f101r.4,+P0",
+      "page": "f101r",
+      "line": 4,
+      "n": 110,
+      "start": 128580,
+      "residual_energy": 150.4257247250442,
+      "residual_per_symbol": 1.3675065884094928,
+      "symbol_count": 110
+    },
+    {
+      "locus": "f101v.23,+P0",
+      "page": "f101v",
+      "line": 23,
+      "n": 110,
+      "start": 129750,
+      "residual_energy": 149.5503365225423,
+      "residual_per_symbol": 1.3595485138412935,
+      "symbol_count": 110
+    },
+    {
+      "locus": "f101r.3,+P0",
+      "page": "f101r",
+      "line": 3,
+      "n": 102,
+      "start": 128478,
+      "residual_energy": 146.67494832004041,
+      "residual_per_symbol": 1.4379896894121609,
+      "symbol_count": 102
+    },
+    {
+      "locus": "f101v.26,+P0",
+      "page": "f101v",
+      "line": 26,
+      "n": 105,
+      "start": 130053,
+      "residual_energy": 145.73067641004124,
+      "residual_per_symbol": 1.3879112039051547,
+      "symbol_count": 105
+    },
+    {
+      "locus": "f101r.8,+P0",
+      "page": "f101r",
+      "line": 8,
+      "n": 103,
+      "start": 128999,
+      "residual_energy": 143.2585404550417,
+      "residual_per_symbol": 1.390859616068366,
+      "symbol_count": 103
+    },
+    {
+      "locus": "f101r.2,+P0",
+      "page": "f101r",
+      "line": 2,
+      "n": 96,
+      "start": 128382,
+      "residual_energy": 141.86844382503574,
+      "residual_per_symbol": 1.4777962898441224,
+      "symbol_count": 96
+    },
+    {
+      "locus": "f101v.19,@P0",
+      "page": "f101v",
+      "line": 19,
+      "n": 94,
+      "start": 129388,
+      "residual_energy": 141.28485169003451,
+      "residual_per_symbol": 1.5030303371280267,
+      "symbol_count": 94
+    },
+    {
+      "locus": "f57v.4,+Cc",
+      "page": "f57v",
+      "line": 4,
+      "n": 102,
+      "start": 47174,
+      "residual_energy": 137.73067641004127,
+      "residual_per_symbol": 1.3503007491180516,
+      "symbol_count": 102
+    },
+    {
+      "locus": "f101v.27,+P0",
+      "page": "f101v",
+      "line": 27,
+      "n": 103,
+      "start": 130158,
+      "residual_energy": 135.84213259004295,
+      "residual_per_symbol": 1.3188556562140092,
+      "symbol_count": 103
+    },
+    {
+      "locus": "f101v.20,+P0",
+      "page": "f101v",
+      "line": 20,
+      "n": 99,
+      "start": 129482,
+      "residual_energy": 133.03562809503828,
+      "residual_per_symbol": 1.3437942231822049,
+      "symbol_count": 99
+    },
+    {
+      "locus": "f70v2.32,@Cc",
+      "page": "f70v2",
+      "line": 32,
+      "n": 94,
+      "start": 62517,
+      "residual_energy": 130.92417191503662,
+      "residual_per_symbol": 1.3928103395216662,
+      "symbol_count": 94
+    },
+    {
+      "locus": "fRos.36,@Cc",
+      "page": "fRos",
+      "line": 36,
+      "n": 86,
+      "start": 105177,
+      "residual_energy": 128.70125955503326,
+      "residual_per_symbol": 1.4965262738957357,
+      "symbol_count": 86
+    },
+    {
+      "locus": "f89r2.12,@P0",
+      "page": "f89r2",
+      "line": 12,
+      "n": 83,
+      "start": 117021,
+      "residual_energy": 125.06193933003114,
+      "residual_per_symbol": 1.5067703533738692,
+      "symbol_count": 83
+    },
+    {
+      "locus": "f89r2.7,+P0",
+      "page": "f89r2",
+      "line": 7,
+      "n": 88,
+      "start": 116844,
+      "residual_energy": 122.34057978003533,
+      "residual_per_symbol": 1.390233861136765,
+      "symbol_count": 88
+    },
+    {
+      "locus": "f101r.10,+P0",
+      "page": "f101r",
+      "line": 10,
+      "n": 85,
+      "start": 129210,
+      "residual_energy": 117.57664775753513,
+      "residual_per_symbol": 1.3832546795004133,
+      "symbol_count": 85
+    },
+    {
+      "locus": "f89r2.6,@P0",
+      "page": "f89r2",
+      "line": 6,
+      "n": 84,
+      "start": 116760,
+      "residual_energy": 117.28485169003451,
+      "residual_per_symbol": 1.3962482344051728,
+      "symbol_count": 84
+    },
+    {
+      "locus": "f101r.6,+P0",
+      "page": "f101r",
+      "line": 6,
+      "n": 87,
+      "start": 128802,
+      "residual_energy": 114.81271573503494,
+      "residual_per_symbol": 1.3196863877590224,
+      "symbol_count": 87
+    },
+    {
+      "locus": "f89r2.22,@P0",
+      "page": "f89r2",
+      "line": 22,
+      "n": 75,
+      "start": 117349,
+      "residual_energy": 112.47834719502987,
+      "residual_per_symbol": 1.4997112959337315,
+      "symbol_count": 75
+    },
+    {
+      "locus": "f89r2.13,+P0",
+      "page": "f89r2",
+      "line": 13,
+      "n": 78,
+      "start": 117104,
+      "residual_energy": 112.117667420032,
+      "residual_per_symbol": 1.4374059925645128,
+      "symbol_count": 78
+    },
+    {
+      "locus": "f115r.19,+P0",
+      "page": "f115r",
+      "line": 19,
+      "n": 72,
+      "start": 182583,
+      "residual_energy": 110.95048315002944,
+      "residual_per_symbol": 1.5409789326392977,
+      "symbol_count": 72
+    },
+    {
+      "locus": "f101v.24,+P0",
+      "page": "f101v",
+      "line": 24,
+      "n": 86,
+      "start": 129860,
+      "residual_energy": 110.70125955503325,
+      "residual_per_symbol": 1.2872239483143402,
+      "symbol_count": 86
+    },
+    {
+      "locus": "f68v3.1,@P0",
+      "page": "f68v3",
+      "line": 1,
+      "n": 78,
+      "start": 57219,
+      "residual_energy": 110.58980337503156,
+      "residual_per_symbol": 1.4178179919875842,
+      "symbol_count": 78
+    },
+    {
+      "locus": "f89r2.14,+P0",
+      "page": "f89r2",
+      "line": 14,
+      "n": 79,
+      "start": 117182,
+      "residual_energy": 109.24227921753011,
+      "residual_per_symbol": 1.382813660981394,
+      "symbol_count": 79
+    },
+    {
+      "locus": "f89r2.25,+P0",
+      "page": "f89r2",
+      "line": 25,
+      "n": 78,
+      "start": 117571,
+      "residual_energy": 106.00621124003032,
+      "residual_per_symbol": 1.359053990256799,
+      "symbol_count": 78
+    },
+    {
+      "locus": "f104v.19,+P0",
+      "page": "f104v",
+      "line": 19,
+      "n": 71,
+      "start": 141368,
+      "residual_energy": 105.42261910502907,
+      "residual_per_symbol": 1.4848256211975925,
+      "symbol_count": 71
+    },
+    {
+      "locus": "f72v3.33,@Cc",
+      "page": "f72v3",
+      "line": 33,
+      "n": 72,
+      "start": 66530,
+      "residual_energy": 105.31116292502733,
+      "residual_per_symbol": 1.4626550406253795,
+      "symbol_count": 72
+    },
+    {
+      "locus": "f89v2.19,+P0",
+      "page": "f89v2",
+      "line": 19,
+      "n": 71,
+      "start": 118404,
+      "residual_energy": 102.83902697002779,
+      "residual_per_symbol": 1.448436999577856,
+      "symbol_count": 71
+    },
+    {
+      "locus": "f104v.15,+P0",
+      "page": "f104v",
+      "line": 15,
+      "n": 66,
+      "start": 141129,
+      "residual_energy": 101.78329888002693,
+      "residual_per_symbol": 1.5421711951519232,
+      "symbol_count": 66
+    },
+    {
+      "locus": "f113r.10,+P0",
+      "page": "f113r",
+      "line": 10,
+      "n": 69,
+      "start": 172244,
+      "residual_energy": 101.42261910502906,
+      "residual_per_symbol": 1.4698930305076674,
+      "symbol_count": 69
+    },
+    {
+      "locus": "f89r2.26,+P0",
+      "page": "f89r2",
+      "line": 26,
+      "n": 76,
+      "start": 117649,
+      "residual_energy": 101.06193933003115,
+      "residual_per_symbol": 1.3297623596056731,
+      "symbol_count": 76
+    },
+    {
+      "locus": "f89v2.7,@P0",
+      "page": "f89v2",
+      "line": 7,
+      "n": 73,
+      "start": 117923,
+      "residual_energy": 100.95048315002944,
+      "residual_per_symbol": 1.3828833308223212,
+      "symbol_count": 73
+    },
+    {
+      "locus": "f89v2.20,+P0",
+      "page": "f89v2",
+      "line": 20,
+      "n": 70,
+      "start": 118475,
+      "residual_energy": 100.83902697002779,
+      "residual_per_symbol": 1.440557528143254,
+      "symbol_count": 70
+    },
+    {
+      "locus": "f113r.25,+P0",
+      "page": "f113r",
+      "line": 25,
+      "n": 67,
+      "start": 173080,
+      "residual_energy": 100.83902697002777,
+      "residual_per_symbol": 1.5050601040302654,
+      "symbol_count": 67
+    },
+    {
+      "locus": "f114r.24,+P0",
+      "page": "f114r",
+      "line": 24,
+      "n": 69,
+      "start": 178250,
+      "residual_energy": 100.36689101502822,
+      "residual_per_symbol": 1.454592623406206,
+      "symbol_count": 69
+    },
+    {
+      "locus": "f89v2.21,+P0",
+      "page": "f89v2",
+      "line": 21,
+      "n": 72,
+      "start": 118545,
+      "residual_energy": 100.36689101502819,
+      "residual_per_symbol": 1.393984597430947,
+      "symbol_count": 72
+    },
+    {
+      "locus": "f113v.7,+P0",
+      "page": "f113v",
+      "line": 7,
+      "n": 68,
+      "start": 174888,
+      "residual_energy": 100.25543483502653,
+      "residual_per_symbol": 1.4743446299268608,
+      "symbol_count": 68
+    },
+    {
+      "locus": "f113v.1,@P0",
+      "page": "f113v",
+      "line": 1,
+      "n": 68,
+      "start": 174545,
+      "residual_energy": 100.25543483502652,
+      "residual_per_symbol": 1.4743446299268606,
+      "symbol_count": 68
+    }
+  ],
+  "interpretation": "Residuals are mapped to the transcription folio/locus order. This tests sequence-layout alignment; it is not a pixel-coordinate registration because RF transcription lacks xy ink coordinates."
+}

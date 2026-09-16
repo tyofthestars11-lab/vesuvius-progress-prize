@@ -1,0 +1,469 @@
+{
+  "source": "/tmp/vesuvius-progress-prize/voynich_rf1b-e.txt",
+  "symbols": 190524,
+  "alphabet": [
+    "H",
+    "I",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x",
+    "y",
+    "z"
+  ],
+  "phi": 1.618033988749895,
+  "phi_squared": 2.618033988749895,
+  "identity_residual": 0.0,
+  "operator": "T x[n] = phi^-1 x[n-1] + phi^-2 x[n+1]",
+  "operator_scale_reference": 1.0,
+  "operator_eigenvalue": "lambda(k)=phi^-1 exp(-ik)+phi^-2 exp(ik)",
+  "scale_invariant_coordinate": "abs(lambda(k))/abs(lambda(0))",
+  "total_non_dc_power": 16747531747.999992,
+  "spectral_rung_mass": {
+    "-25": 16590956.5982054,
+    "-24": 18539044.25286883,
+    "-23": 6071618.81093704,
+    "-22": 11376519.791224288,
+    "-21": 11682324.430855647,
+    "-20": 12329027.084466826,
+    "-19": 10644340.410163583,
+    "-18": 18447729.029460803,
+    "-17": 18341752.164077204,
+    "-16": 21656241.494132888,
+    "-15": 22806513.12647372,
+    "-14": 28195887.194397084,
+    "-13": 37653499.73790288,
+    "-12": 51800353.28446521,
+    "-11": 75210165.47989388,
+    "-10": 111240978.15863673,
+    "-9": 169442472.75094688,
+    "-8": 277415618.35625154,
+    "-7": 427177050.97469777,
+    "-6": 713492238.5359486,
+    "-5": 1286394432.4777014,
+    "-4": 2630925885.7266254,
+    "-3": 4087586103.297724,
+    "-2": 6191117246.863152,
+    "-1": 491393747.96875685
+  },
+  "top_modes": [
+    {
+      "bin": 2,
+      "normalized_frequency": 1.0497365161344502e-05,
+      "frequency_rung": -23.82399116623033,
+      "operator_eigenvalue_real": 0.9999999978248442,
+      "operator_eigenvalue_imag": -1.5570309742046565e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999979460614,
+      "power_fraction": 0.001106971733615778
+    },
+    {
+      "bin": 1,
+      "normalized_frequency": 5.248682580672251e-06,
+      "frequency_rung": -25.26441125664288,
+      "operator_eigenvalue_real": 0.999999999456211,
+      "operator_eigenvalue_imag": -7.785154875256765e-06,
+      "operator_eigenvalue_abs_normalized": 0.9999999994865152,
+      "power_fraction": 0.0009906508521882163
+    },
+    {
+      "bin": 3,
+      "normalized_frequency": 1.5746047742016755e-05,
+      "frequency_rung": -22.981399428053603,
+      "operator_eigenvalue_real": 0.9999999951058995,
+      "operator_eigenvalue_imag": -2.335546459190244e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999953786383,
+      "power_fraction": 0.000362538128143099
+    },
+    {
+      "bin": 9,
+      "normalized_frequency": 4.723814322605026e-05,
+      "frequency_rung": -20.698387599464326,
+      "operator_eigenvalue_real": 0.9999999559530972,
+      "operator_eigenvalue_imag": -7.006639286127544e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999584077469,
+      "power_fraction": 0.0003403327286278355
+    },
+    {
+      "bin": 5,
+      "normalized_frequency": 2.6243412903361258e-05,
+      "frequency_rung": -21.919859380273774,
+      "operator_eigenvalue_real": 0.9999999864052769,
+      "operator_eigenvalue_imag": -3.892577420694458e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999871628849,
+      "power_fraction": 0.00029541437133353513
+    },
+    {
+      "bin": 15,
+      "normalized_frequency": 7.873023871008376e-05,
+      "frequency_rung": -19.636847551684497,
+      "operator_eigenvalue_real": 0.999999877647494,
+      "operator_eigenvalue_imag": -0.00011677731838735276,
+      "operator_eigenvalue_abs_normalized": 0.9999998844659658,
+      "power_fraction": 0.00020047472164157123
+    },
+    {
+      "bin": 6,
+      "normalized_frequency": 3.149209548403351e-05,
+      "frequency_rung": -21.540979337641048,
+      "operator_eigenvalue_real": 0.9999999804235986,
+      "operator_eigenvalue_imag": -4.6710928955196897e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999815145539,
+      "power_fraction": 0.00019254271505017334
+    },
+    {
+      "bin": 4,
+      "normalized_frequency": 2.0994730322689005e-05,
+      "frequency_rung": -22.383571075817773,
+      "operator_eigenvalue_real": 0.9999999912993771,
+      "operator_eigenvalue_imag": -3.1140619416357436e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999917842461,
+      "power_fraction": 0.0001913382248541928
+    },
+    {
+      "bin": 7,
+      "normalized_frequency": 3.674077806470576e-05,
+      "frequency_rung": -21.220640825992536,
+      "operator_eigenvalue_real": 0.9999999733543428,
+      "operator_eigenvalue_imag": -5.449608365264747e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999748392543,
+      "power_fraction": 0.00018067418697197176
+    },
+    {
+      "bin": 8,
+      "normalized_frequency": 4.198946064537801e-05,
+      "frequency_rung": -20.943150985405214,
+      "operator_eigenvalue_real": 0.9999999651975089,
+      "operator_eigenvalue_imag": -6.228123829082928e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999671369851,
+      "power_fraction": 0.00017654807976545073
+    },
+    {
+      "bin": 30,
+      "normalized_frequency": 0.00015746047742016753,
+      "frequency_rung": -18.196427461271938,
+      "operator_eigenvalue_real": 0.9999995105900061,
+      "operator_eigenvalue_imag": -0.00023355460819871044,
+      "operator_eigenvalue_abs_normalized": 0.9999995378638966,
+      "power_fraction": 0.00013461992266739073
+    },
+    {
+      "bin": 12,
+      "normalized_frequency": 6.298419096806702e-05,
+      "frequency_rung": -20.10055924722849,
+      "operator_eigenvalue_real": 0.9999999216943956,
+      "operator_eigenvalue_imag": -9.342185608153005e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999260582174,
+      "power_fraction": 0.0001295451460025543
+    },
+    {
+      "bin": 22,
+      "normalized_frequency": 0.00011547101677478953,
+      "frequency_rung": -18.840956361336737,
+      "operator_eigenvalue_real": 0.999999736806171,
+      "operator_eigenvalue_imag": -0.00017127339226065944,
+      "operator_eigenvalue_abs_normalized": 0.9999997514734623,
+      "power_fraction": 0.00011888636746953627
+    },
+    {
+      "bin": 31,
+      "normalized_frequency": 0.00016270916000083978,
+      "frequency_rung": -18.128287359313866,
+      "operator_eigenvalue_real": 0.9999994774188872,
+      "operator_eigenvalue_imag": -0.0002413397591368302,
+      "operator_eigenvalue_abs_normalized": 0.9999995065413417,
+      "power_fraction": 0.00011024323678836452
+    },
+    {
+      "bin": 13,
+      "normalized_frequency": 6.823287354873926e-05,
+      "frequency_rung": -19.934223543271877,
+      "operator_eigenvalue_real": 0.9999999080996728,
+      "operator_eigenvalue_imag": -0.00010120701029636377,
+      "operator_eigenvalue_abs_normalized": 0.9999999132211027,
+      "power_fraction": 0.00010124207771027816
+    },
+    {
+      "bin": 27,
+      "normalized_frequency": 0.00014171442967815079,
+      "frequency_rung": -18.415375770875045,
+      "operator_eigenvalue_real": 0.9999996035778989,
+      "operator_eigenvalue_imag": -0.00021019915389416613,
+      "operator_eigenvalue_abs_normalized": 0.9999996256697495,
+      "power_fraction": 9.888770571421033e-05
+    },
+    {
+      "bin": 18,
+      "normalized_frequency": 9.447628645210052e-05,
+      "frequency_rung": -19.25796750905177,
+      "operator_eigenvalue_real": 0.999999823812393,
+      "operator_eigenvalue_imag": -0.00014013277955013569,
+      "operator_eigenvalue_abs_normalized": 0.9999998336309925,
+      "power_fraction": 9.478128821674123e-05
+    },
+    {
+      "bin": 11,
+      "normalized_frequency": 5.7735508387394765e-05,
+      "frequency_rung": -20.281376451749292,
+      "operator_eigenvalue_real": 0.9999999342015407,
+      "operator_eigenvalue_imag": -8.563670176509275e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999378683633,
+      "power_fraction": 8.902337164798874e-05
+    },
+    {
+      "bin": 10,
+      "normalized_frequency": 5.2486825806722516e-05,
+      "frequency_rung": -20.47943928986122,
+      "operator_eigenvalue_real": 0.9999999456211077,
+      "operator_eigenvalue_imag": -7.785154735551891e-05,
+      "operator_eigenvalue_abs_normalized": 0.9999999486515395,
+      "power_fraction": 8.884050069043735e-05
+    },
+    {
+      "bin": 79,
+      "normalized_frequency": 0.00041464592387310784,
+      "frequency_rung": -16.18431882141269,
+      "operator_eigenvalue_real": 0.9999966062152306,
+      "operator_eigenvalue_imag": -0.0006150265394999205,
+      "operator_eigenvalue_abs_normalized": 0.9999967953446768,
+      "power_fraction": 8.128169321515796e-05
+    }
+  ],
+  "per_symbol_modes": [
+    {
+      "symbol": "H",
+      "count": 2,
+      "dominant_frequency": 0.3333333333333333,
+      "dominant_frequency_rung": -2.2830118285892795,
+      "power_fraction": 1.137624354841139e-05,
+      "phase": 2.0943951023931957
+    },
+    {
+      "symbol": "I",
+      "count": 1,
+      "dominant_frequency": 0.004540110432281497,
+      "dominant_frequency_rung": -11.21087151643754,
+      "power_fraction": 5.688121774205696e-06,
+      "phase": -1.2855327751840575
+    },
+    {
+      "symbol": "a",
+      "count": 14557,
+      "dominant_frequency": 1.5746047742016755e-05,
+      "dominant_frequency_rung": -22.981399428053603,
+      "power_fraction": 0.07647549748057357,
+      "phase": 1.6625971541584854
+    },
+    {
+      "symbol": "b",
+      "count": 17,
+      "dominant_frequency": 0.052329365329302345,
+      "dominant_frequency_rung": -6.130767020416036,
+      "power_fraction": 9.669186029119687e-05,
+      "phase": -2.4919084790511743
+    },
+    {
+      "symbol": "c",
+      "count": 13789,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.07275702929451165,
+      "phase": -0.486270710865672
+    },
+    {
+      "symbol": "d",
+      "count": 10492,
+      "dominant_frequency": 4.723814322605026e-05,
+      "dominant_frequency_rung": -20.698387599464326,
+      "power_fraction": 0.056393284467891006,
+      "phase": 2.033126510625875
+    },
+    {
+      "symbol": "e",
+      "count": 20534,
+      "dominant_frequency": 1.0497365161344502e-05,
+      "dominant_frequency_rung": -23.82399116623033,
+      "power_fraction": 0.10421161495683823,
+      "phase": 1.749660837162789
+    },
+    {
+      "symbol": "f",
+      "count": 514,
+      "dominant_frequency": 1.0497365161344502e-05,
+      "dominant_frequency_rung": -23.82399116623033,
+      "power_fraction": 0.0029158500927058515,
+      "phase": -1.995972851136368
+    },
+    {
+      "symbol": "g",
+      "count": 165,
+      "dominant_frequency": 0.049390103084125885,
+      "dominant_frequency_rung": -6.250896301048944,
+      "power_fraction": 0.0009377340038107684,
+      "phase": -0.5730493879280792
+    },
+    {
+      "symbol": "h",
+      "count": 18041,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.09290264412759243,
+      "phase": -0.6451055346718834
+    },
+    {
+      "symbol": "i",
+      "count": 11998,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.06394847062331419,
+      "phase": 0.5914401575926329
+    },
+    {
+      "symbol": "j",
+      "count": 37,
+      "dominant_frequency": 0.49688228254708067,
+      "dominant_frequency_rung": -1.4534184335470002,
+      "power_fraction": 0.0002104196638063301,
+      "phase": -1.8689457116518309
+    },
+    {
+      "symbol": "k",
+      "count": 10921,
+      "dominant_frequency": 1.0497365161344502e-05,
+      "dominant_frequency_rung": -23.82399116623033,
+      "power_fraction": 0.05855941285897958,
+      "phase": 2.1340770050182676
+    },
+    {
+      "symbol": "l",
+      "count": 10671,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.0572983355660512,
+      "phase": -3.1232287306651574
+    },
+    {
+      "symbol": "m",
+      "count": 1065,
+      "dominant_frequency": 1.5746047742016755e-05,
+      "dominant_frequency_rung": -22.981399428053603,
+      "power_fraction": 0.006023987505624402,
+      "phase": 1.3205393704368344
+    },
+    {
+      "symbol": "n",
+      "count": 6189,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.03406022252014065,
+      "phase": 0.6052406995916526
+    },
+    {
+      "symbol": "o",
+      "count": 25143,
+      "dominant_frequency": 1.5746047742016755e-05,
+      "dominant_frequency_rung": -22.981399428053603,
+      "power_fraction": 0.12414309124974704,
+      "phase": -0.005669657683975108
+    },
+    {
+      "symbol": "p",
+      "count": 1676,
+      "dominant_frequency": 2.6243412903361258e-05,
+      "dominant_frequency_rung": -21.919859380273774,
+      "power_fraction": 0.009449464218445142,
+      "phase": 0.9225798607164101
+    },
+    {
+      "symbol": "q",
+      "count": 5435,
+      "dominant_frequency": 1.0497365161344502e-05,
+      "dominant_frequency_rung": -23.82399116623033,
+      "power_fraction": 0.03003307266815996,
+      "phase": 0.7534802523935651
+    },
+    {
+      "symbol": "r",
+      "count": 7577,
+      "dominant_frequency": 4.723814322605026e-05,
+      "dominant_frequency_rung": -20.698387599464326,
+      "power_fraction": 0.04138535352128952,
+      "phase": -0.8933872533737229
+    },
+    {
+      "symbol": "s",
+      "count": 7012,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.038417789778295866,
+      "phase": -2.3709784710642947
+    },
+    {
+      "symbol": "t",
+      "count": 7111,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.03893856932546954,
+      "phase": -1.1570055949260294
+    },
+    {
+      "symbol": "u",
+      "count": 7,
+      "dominant_frequency": 0.45786882492494385,
+      "dominant_frequency_rung": -1.6233444476447616,
+      "power_fraction": 3.981541937244757e-05,
+      "phase": -0.1846305461397717
+    },
+    {
+      "symbol": "v",
+      "count": 14,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 7.962797265091055e-05,
+      "phase": -1.5707492169864372
+    },
+    {
+      "symbol": "x",
+      "count": 43,
+      "dominant_frequency": 1.5746047742016755e-05,
+      "dominant_frequency_rung": -22.981399428053603,
+      "power_fraction": 0.0002445347805051374,
+      "phase": 1.881864613641882
+    },
+    {
+      "symbol": "y",
+      "count": 17512,
+      "dominant_frequency": 5.248682580672251e-06,
+      "dominant_frequency_rung": -25.26441125664288,
+      "power_fraction": 0.09045473355683648,
+      "phase": -2.3604862688618224
+    },
+    {
+      "symbol": "z",
+      "count": 1,
+      "dominant_frequency": 0.048345615250572106,
+      "dominant_frequency_rung": -6.2953144355961195,
+      "power_fraction": 5.688121774205698e-06,
+      "phase": -2.604274844757957
+    }
+  ],
+  "interpretation": "The decomposition is invariant under global phi rescaling of the operator weights; frequency positions are expressed as phi-rungs. It describes transition structure in the transcription stream and is not a plaintext translation."
+}

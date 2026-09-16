@@ -1,0 +1,46 @@
+{
+  "source": "/tmp/vesuvius-progress-prize/voynich_rf1b-e.txt",
+  "operator": "epsilon=x-(phi^-1 previous + phi^-2 next)",
+  "phi": 1.618033988749895,
+  "input_symbols": 188672,
+  "filter": "inverse real FFT after symmetric positive-frequency band selection",
+  "primary_bifolio_bands": [
+    {
+      "scale": 90.50966799187809,
+      "scale_rung": 9.362730587681616,
+      "center_frequency": 0.010550581829966087,
+      "bandwidth": 0.001688093092794574,
+      "bins": 637,
+      "variance": 0.001402174096848019
+    },
+    {
+      "scale": 107.63474115247546,
+      "scale_rung": 9.722835610284756,
+      "center_frequency": 0.008871946439659458,
+      "bandwidth": 0.0014195114303455134,
+      "bins": 535,
+      "variance": 0.001223454843961163
+    }
+  ],
+  "secondary_harmonic_band": {
+    "scale": 1722.1558584396073,
+    "scale_rung": 15.48451597193498,
+    "center_frequency": 0.0005544966524787162,
+    "bandwidth": 8.871946439659459e-05,
+    "bins": 34,
+    "variance": 0.0001402349671750996
+  },
+  "primary_component_variance": 0.003870136047993159,
+  "secondary_component_variance": 0.0001402349671750996,
+  "raw_residual_variance": 0.12954871220901965,
+  "primary_energy_fraction": 0.02987398316819166,
+  "secondary_energy_fraction": 0.001082488314888366,
+  "primary_boundary_correlation": 0.0034309636927386668,
+  "secondary_boundary_correlation": -0.0008466303509610586,
+  "raw_boundary_correlation": 0.004094186245730833,
+  "primary_near_boundary_mean": 0.0006361028430055195,
+  "primary_interior_mean": -3.692763924850349e-05,
+  "signal_file": "voynich_pure_bifolio_component.npy",
+  "secondary_file": "voynich_secondary_harmonic_component.npy",
+  "interpretation": "The primary inverse-Fourier component is the measured bifolio-band signal selected from the wavelet peaks; pure means band-limited, not proof that all surviving power is physical bifolio structure."
+}

@@ -1,0 +1,96 @@
+{
+  "symbols": 188672,
+  "folios": 227,
+  "boundary_definition": "first transcription record of each folio; quire/bifolio metadata unavailable in RF file",
+  "boundary_count": 227,
+  "residual_operator": "epsilon=x-(phi^-1 previous + phi^-2 next)",
+  "top_cross_correlation_lags": [
+    {
+      "lag_symbols": -2,
+      "correlation": -0.009963972525842092
+    },
+    {
+      "lag_symbols": -1,
+      "correlation": 0.009912813525027172
+    },
+    {
+      "lag_symbols": -505,
+      "correlation": 0.009428511623373412
+    },
+    {
+      "lag_symbols": -1328,
+      "correlation": 0.008930023056712427
+    },
+    {
+      "lag_symbols": 1864,
+      "correlation": 0.008153562947229114
+    },
+    {
+      "lag_symbols": -5,
+      "correlation": 0.00811813565668469
+    },
+    {
+      "lag_symbols": -840,
+      "correlation": 0.007848938066957167
+    },
+    {
+      "lag_symbols": 1737,
+      "correlation": 0.00768624607487071
+    },
+    {
+      "lag_symbols": 1322,
+      "correlation": 0.007539826058718976
+    },
+    {
+      "lag_symbols": 0,
+      "correlation": 0.007502631198143694
+    },
+    {
+      "lag_symbols": 171,
+      "correlation": 0.007317400851688534
+    },
+    {
+      "lag_symbols": 1672,
+      "correlation": 0.007303379366555453
+    },
+    {
+      "lag_symbols": 623,
+      "correlation": -0.007297685336817835
+    },
+    {
+      "lag_symbols": -504,
+      "correlation": 0.0072519456606073935
+    },
+    {
+      "lag_symbols": 1530,
+      "correlation": 0.007211700305380803
+    },
+    {
+      "lag_symbols": -655,
+      "correlation": 0.007199926314667798
+    },
+    {
+      "lag_symbols": -1126,
+      "correlation": 0.0071975795392094175
+    },
+    {
+      "lag_symbols": 1736,
+      "correlation": 0.007102596392493369
+    },
+    {
+      "lag_symbols": -4,
+      "correlation": 0.006991327385643772
+    },
+    {
+      "lag_symbols": 909,
+      "correlation": 0.006877185114283141
+    }
+  ],
+  "zero_lag_correlation": 0.007502631198143694,
+  "boundary_neighborhood_window_symbols": 100,
+  "near_boundary_mean_residual_energy": 1.4338286774945426,
+  "interior_mean_residual_energy": 1.4214542608839578,
+  "difference": 0.012374416610584804,
+  "permutation_p_two_sided": 0.0,
+  "conclusion": "folio-boundary proxy correlation computed; it is not a quire-boundary test without independent quire metadata"
+}
