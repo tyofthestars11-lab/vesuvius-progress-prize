@@ -1,0 +1,30 @@
+[03:43:28] loading pilot-region vertices (tifxyz window u[19614,19998] v[950,1334])
+[03:43:29] vertices: 147456 | |N| min/mean/max 1.000000/1.000000/1.000000
+[03:43:29] stack: shape (384, 384, 24) dtype uint8 nonzero 0.9999 min 0 max 255 mean 73.01
+[03:43:29] measured hits: 26932 total, 0 in pilot window → fuel mask ALL-ZERO (inert arm)
+[03:43:29] arm d=1 offsets (vox): [-4.236068 -2.618034 -1.618034 -1.        0.        1.        1.618034
+  2.618034  4.236068] max|t|=4.236068
+[03:43:29] arm d=2 offsets (vox): [-8.472136 -5.236068 -3.236068 -2.        0.        2.        3.236068
+  5.236068  8.472136] max|t|=8.472136
+[03:43:29] arm d=1 profiles built in 0.0s
+[03:43:29] arm d=2 profiles built in 0.0s
+[03:43:29] arm_d1_nofuel: mean=+0.2080 median=+0.3515 std=2.3695 min=-4.2361 max=+4.2361 |d|>1vox 121265 (82.238%) flat 161
+[03:43:29] arm_d1_fuel: mean=+0.2080 median=+0.3515 std=2.3695 min=-4.2361 max=+4.2361 |d|>1vox 121265 (82.238%) flat 161
+[03:43:29] arm_d2_nofuel: mean=+0.8557 median=+1.2572 std=4.4444 min=-8.4721 max=+8.4721 |d|>1vox 132032 (89.540%) flat 89
+[03:43:29] arm_d2_fuel: mean=+0.8557 median=+1.2572 std=4.4444 min=-8.4721 max=+8.4721 |d|>1vox 132032 (89.540%) flat 89
+[03:43:29] self-check d=1 fuel≡nofuel: IDENTICAL
+[03:43:29] self-check d=2 fuel≡nofuel: IDENTICAL
+[03:43:29] fidelity phase: 16x16 center block vs raw CT chunks
+[03:43:29] fidelity chunk census: 51 (107.0 MB)
+[03:51:40] fidelity rerun: /tmp was wiped mid-run; extracting to WORKSPACE scratch
+[03:51:50] reloads done in 10.9s
+[03:51:50] fidelity chunk census: 51 (107.0 MB) → /home/hatch/workspace/vesuvius-prize-repo/phi_stencil/chunks_fidelity
+[04:07:52] tar note: tar: zchunks_v/L0_165_78_43.bin: Cannot change ownership to uid 0, gid 65534: Operation not permitted
+tar: zchunks_v/L0_165_79_42.bin: Cannot change ownership to uid 0, gid 65534: Operation not permitted
+tar: zchunks_v/L0_165_78_44.bin: Cannot change ownership to uid 0, gid 65534: Operation not perm
+[04:07:52] extracted 33/51 in 961.4s
+[04:07:54] fidelity d=1 (2.6s): profile |Δ| mean 3.679 max 52.124, Pearson r mean 0.986488 | disp |Δ| mean 0.6852 max 4.7376 vox, missing chunks 0/51
+[04:07:55] fidelity d=2 (0.3s): profile |Δ| mean 3.601 max 69.887, Pearson r mean 0.986911 | disp |Δ| mean 0.9452 max 6.7094 vox, missing chunks 0/51
+[04:07:55] rebuilding phi_stencil_results.json from saved arrays
+[04:07:55] scratch removed; TOTAL 975.7s peakRSS 451.7 MB
+[04:07:55] wrote phi_stencil_results.json (fidelity folded in)

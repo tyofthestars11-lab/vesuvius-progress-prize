@@ -1,0 +1,48 @@
+{
+ "d1": {
+  "n_vertices": 256,
+  "profile_mean_abs_diff": 3.6788994326437976,
+  "profile_max_abs_diff": 52.124238618259994,
+  "profile_pearson_r_mean": 0.9864880080675051,
+  "profile_pearson_r_per_offset": [
+   0.983378885683621,
+   0.9814037191848507,
+   0.97747750947349,
+   0.9890417723482237,
+   0.9921330858773986,
+   0.9902793165581715,
+   0.9878721557263523,
+   0.9882300550561245,
+   0.9885755726993145
+  ],
+  "displacement_mean_abs_diff_vox": 0.6851502873442398,
+  "displacement_max_abs_diff_vox": 4.737645182232065,
+  "missing_chunks": 0,
+  "missing_samples": 0,
+  "chunks_extracted": 33,
+  "chunks_needed": 51
+ },
+ "d2": {
+  "n_vertices": 256,
+  "profile_mean_abs_diff": 3.6005546618679065,
+  "profile_max_abs_diff": 69.88712138412285,
+  "profile_pearson_r_mean": 0.9869113471370277,
+  "profile_pearson_r_per_offset": [
+   0.987252830071888,
+   0.9883180275279948,
+   0.9832440377565783,
+   0.9819540586327331,
+   0.9921330858773986,
+   0.9896246463570005,
+   0.9886172733220047,
+   0.9885507404106982,
+   0.9825074242769516
+  ],
+  "displacement_mean_abs_diff_vox": 0.9451744061047083,
+  "displacement_max_abs_diff_vox": 6.7093952299234125,
+  "missing_chunks": 0,
+  "missing_samples": 0,
+  "chunks_extracted": 33,
+  "chunks_needed": 51
+ }
+}
