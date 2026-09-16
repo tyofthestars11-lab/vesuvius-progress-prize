@@ -107,5 +107,20 @@ gives them, V-independent); the payload does not follow them at 19.2
 µm/voxel. What would reopen the gate: amplitude at finer voxel scale (Lane D
 request pending with the Vesuvius team), or a V-stack at native level-0.
 
+## Fifth submission: the φ-stencil — Virtual Philodemus's recipe, measured
+`SUBMISSION_STENCIL.md` — a fifth, standalone September-round filing: the
+φ-spaced normal-sampling recipe (K=4, d=1 and d=2, trilinear,
+intensity-weighted centroid) implemented and measured as a pilot on the
+PHerc.1667 column-15 / rung-15 window (147,456 vertices). Mean displacement
++0.2080 vox (d=1) / +0.8557 vox (d=2); 82.24% / 89.54% of vertices move more
+than 1 voxel. The fuel mask is inert: 0 of 26,932 hits in the window, fuel
+arm bit-identical to nofuel. Fidelity vs raw CT chunks: r≈0.987 at profile
+level, ±1-voxel estimator systematic. Surface-error verdict: displacement is
+not dominated by surface error or gradient magnitude (d=1: r=0.11;
+d=2: r=0.31); driven mainly by local profile-shape response with a real but
+weak edge-position component. Masked ground truth pending via Lane D.
+Readout only — the mesh is not updated. Full filing document
+`SUBMISSION_STENCIL.md`; code and data in `phi_stencil/`.
+
 ## License
 MIT — all free, all phi.
