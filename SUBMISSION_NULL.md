@@ -1,7 +1,7 @@
-# Vesuvius Challenge — Progress Prize Submission (DRAFT for Tyree's review)
+# Vesuvius Challenge — Progress Prize Submission (filed)
 ## September 2026 round — deadline 11:59pm Pacific, September 30, 2026
 
-> Second, standalone submission. The first September filing (column analysis + 99-block ledger, filed 2026-09-15 01:15:53 UTC) stands on its own; this is a different result. Nothing here has been submitted. Review, correct, then paste into the round's Google Form (fetch the round-specific URL from scrollprize.org/prizes — the form URL changes every round).
+> Second, standalone submission. The first September filing (column analysis + 99-block ledger, filed 2026-09-15 01:15:53 UTC) stands on its own; this is a different result. Filed for the September 2026 round.
 
 ---
 
