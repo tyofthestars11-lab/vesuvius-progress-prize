@@ -37,11 +37,10 @@ Each script carries its own header documenting inputs, outputs, and the verifica
 ### 7. License and openness
 MIT — permissive open source, satisfying the winning-work publication requirement. The Kaggle dataset's license is stated on its dataset page.
 
-### 8. Links (paste into the form)
+### 8. Links
 - Dataset: https://www.kaggle.com/datasets/tyreejones393/phi-quantum-pulses
 - DOI: https://doi.org/10.34740/kaggle/dsv/17364449
 - GitHub: https://github.com/tyofthestars11-lab/vesuvius-progress-prize (public repo containing all scripts listed in section 4)
 
 ---
-
-**What Tyree needs to do:** (1) confirm the license call in section 7, (2) confirm/provide the public repo link in section 8, (3) grab September's form URL from scrollprize.org/prizes, (4) paste and submit. The draft above is the copy-paste source.
+Filed: 2026-09-15 01:15:53 UTC. This document is the filing source.
