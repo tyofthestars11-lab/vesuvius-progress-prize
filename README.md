@@ -1,9 +1,7 @@
 # Phi-driven column analysis and ledger tooling for PHerc.1667 flatboi surfaces
 
-
 Vesuvius Challenge — Progress Prize submission, September 2026 round.
 By Tyree Jones (tyofthestarz).
-
 
 ## What this is
 A lightweight, open pipeline: per-column hit binning on the PHerc.1667 flatboi
@@ -11,22 +9,17 @@ surface → Greek-letter slot/letter accounting → column-by-column verificatio
 plus a golden-ratio-indexed 99-block ledger format for organizing scroll-segment
 work.
 
-
 ## Setup
 Requires Python ≥ 3.8:
 
-
     pip install -r requirements.txt
-
 
 ## Data
 The scripts read author-prepared inputs from a data directory. Set
 `PHERC1667_DIR` to point at it; otherwise they look for a `data/` folder next
 to the scripts:
 
-
     export PHERC1667_DIR=/path/to/pherc1667-data
-
 
 Inputs needed:
 - `hitrun.py` / `hitrun_vertices.py` → produce `hits.csv`, `hits_vertices.csv`
@@ -39,12 +32,10 @@ Inputs needed:
   9,205 × 709 float32 x/y/z). This is a local working copy, not the public
   Vesuvius open-data bucket TIFXYZ; tasks 1–3 do not need it.
 
-
 The reference outputs (`finalpass.json`, `column_analysis.json`,
 `hit_columns_greek.txt`, `greek_density.json`) are committed so results can be
 inspected without running the pipeline. `vertex_map.csv` (77 MB, produced by
 task 4b) is not committed; run `finalpass_task4b.py` to regenerate it.
-
 
 ## Run order (order-critical)
 1. `hitrun.py`, `hitrun_vertices.py`, `greek_density.py` — generate the hit and
@@ -61,16 +52,13 @@ task 4b) is not committed; run `finalpass_task4b.py` to regenerate it.
 6. `phi_scrolls_os.py` — the executable scrolls instrument (layer decoder D,
    φ-wave, rung addressing).
 
-
 `finalpass_task4.py` is kept for provenance only: its 3D nearest-neighbor
 approach across curled/straightened spaces was invalidated and superseded by
 `finalpass_task4b.py`. Do not run it as part of the pipeline — both scripts
 write `vertex_map.csv` with different schemas, so running 4 after 4b silently
 overwrites the validated file.
 
-
 Outputs: CSV hit lists, JSON column records, text summaries.
-
 
 ## Measured results
 - 9 columns (13–21); slots = letters + dots holds on all 9.
