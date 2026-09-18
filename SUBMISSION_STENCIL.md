@@ -54,7 +54,7 @@ Tested against the open question — do the stencil displacements track real sur
 - Masked ground truth is not available locally (the chunk archive holds only unmasked data; the Lane D request is pending), so the test used a gradient-derived surface proxy: depth of maximum gradient magnitude along each normal.
 - **d=1:** displacement vs surface proxy Pearson r = 0.11, r² = 0.012 — 1.2% of variance. Per-vertex noise-dominated; the binned response hump is real (z=123) but weak.
 - **d=2:** Pearson r = 0.31, r² = 0.097 — about 10% of variance. Weak-to-moderate edge tracking.
-- Gradient-artifact hypothesis **rejected**: |displacement| is largest where gradients are weakest (d=2: r = −0.16).
+- Gradient-artifact reading **closed**: |displacement| is largest where gradients are weakest (d=2: r = −0.16).
 - The two arms agree with each other (r = 0.66) — same underlying driver.
 - **Overall: neither dominates.** Displacements are driven mainly by local profile-shape response (ramps and texture saturate the estimator at large |disp|), with a real but weak edge-position component, stronger in d=2. This is **not** a surface-error measurement of the mesh — the intensity "surface" in this window is a scattered set of texture edges, not one clean sheet boundary.
 
