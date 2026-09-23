@@ -1,0 +1,1905 @@
+{
+ "threshold": 3.0,
+ "seeds": [
+  137,
+  1001,
+  2026,
+  31337,
+  99991
+ ],
+ "orientation_maxabsdiff": {
+  "137_vs_1001": 2.298693,
+  "137_vs_2026": 1.616175,
+  "137_vs_31337": 6e-06,
+  "137_vs_99991": 1.616175,
+  "1001_vs_2026": 1.620015,
+  "1001_vs_31337": 2.298694,
+  "1001_vs_99991": 1.620015,
+  "2026_vs_31337": 1.616175,
+  "2026_vs_99991": 0.0,
+  "31337_vs_99991": 1.616175
+ },
+ "n_consensus_components": 118018,
+ "consensus_max": 25.113,
+ "hotspots_top40": [
+  {
+   "rank_by_area": 1,
+   "id": 11537,
+   "area_vox": 316,
+   "y_range": [
+    34,
+    58
+   ],
+   "x_range": [
+    47,
+    75
+   ],
+   "z_range": [
+    124,
+    152
+   ],
+   "consensus_max": 16.116,
+   "consensus_mean": 5.802,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9873,
+    0.9525,
+    0.9747,
+    0.9873,
+    0.9747
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    16.028,
+    16.05,
+    16.237,
+    16.028,
+    16.237
+   ],
+   "ctl_depth_mean": 0.059,
+   "ctl_spatial_mean": 0.293,
+   "ctl_depth_max": 10.23,
+   "ctl_spatial_max": 12.873,
+   "ctl_ratio_depth": 0.01,
+   "ctl_ratio_spatial": 0.05,
+   "fill_frac": 0.015,
+   "xy_over_z": 1.0,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 2,
+   "id": 8002,
+   "area_vox": 258,
+   "y_range": [
+    26,
+    45
+   ],
+   "x_range": [
+    30,
+    50
+   ],
+   "z_range": [
+    119,
+    142
+   ],
+   "consensus_max": 15.892,
+   "consensus_mean": 5.867,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9574,
+    0.9806,
+    0.9651,
+    0.9574,
+    0.9651
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    16.352,
+    14.865,
+    15.945,
+    16.352,
+    15.945
+   ],
+   "ctl_depth_mean": -0.089,
+   "ctl_spatial_mean": 0.152,
+   "ctl_depth_max": 6.938,
+   "ctl_spatial_max": 7.687,
+   "ctl_ratio_depth": -0.015,
+   "ctl_ratio_spatial": 0.026,
+   "fill_frac": 0.0256,
+   "xy_over_z": 0.88,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 3,
+   "id": 11576,
+   "area_vox": 195,
+   "y_range": [
+    34,
+    53
+   ],
+   "x_range": [
+    78,
+    95
+   ],
+   "z_range": [
+    112,
+    134
+   ],
+   "consensus_max": 12.228,
+   "consensus_mean": 5.768,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.959,
+    0.9538,
+    0.9846,
+    0.959,
+    0.9846
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.125,
+    11.922,
+    12.847,
+    12.125,
+    12.847
+   ],
+   "ctl_depth_mean": -0.141,
+   "ctl_spatial_mean": 0.312,
+   "ctl_depth_max": 7.188,
+   "ctl_spatial_max": 10.16,
+   "ctl_ratio_depth": -0.024,
+   "ctl_ratio_spatial": 0.054,
+   "fill_frac": 0.0236,
+   "xy_over_z": 0.87,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 4,
+   "id": 54453,
+   "area_vox": 191,
+   "y_range": [
+    129,
+    147
+   ],
+   "x_range": [
+    158,
+    176
+   ],
+   "z_range": [
+    125,
+    146
+   ],
+   "consensus_max": 12.259,
+   "consensus_mean": 5.691,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9843,
+    0.9791,
+    0.9948,
+    0.9843,
+    0.9948
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.608,
+    12.257,
+    12.075,
+    12.608,
+    12.075
+   ],
+   "ctl_depth_mean": 0.11,
+   "ctl_spatial_mean": 0.103,
+   "ctl_depth_max": 5.505,
+   "ctl_spatial_max": 5.657,
+   "ctl_ratio_depth": 0.019,
+   "ctl_ratio_spatial": 0.018,
+   "fill_frac": 0.024,
+   "xy_over_z": 0.86,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 5,
+   "id": 8615,
+   "area_vox": 185,
+   "y_range": [
+    27,
+    42
+   ],
+   "x_range": [
+    154,
+    183
+   ],
+   "z_range": [
+    126,
+    143
+   ],
+   "consensus_max": 20.168,
+   "consensus_mean": 5.563,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9459,
+    0.973,
+    0.9946,
+    0.9459,
+    0.9946
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    20.246,
+    20.103,
+    20.123,
+    20.246,
+    20.123
+   ],
+   "ctl_depth_mean": 0.092,
+   "ctl_spatial_mean": 0.308,
+   "ctl_depth_max": 11.717,
+   "ctl_spatial_max": 12.349,
+   "ctl_ratio_depth": 0.017,
+   "ctl_ratio_spatial": 0.055,
+   "fill_frac": 0.0214,
+   "xy_over_z": 1.67,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 6,
+   "id": 78895,
+   "area_vox": 169,
+   "y_range": [
+    170,
+    187
+   ],
+   "x_range": [
+    96,
+    121
+   ],
+   "z_range": [
+    141,
+    160
+   ],
+   "consensus_max": 13.714,
+   "consensus_mean": 5.721,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9586,
+    0.9527,
+    0.9882,
+    0.9586,
+    0.9882
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    13.253,
+    13.469,
+    14.298,
+    13.253,
+    14.298
+   ],
+   "ctl_depth_mean": -0.043,
+   "ctl_spatial_mean": 0.03,
+   "ctl_depth_max": 7.527,
+   "ctl_spatial_max": 6.371,
+   "ctl_ratio_depth": -0.008,
+   "ctl_ratio_spatial": 0.005,
+   "fill_frac": 0.0181,
+   "xy_over_z": 1.3,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 7,
+   "id": 21335,
+   "area_vox": 159,
+   "y_range": [
+    58,
+    72
+   ],
+   "x_range": [
+    26,
+    45
+   ],
+   "z_range": [
+    106,
+    124
+   ],
+   "consensus_max": 17.772,
+   "consensus_mean": 5.891,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9686,
+    0.9623,
+    0.9748,
+    0.9686,
+    0.9748
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    17.325,
+    17.892,
+    18.158,
+    17.325,
+    18.158
+   ],
+   "ctl_depth_mean": -0.139,
+   "ctl_spatial_mean": 0.099,
+   "ctl_depth_max": 4.001,
+   "ctl_spatial_max": 7.251,
+   "ctl_ratio_depth": -0.024,
+   "ctl_ratio_spatial": 0.017,
+   "fill_frac": 0.0279,
+   "xy_over_z": 1.05,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 8,
+   "id": 95124,
+   "area_vox": 147,
+   "y_range": [
+    201,
+    213
+   ],
+   "x_range": [
+    20,
+    32
+   ],
+   "z_range": [
+    138,
+    162
+   ],
+   "consensus_max": 18.738,
+   "consensus_mean": 5.89,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9864,
+    0.966,
+    1.0,
+    0.9864,
+    1.0
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    18.53,
+    19.117,
+    18.755,
+    18.53,
+    18.755
+   ],
+   "ctl_depth_mean": 0.188,
+   "ctl_spatial_mean": 0.15,
+   "ctl_depth_max": 11.525,
+   "ctl_spatial_max": 9.879,
+   "ctl_ratio_depth": 0.032,
+   "ctl_ratio_spatial": 0.025,
+   "fill_frac": 0.0348,
+   "xy_over_z": 0.52,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 9,
+   "id": 51386,
+   "area_vox": 145,
+   "y_range": [
+    123,
+    132
+   ],
+   "x_range": [
+    188,
+    205
+   ],
+   "z_range": [
+    191,
+    209
+   ],
+   "consensus_max": 18.758,
+   "consensus_mean": 5.975,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9517,
+    0.9655,
+    0.9793,
+    0.9517,
+    0.9793
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    17.958,
+    19.696,
+    19.088,
+    17.958,
+    19.088
+   ],
+   "ctl_depth_mean": -0.057,
+   "ctl_spatial_mean": -0.114,
+   "ctl_depth_max": 7.139,
+   "ctl_spatial_max": 4.36,
+   "ctl_ratio_depth": -0.01,
+   "ctl_ratio_spatial": -0.019,
+   "fill_frac": 0.0424,
+   "xy_over_z": 0.95,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 10,
+   "id": 54538,
+   "area_vox": 142,
+   "y_range": [
+    129,
+    138
+   ],
+   "x_range": [
+    205,
+    220
+   ],
+   "z_range": [
+    210,
+    232
+   ],
+   "consensus_max": 16.137,
+   "consensus_mean": 6.235,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    1.0,
+    0.9437,
+    0.9789,
+    1.0,
+    0.9789
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.616,
+    16.935,
+    16.26,
+    15.616,
+    16.26
+   ],
+   "ctl_depth_mean": -0.033,
+   "ctl_spatial_mean": -0.001,
+   "ctl_depth_max": 5.796,
+   "ctl_spatial_max": 8.546,
+   "ctl_ratio_depth": -0.005,
+   "ctl_ratio_spatial": -0.0,
+   "fill_frac": 0.0386,
+   "xy_over_z": 0.7,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 11,
+   "id": 50152,
+   "area_vox": 141,
+   "y_range": [
+    121,
+    135
+   ],
+   "x_range": [
+    47,
+    65
+   ],
+   "z_range": [
+    118,
+    132
+   ],
+   "consensus_max": 13.27,
+   "consensus_mean": 5.775,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9645,
+    0.9433,
+    0.9716,
+    0.9645,
+    0.9716
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    13.46,
+    13.568,
+    12.932,
+    13.46,
+    12.932
+   ],
+   "ctl_depth_mean": 0.052,
+   "ctl_spatial_mean": 0.156,
+   "ctl_depth_max": 7.387,
+   "ctl_spatial_max": 5.106,
+   "ctl_ratio_depth": 0.009,
+   "ctl_ratio_spatial": 0.027,
+   "fill_frac": 0.033,
+   "xy_over_z": 1.27,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 12,
+   "id": 20245,
+   "area_vox": 139,
+   "y_range": [
+    55,
+    65
+   ],
+   "x_range": [
+    218,
+    236
+   ],
+   "z_range": [
+    211,
+    225
+   ],
+   "consensus_max": 16.606,
+   "consensus_mean": 5.616,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9928,
+    0.9281,
+    0.9568,
+    0.9928,
+    0.9568
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    16.399,
+    16.643,
+    16.794,
+    16.399,
+    16.794
+   ],
+   "ctl_depth_mean": 0.15,
+   "ctl_spatial_mean": -0.029,
+   "ctl_depth_max": 7.577,
+   "ctl_spatial_max": 6.305,
+   "ctl_ratio_depth": 0.027,
+   "ctl_ratio_spatial": -0.005,
+   "fill_frac": 0.0443,
+   "xy_over_z": 1.27,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 13,
+   "id": 23041,
+   "area_vox": 136,
+   "y_range": [
+    61,
+    78
+   ],
+   "x_range": [
+    92,
+    111
+   ],
+   "z_range": [
+    126,
+    138
+   ],
+   "consensus_max": 14.494,
+   "consensus_mean": 6.036,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9853,
+    0.9853,
+    0.9926,
+    0.9853,
+    0.9926
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.364,
+    14.935,
+    14.402,
+    14.364,
+    14.402
+   ],
+   "ctl_depth_mean": 0.331,
+   "ctl_spatial_mean": 0.239,
+   "ctl_depth_max": 6.438,
+   "ctl_spatial_max": 11.535,
+   "ctl_ratio_depth": 0.055,
+   "ctl_ratio_spatial": 0.04,
+   "fill_frac": 0.0291,
+   "xy_over_z": 1.54,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 14,
+   "id": 60285,
+   "area_vox": 130,
+   "y_range": [
+    140,
+    155
+   ],
+   "x_range": [
+    182,
+    198
+   ],
+   "z_range": [
+    149,
+    165
+   ],
+   "consensus_max": 14.754,
+   "consensus_mean": 5.76,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9692,
+    0.9923,
+    0.9923,
+    0.9692,
+    0.9923
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.762,
+    15.245,
+    14.605,
+    14.762,
+    14.605
+   ],
+   "ctl_depth_mean": 0.116,
+   "ctl_spatial_mean": 0.155,
+   "ctl_depth_max": 6.965,
+   "ctl_spatial_max": 8.965,
+   "ctl_ratio_depth": 0.02,
+   "ctl_ratio_spatial": 0.027,
+   "fill_frac": 0.0281,
+   "xy_over_z": 1.0,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 15,
+   "id": 25429,
+   "area_vox": 129,
+   "y_range": [
+    66,
+    82
+   ],
+   "x_range": [
+    63,
+    75
+   ],
+   "z_range": [
+    122,
+    134
+   ],
+   "consensus_max": 14.468,
+   "consensus_mean": 5.888,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9535,
+    0.9535,
+    0.9767,
+    0.9535,
+    0.9767
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.232,
+    14.895,
+    14.489,
+    14.232,
+    14.489
+   ],
+   "ctl_depth_mean": -0.023,
+   "ctl_spatial_mean": 0.314,
+   "ctl_depth_max": 5.047,
+   "ctl_spatial_max": 6.789,
+   "ctl_ratio_depth": -0.004,
+   "ctl_ratio_spatial": 0.053,
+   "fill_frac": 0.0449,
+   "xy_over_z": 1.31,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 16,
+   "id": 53722,
+   "area_vox": 129,
+   "y_range": [
+    128,
+    142
+   ],
+   "x_range": [
+    16,
+    36
+   ],
+   "z_range": [
+    109,
+    126
+   ],
+   "consensus_max": 13.479,
+   "consensus_mean": 5.48,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.969,
+    0.969,
+    0.9767,
+    0.969,
+    0.9767
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    13.552,
+    13.436,
+    13.427,
+    13.552,
+    13.427
+   ],
+   "ctl_depth_mean": 0.099,
+   "ctl_spatial_mean": -0.005,
+   "ctl_depth_max": 7.469,
+   "ctl_spatial_max": 4.19,
+   "ctl_ratio_depth": 0.018,
+   "ctl_ratio_spatial": -0.001,
+   "fill_frac": 0.0228,
+   "xy_over_z": 1.17,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 17,
+   "id": 25929,
+   "area_vox": 128,
+   "y_range": [
+    67,
+    81
+   ],
+   "x_range": [
+    72,
+    92
+   ],
+   "z_range": [
+    114,
+    134
+   ],
+   "consensus_max": 14.006,
+   "consensus_mean": 5.723,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9844,
+    0.9688,
+    0.9922,
+    0.9844,
+    0.9922
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.195,
+    13.496,
+    14.072,
+    14.195,
+    14.072
+   ],
+   "ctl_depth_mean": 0.141,
+   "ctl_spatial_mean": 0.23,
+   "ctl_depth_max": 5.124,
+   "ctl_spatial_max": 8.794,
+   "ctl_ratio_depth": 0.025,
+   "ctl_ratio_spatial": 0.04,
+   "fill_frac": 0.0193,
+   "xy_over_z": 1.0,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 18,
+   "id": 28453,
+   "area_vox": 127,
+   "y_range": [
+    72,
+    90
+   ],
+   "x_range": [
+    120,
+    134
+   ],
+   "z_range": [
+    120,
+    133
+   ],
+   "consensus_max": 11.99,
+   "consensus_mean": 5.49,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9764,
+    0.9764,
+    0.9921,
+    0.9764,
+    0.9921
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.385,
+    11.903,
+    11.638,
+    12.385,
+    11.638
+   ],
+   "ctl_depth_mean": 0.058,
+   "ctl_spatial_mean": 0.257,
+   "ctl_depth_max": 8.035,
+   "ctl_spatial_max": 6.295,
+   "ctl_ratio_depth": 0.011,
+   "ctl_ratio_spatial": 0.047,
+   "fill_frac": 0.0318,
+   "xy_over_z": 1.36,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 19,
+   "id": 81994,
+   "area_vox": 125,
+   "y_range": [
+    176,
+    187
+   ],
+   "x_range": [
+    13,
+    31
+   ],
+   "z_range": [
+    140,
+    157
+   ],
+   "consensus_max": 16.83,
+   "consensus_mean": 5.619,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.96,
+    0.952,
+    1.0,
+    0.96,
+    1.0
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    16.47,
+    17.347,
+    16.932,
+    16.47,
+    16.932
+   ],
+   "ctl_depth_mean": -0.007,
+   "ctl_spatial_mean": 0.061,
+   "ctl_depth_max": 5.532,
+   "ctl_spatial_max": 6.908,
+   "ctl_ratio_depth": -0.001,
+   "ctl_ratio_spatial": 0.011,
+   "fill_frac": 0.0305,
+   "xy_over_z": 1.06,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 20,
+   "id": 18122,
+   "area_vox": 122,
+   "y_range": [
+    50,
+    67
+   ],
+   "x_range": [
+    151,
+    171
+   ],
+   "z_range": [
+    138,
+    152
+   ],
+   "consensus_max": 17.86,
+   "consensus_mean": 5.568,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9836,
+    0.959,
+    0.9918,
+    0.9836,
+    0.9918
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    17.995,
+    17.059,
+    18.125,
+    17.995,
+    18.125
+   ],
+   "ctl_depth_mean": 0.086,
+   "ctl_spatial_mean": 0.244,
+   "ctl_depth_max": 4.808,
+   "ctl_spatial_max": 5.88,
+   "ctl_ratio_depth": 0.015,
+   "ctl_ratio_spatial": 0.044,
+   "fill_frac": 0.0215,
+   "xy_over_z": 1.4,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 21,
+   "id": 4437,
+   "area_vox": 122,
+   "y_range": [
+    17,
+    34
+   ],
+   "x_range": [
+    79,
+    93
+   ],
+   "z_range": [
+    133,
+    147
+   ],
+   "consensus_max": 12.612,
+   "consensus_mean": 5.268,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9754,
+    0.9836,
+    0.9836,
+    0.9754,
+    0.9836
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.71,
+    12.514,
+    12.564,
+    12.71,
+    12.564
+   ],
+   "ctl_depth_mean": -0.063,
+   "ctl_spatial_mean": 0.247,
+   "ctl_depth_max": 3.263,
+   "ctl_spatial_max": 5.725,
+   "ctl_ratio_depth": -0.012,
+   "ctl_ratio_spatial": 0.047,
+   "fill_frac": 0.0301,
+   "xy_over_z": 1.2,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 22,
+   "id": 9865,
+   "area_vox": 120,
+   "y_range": [
+    30,
+    43
+   ],
+   "x_range": [
+    94,
+    111
+   ],
+   "z_range": [
+    124,
+    138
+   ],
+   "consensus_max": 15.749,
+   "consensus_mean": 5.67,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.95,
+    1.0,
+    0.975,
+    0.95,
+    0.975
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.99,
+    16.321,
+    15.221,
+    15.99,
+    15.221
+   ],
+   "ctl_depth_mean": 0.128,
+   "ctl_spatial_mean": 0.3,
+   "ctl_depth_max": 5.813,
+   "ctl_spatial_max": 7.183,
+   "ctl_ratio_depth": 0.023,
+   "ctl_ratio_spatial": 0.053,
+   "fill_frac": 0.0317,
+   "xy_over_z": 1.2,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 23,
+   "id": 13255,
+   "area_vox": 119,
+   "y_range": [
+    38,
+    51
+   ],
+   "x_range": [
+    152,
+    171
+   ],
+   "z_range": [
+    126,
+    138
+   ],
+   "consensus_max": 17.778,
+   "consensus_mean": 5.967,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9832,
+    0.9664,
+    0.9664,
+    0.9832,
+    0.9664
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    17.583,
+    17.154,
+    18.284,
+    17.583,
+    18.284
+   ],
+   "ctl_depth_mean": -0.006,
+   "ctl_spatial_mean": 0.401,
+   "ctl_depth_max": 7.909,
+   "ctl_spatial_max": 9.115,
+   "ctl_ratio_depth": -0.001,
+   "ctl_ratio_spatial": 0.067,
+   "fill_frac": 0.0327,
+   "xy_over_z": 1.54,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 24,
+   "id": 89605,
+   "area_vox": 119,
+   "y_range": [
+    190,
+    207
+   ],
+   "x_range": [
+    35,
+    45
+   ],
+   "z_range": [
+    107,
+    130
+   ],
+   "consensus_max": 14.593,
+   "consensus_mean": 5.787,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9664,
+    0.9496,
+    0.9916,
+    0.9664,
+    0.9916
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.097,
+    14.563,
+    14.635,
+    15.097,
+    14.635
+   ],
+   "ctl_depth_mean": 0.482,
+   "ctl_spatial_mean": 0.161,
+   "ctl_depth_max": 9.26,
+   "ctl_spatial_max": 6.929,
+   "ctl_ratio_depth": 0.083,
+   "ctl_ratio_spatial": 0.028,
+   "fill_frac": 0.025,
+   "xy_over_z": 0.75,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 25,
+   "id": 106585,
+   "area_vox": 118,
+   "y_range": [
+    222,
+    236
+   ],
+   "x_range": [
+    117,
+    132
+   ],
+   "z_range": [
+    123,
+    140
+   ],
+   "consensus_max": 13.859,
+   "consensus_mean": 5.911,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9576,
+    0.9576,
+    0.9915,
+    0.9576,
+    0.9915
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    13.537,
+    14.575,
+    13.824,
+    13.537,
+    13.824
+   ],
+   "ctl_depth_mean": 0.076,
+   "ctl_spatial_mean": 0.293,
+   "ctl_depth_max": 6.702,
+   "ctl_spatial_max": 6.512,
+   "ctl_ratio_depth": 0.013,
+   "ctl_ratio_spatial": 0.05,
+   "fill_frac": 0.0273,
+   "xy_over_z": 0.89,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 26,
+   "id": 63725,
+   "area_vox": 115,
+   "y_range": [
+    147,
+    157
+   ],
+   "x_range": [
+    35,
+    52
+   ],
+   "z_range": [
+    118,
+    138
+   ],
+   "consensus_max": 13.085,
+   "consensus_mean": 5.632,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9652,
+    0.9652,
+    0.9826,
+    0.9652,
+    0.9826
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    13.109,
+    12.742,
+    13.234,
+    13.109,
+    13.234
+   ],
+   "ctl_depth_mean": 0.145,
+   "ctl_spatial_mean": 0.284,
+   "ctl_depth_max": 8.594,
+   "ctl_spatial_max": 7.027,
+   "ctl_ratio_depth": 0.026,
+   "ctl_ratio_spatial": 0.05,
+   "fill_frac": 0.0277,
+   "xy_over_z": 0.86,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 27,
+   "id": 13753,
+   "area_vox": 113,
+   "y_range": [
+    39,
+    52
+   ],
+   "x_range": [
+    212,
+    228
+   ],
+   "z_range": [
+    108,
+    125
+   ],
+   "consensus_max": 12.252,
+   "consensus_mean": 5.667,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9735,
+    0.9646,
+    0.9823,
+    0.9735,
+    0.9823
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.364,
+    12.248,
+    12.143,
+    12.364,
+    12.143
+   ],
+   "ctl_depth_mean": 0.113,
+   "ctl_spatial_mean": 0.144,
+   "ctl_depth_max": 6.939,
+   "ctl_spatial_max": 10.474,
+   "ctl_ratio_depth": 0.02,
+   "ctl_ratio_spatial": 0.025,
+   "fill_frac": 0.0264,
+   "xy_over_z": 0.94,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 28,
+   "id": 3937,
+   "area_vox": 113,
+   "y_range": [
+    16,
+    37
+   ],
+   "x_range": [
+    8,
+    16
+   ],
+   "z_range": [
+    123,
+    135
+   ],
+   "consensus_max": 15.454,
+   "consensus_mean": 5.578,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9823,
+    0.9558,
+    0.9381,
+    0.9823,
+    0.9381
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.542,
+    15.252,
+    15.466,
+    15.542,
+    15.466
+   ],
+   "ctl_depth_mean": -0.061,
+   "ctl_spatial_mean": 0.231,
+   "ctl_depth_max": 6.152,
+   "ctl_spatial_max": 7.35,
+   "ctl_ratio_depth": -0.011,
+   "ctl_ratio_spatial": 0.041,
+   "fill_frac": 0.0439,
+   "xy_over_z": 1.69,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 29,
+   "id": 55475,
+   "area_vox": 112,
+   "y_range": [
+    131,
+    143
+   ],
+   "x_range": [
+    195,
+    206
+   ],
+   "z_range": [
+    200,
+    217
+   ],
+   "consensus_max": 23.155,
+   "consensus_mean": 6.348,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9732,
+    0.9554,
+    0.9732,
+    0.9732,
+    0.9732
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    23.286,
+    22.978,
+    23.111,
+    23.286,
+    23.111
+   ],
+   "ctl_depth_mean": 0.065,
+   "ctl_spatial_mean": 0.136,
+   "ctl_depth_max": 6.288,
+   "ctl_spatial_max": 10.415,
+   "ctl_ratio_depth": 0.01,
+   "ctl_ratio_spatial": 0.021,
+   "fill_frac": 0.0399,
+   "xy_over_z": 0.72,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 30,
+   "id": 7707,
+   "area_vox": 111,
+   "y_range": [
+    25,
+    36
+   ],
+   "x_range": [
+    133,
+    144
+   ],
+   "z_range": [
+    143,
+    174
+   ],
+   "consensus_max": 17.612,
+   "consensus_mean": 5.77,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.955,
+    1.0,
+    0.982,
+    0.955,
+    0.982
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    17.52,
+    17.84,
+    17.59,
+    17.52,
+    17.59
+   ],
+   "ctl_depth_mean": -0.167,
+   "ctl_spatial_mean": 0.05,
+   "ctl_depth_max": 5.504,
+   "ctl_spatial_max": 7.794,
+   "ctl_ratio_depth": -0.029,
+   "ctl_ratio_spatial": 0.009,
+   "fill_frac": 0.0241,
+   "xy_over_z": 0.38,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 31,
+   "id": 80918,
+   "area_vox": 110,
+   "y_range": [
+    173,
+    184
+   ],
+   "x_range": [
+    225,
+    237
+   ],
+   "z_range": [
+    199,
+    219
+   ],
+   "consensus_max": 14.909,
+   "consensus_mean": 5.716,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9727,
+    0.9727,
+    0.9909,
+    0.9727,
+    0.9909
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.065,
+    14.402,
+    15.006,
+    15.065,
+    15.006
+   ],
+   "ctl_depth_mean": 0.051,
+   "ctl_spatial_mean": -0.13,
+   "ctl_depth_max": 5.217,
+   "ctl_spatial_max": 6.255,
+   "ctl_ratio_depth": 0.009,
+   "ctl_ratio_spatial": -0.023,
+   "fill_frac": 0.0336,
+   "xy_over_z": 0.62,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 32,
+   "id": 67524,
+   "area_vox": 109,
+   "y_range": [
+    153,
+    167
+   ],
+   "x_range": [
+    172,
+    193
+   ],
+   "z_range": [
+    215,
+    229
+   ],
+   "consensus_max": 11.031,
+   "consensus_mean": 5.382,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.945,
+    0.9633,
+    0.9908,
+    0.945,
+    0.9908
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    11.118,
+    11.572,
+    11.09,
+    11.118,
+    11.09
+   ],
+   "ctl_depth_mean": 0.314,
+   "ctl_spatial_mean": -0.06,
+   "ctl_depth_max": 10.377,
+   "ctl_spatial_max": 3.642,
+   "ctl_ratio_depth": 0.058,
+   "ctl_ratio_spatial": -0.011,
+   "fill_frac": 0.022,
+   "xy_over_z": 1.47,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 33,
+   "id": 48615,
+   "area_vox": 109,
+   "y_range": [
+    118,
+    126
+   ],
+   "x_range": [
+    12,
+    34
+   ],
+   "z_range": [
+    115,
+    125
+   ],
+   "consensus_max": 16.923,
+   "consensus_mean": 5.572,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    1.0,
+    0.9817,
+    0.9908,
+    1.0,
+    0.9908
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    16.74,
+    16.935,
+    17.101,
+    16.74,
+    17.101
+   ],
+   "ctl_depth_mean": 0.011,
+   "ctl_spatial_mean": 0.17,
+   "ctl_depth_max": 6.339,
+   "ctl_spatial_max": 6.307,
+   "ctl_ratio_depth": 0.002,
+   "ctl_ratio_spatial": 0.031,
+   "fill_frac": 0.0479,
+   "xy_over_z": 2.09,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 34,
+   "id": 71792,
+   "area_vox": 108,
+   "y_range": [
+    159,
+    167
+   ],
+   "x_range": [
+    213,
+    227
+   ],
+   "z_range": [
+    156,
+    172
+   ],
+   "consensus_max": 14.646,
+   "consensus_mean": 5.552,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.963,
+    0.9444,
+    0.9907,
+    0.963,
+    0.9907
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.766,
+    14.472,
+    14.614,
+    14.766,
+    14.614
+   ],
+   "ctl_depth_mean": 0.154,
+   "ctl_spatial_mean": -0.054,
+   "ctl_depth_max": 6.394,
+   "ctl_spatial_max": 6.237,
+   "ctl_ratio_depth": 0.028,
+   "ctl_ratio_spatial": -0.01,
+   "fill_frac": 0.0471,
+   "xy_over_z": 0.88,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 35,
+   "id": 92540,
+   "area_vox": 106,
+   "y_range": [
+    196,
+    209
+   ],
+   "x_range": [
+    26,
+    41
+   ],
+   "z_range": [
+    110,
+    127
+   ],
+   "consensus_max": 13.124,
+   "consensus_mean": 5.46,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9906,
+    0.9434,
+    0.9906,
+    0.9906,
+    0.9906
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.958,
+    13.252,
+    13.227,
+    12.958,
+    13.227
+   ],
+   "ctl_depth_mean": 0.016,
+   "ctl_spatial_mean": 0.196,
+   "ctl_depth_max": 4.8,
+   "ctl_spatial_max": 4.656,
+   "ctl_ratio_depth": 0.003,
+   "ctl_ratio_spatial": 0.036,
+   "fill_frac": 0.0263,
+   "xy_over_z": 0.89,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 36,
+   "id": 2224,
+   "area_vox": 105,
+   "y_range": [
+    12,
+    27
+   ],
+   "x_range": [
+    97,
+    112
+   ],
+   "z_range": [
+    122,
+    144
+   ],
+   "consensus_max": 15.233,
+   "consensus_mean": 5.367,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9333,
+    0.9048,
+    0.9905,
+    0.9333,
+    0.9905
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.234,
+    15.14,
+    15.277,
+    15.234,
+    15.277
+   ],
+   "ctl_depth_mean": -0.12,
+   "ctl_spatial_mean": 0.5,
+   "ctl_depth_max": 5.728,
+   "ctl_spatial_max": 13.158,
+   "ctl_ratio_depth": -0.022,
+   "ctl_ratio_spatial": 0.093,
+   "fill_frac": 0.0178,
+   "xy_over_z": 0.7,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 37,
+   "id": 107896,
+   "area_vox": 105,
+   "y_range": [
+    225,
+    239
+   ],
+   "x_range": [
+    69,
+    82
+   ],
+   "z_range": [
+    135,
+    149
+   ],
+   "consensus_max": 18.555,
+   "consensus_mean": 5.492,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.981,
+    0.9333,
+    0.9714,
+    0.981,
+    0.9714
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    18.083,
+    19.732,
+    18.439,
+    18.083,
+    18.439
+   ],
+   "ctl_depth_mean": -0.022,
+   "ctl_spatial_mean": 0.442,
+   "ctl_depth_max": 6.189,
+   "ctl_spatial_max": 8.261,
+   "ctl_ratio_depth": -0.004,
+   "ctl_ratio_spatial": 0.08,
+   "fill_frac": 0.0333,
+   "xy_over_z": 1.0,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 38,
+   "id": 11496,
+   "area_vox": 105,
+   "y_range": [
+    34,
+    50
+   ],
+   "x_range": [
+    20,
+    29
+   ],
+   "z_range": [
+    147,
+    162
+   ],
+   "consensus_max": 12.82,
+   "consensus_mean": 5.745,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9905,
+    0.981,
+    0.9905,
+    0.9905,
+    0.9905
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    12.978,
+    12.677,
+    12.734,
+    12.978,
+    12.734
+   ],
+   "ctl_depth_mean": -0.173,
+   "ctl_spatial_mean": 0.008,
+   "ctl_depth_max": 4.0,
+   "ctl_spatial_max": 5.908,
+   "ctl_ratio_depth": -0.03,
+   "ctl_ratio_spatial": 0.001,
+   "fill_frac": 0.0386,
+   "xy_over_z": 1.06,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 39,
+   "id": 102049,
+   "area_vox": 104,
+   "y_range": [
+    213,
+    227
+   ],
+   "x_range": [
+    114,
+    129
+   ],
+   "z_range": [
+    124,
+    140
+   ],
+   "consensus_max": 15.577,
+   "consensus_mean": 5.515,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9615,
+    0.9327,
+    0.9615,
+    0.9615,
+    0.9615
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    15.511,
+    15.252,
+    15.805,
+    15.511,
+    15.805
+   ],
+   "ctl_depth_mean": 0.098,
+   "ctl_spatial_mean": 0.26,
+   "ctl_depth_max": 5.068,
+   "ctl_spatial_max": 7.272,
+   "ctl_ratio_depth": 0.018,
+   "ctl_ratio_spatial": 0.047,
+   "fill_frac": 0.0255,
+   "xy_over_z": 0.94,
+   "stroke_like": false
+  },
+  {
+   "rank_by_area": 40,
+   "id": 8107,
+   "area_vox": 103,
+   "y_range": [
+    26,
+    39
+   ],
+   "x_range": [
+    103,
+    122
+   ],
+   "z_range": [
+    127,
+    141
+   ],
+   "consensus_max": 14.0,
+   "consensus_mean": 5.701,
+   "full_width_stripe": false,
+   "seed_overlap": [
+    0.9806,
+    0.9806,
+    0.9806,
+    0.9806,
+    0.9806
+   ],
+   "n_seeds_stable": 5,
+   "per_seed_max": [
+    14.323,
+    14.541,
+    13.418,
+    14.323,
+    13.418
+   ],
+   "ctl_depth_mean": 0.074,
+   "ctl_spatial_mean": 0.484,
+   "ctl_depth_max": 7.507,
+   "ctl_spatial_max": 9.562,
+   "ctl_ratio_depth": 0.013,
+   "ctl_ratio_spatial": 0.085,
+   "fill_frac": 0.0245,
+   "xy_over_z": 1.33,
+   "stroke_like": false
+  }
+ ],
+ "ink_candidates": [],
+ "y160_band": {
+  "y": [
+   144,
+   180
+  ],
+  "band": {
+   "seed137": {
+    "mean": 0.06208,
+    "max": 24.681,
+    "frac_gt_thr": 0.030489
+   },
+   "seed1001": {
+    "mean": 0.06213,
+    "max": 24.229,
+    "frac_gt_thr": 0.030452
+   },
+   "seed2026": {
+    "mean": 0.0622,
+    "max": 24.325,
+    "frac_gt_thr": 0.030481
+   },
+   "seed31337": {
+    "mean": 0.06208,
+    "max": 24.681,
+    "frac_gt_thr": 0.030489
+   },
+   "seed99991": {
+    "mean": 0.0622,
+    "max": 24.325,
+    "frac_gt_thr": 0.030481
+   },
+   "ctl_depth_mean": 0.06004,
+   "ctl_spatial_mean": -1e-05
+  },
+  "background": {
+   "seed137": {
+    "mean": -0.0045,
+    "max": 24.951,
+    "frac_gt_thr": 0.023631
+   },
+   "seed1001": {
+    "mean": -0.00451,
+    "max": 25.781,
+    "frac_gt_thr": 0.023603
+   },
+   "seed2026": {
+    "mean": -0.0045,
+    "max": 25.374,
+    "frac_gt_thr": 0.023638
+   },
+   "seed31337": {
+    "mean": -0.0045,
+    "max": 24.951,
+    "frac_gt_thr": 0.023631
+   },
+   "seed99991": {
+    "mean": -0.0045,
+    "max": 25.374,
+    "frac_gt_thr": 0.023638
+   },
+   "ctl_depth_mean": -0.00319,
+   "ctl_spatial_mean": -0.00019
+  }
+ },
+ "deep_interior": {
+  "seed137": {
+   "mean": 0.00834,
+   "max": 24.517,
+   "frac_gt_thr": 0.025178
+  },
+  "seed1001": {
+   "mean": 0.0083,
+   "max": 25.781,
+   "frac_gt_thr": 0.025137
+  },
+  "seed2026": {
+   "mean": 0.00833,
+   "max": 25.374,
+   "frac_gt_thr": 0.025183
+  },
+  "seed31337": {
+   "mean": 0.00834,
+   "max": 24.517,
+   "frac_gt_thr": 0.025178
+  },
+  "seed99991": {
+   "mean": 0.00833,
+   "max": 25.374,
+   "frac_gt_thr": 0.025183
+  },
+  "ctl_depth": {
+   "mean": -0.0153,
+   "max": 18.062,
+   "frac_gt_thr": 0.025344
+  },
+  "ctl_spatial": {
+   "mean": 0.02252,
+   "max": 23.932,
+   "frac_gt_thr": 0.026319
+  }
+ },
+ "control_summary": {
+  "shuffled_depth": {
+   "mean": 0.0,
+   "max": 18.062,
+   "frac_gt_thr": 0.026617
+  },
+  "shuffled_spatial": {
+   "mean": 0.0,
+   "max": 23.932,
+   "frac_gt_thr": 0.02406
+  },
+  "uniform": {
+   "max": 0.0,
+   "frac_gt_thr": 0.0
+  }
+ },
+ "verdict": "NONE \u2014 no ink-morphology structure. 40 wispy tail-filament components pass stability/controls but fail stroke morphology (isotropic, 1.5-4.5% fill); the phi instrument reads substrate structure, not deposited ink."
+}
